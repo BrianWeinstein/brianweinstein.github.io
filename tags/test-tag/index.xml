@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test-tag on Brian Weinstein</title>
+    <link>https://brianweinstein.github.io/brianweinstein/tags/test-tag/</link>
+    <description>Recent content in test-tag on Brian Weinstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/brianweinstein/tags/test-tag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog post #1</title>
+      <link>https://brianweinstein.github.io/brianweinstein/posts/blog-post-1/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/brianweinstein/posts/blog-post-1/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blog post #1</title>
+      <link>https://brianweinstein.github.io/brianweinstein/posts/blog-post-2/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/brianweinstein/posts/blog-post-2/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Blog post #1</title>
+      <link>https://brianweinstein.github.io/brianweinstein/posts/blog-post-3/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/brianweinstein/posts/blog-post-3/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
