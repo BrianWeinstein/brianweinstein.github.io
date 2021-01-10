@@ -3,7 +3,7 @@ title: "Blog post #1"
 author: "Brian Weinstein"
 date: "2020-01-10"
 # weight: 1
-aliases: ["/posts/first-blog-post"] # alias url / permalink
+aliases: ["/posts/firkjhkjhkhst-blog-post"] # alias url / permalink
 
 tags: ["test-tag"]
 categories: ["test-cat"]
