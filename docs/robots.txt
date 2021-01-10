@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://brianweinstein.github.io/brianweinstein/sitemap.xml
