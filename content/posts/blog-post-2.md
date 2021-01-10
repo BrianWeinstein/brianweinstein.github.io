@@ -1,7 +1,7 @@
 ---
 title: "Blog post #2"
 author: "Brian Weinstein"
-date: "2021-01-10"
+date: "2021-01-07"
 # weight: 1
 aliases: ["/posts/first-blog-post"] # alias url / permalink
 
