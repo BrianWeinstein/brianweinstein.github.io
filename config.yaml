@@ -92,9 +92,9 @@ menu:
         - name: Posts
           url: posts/
           weight: 50 # order of items in the nav
-        - name: Search
-          url: search/
-          weight: 500 # order of items in the nav
+        # - name: Search
+        #   url: search/
+          # weight: 500 # order of items in the nav
         # - identifier: categories
         #   name: Categories
         #   url: /categories/

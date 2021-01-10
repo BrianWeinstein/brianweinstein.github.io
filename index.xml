@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>Blog post #5</title>
+      <link>https://brianweinstein.github.io/brianweinstein/posts/blog-post-6/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/brianweinstein/posts/blog-post-6/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Blog post #4</title>
       <link>https://brianweinstein.github.io/brianweinstein/posts/blog-post-4/</link>
       <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
@@ -52,12 +61,12 @@
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>https://brianweinstein.github.io/brianweinstein/blog/</link>
+      <title>Posts</title>
+      <link>https://brianweinstein.github.io/brianweinstein/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://brianweinstein.github.io/brianweinstein/blog/</guid>
-      <description>blog</description>
+      <guid>https://brianweinstein.github.io/brianweinstein/posts/</guid>
+      <description>posts</description>
     </item>
     
     <item>
