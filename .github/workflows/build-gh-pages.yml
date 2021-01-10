@@ -24,7 +24,7 @@ jobs:
 
     # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
     - name: Git checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
       with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
