@@ -24,7 +24,7 @@ jobs:
 
     # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
     - name: Git checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@master
       with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -35,9 +35,9 @@ jobs:
       with:
           hugo-version: '0.80.0'
 
-    # Step 3 - Clean and don't fail
-    - name: Clean public directory
-      run: rm -rf public
+    # # Step 3 - Clean and don't fail
+    # - name: Clean public directory
+    #   run: rm -rf public
 
     # Step 4 - Builds the site using the latest version of Hugo
     # Also specifies the theme we want to use
