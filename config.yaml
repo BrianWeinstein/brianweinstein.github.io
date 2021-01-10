@@ -4,7 +4,8 @@ title: Brian Weinstein
 paginate: 5
 theme: hugo-PaperMod
 
-publishDir: docs #The directory to where Hugo will write the final static site (the HTML files etc.)
+# publishDir: docs #The directory to where Hugo will write the final static site (the HTML files etc.)
+publishDir: public #The directory to where Hugo will write the final static site (the HTML files etc.)
 
 enableRobotsTXT: true
 buildDrafts: false
