@@ -1,6 +1,8 @@
 # from https://medium.com/zendesk-engineering/a-github-actions-workflow-to-generate-publish-your-hugo-website-f36375e56cf7
 # and from https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/.github/workflows/gh-pages.yml
 
+# see also https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-first-deployment-with-github_token
+
 # Workflow to build and deploy site to Github Pages using Hugo
 
 # Name of Workflow
