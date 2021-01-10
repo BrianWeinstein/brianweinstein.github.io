@@ -54,3 +54,6 @@ jobs:
       with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+      env:
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: /docs
