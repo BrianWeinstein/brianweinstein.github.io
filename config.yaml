@@ -1,0 +1,105 @@
+baseURL: "https://brianweinstein.github.io/brianweinstein/"
+title: Brian Weinstein
+# description: Brian's site
+paginate: 5
+theme: hugo-PaperMod
+
+# publishDir: docs #The directory to where Hugo will write the final static site (the HTML files etc.)
+publishDir: public #The directory to where Hugo will write the final static site (the HTML files etc.)
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Brian Weinstein
+    description: "bw description"
+    author: ["Brian Weinstein"]
+
+    # images: "<link or path of image for opengraph, twitter-cards>"
+
+    ShowReadingTime: false
+    ShowShareButtons: false
+    comments: false
+    defaultTheme: light
+    disableThemeToggle: true
+    disableSpecial1stPost: true
+
+    # assets:
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Brian Weinstein" # text to show in the top left of the site
+        # icon: /apple-touch-icon.png
+        # iconHeight: 35
+
+    # # profile-mode
+    # profileMode:
+    #     enabled: false # needs to be explicitly set
+    #     title: ExampleSite
+    #     # imageUrl: '<img location>'
+    #     # imageTitle: my image
+    #     buttons:
+    #         - name: Posts
+    #           url: posts
+    #         - name: Tags
+    #           url: tags
+
+    # home-info mode
+    homeInfoParams:
+        enabled: true
+        Title: "hello! 👋"
+        Content: I'm Brian.
+
+    socialIcons:
+        - name: linkedin
+          url: "https://www.linkedin.com/in/brianmweinstein/"
+        - name: medium
+          url: "https://bweinstein.medium.com/"
+        - name: twitter
+          url: "https://twitter.com/BriMaster3000"
+        - name: github
+          url: "https://github.com/BrianWeinstein"
+        - name: etsy
+          url: "https://www.etsy.com/shop/thingsbybrian/"
+        - name: email
+          url: "mailto:bweinstein02@gmail.com"
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+menu:
+    main:
+        - name: Home
+          url: /
+          weight: 3 # order of items in the nav
+        # - name: About
+        #   url: about/
+        #   weight: 5 # order of items in the nav
+        - name: Posts
+          url: posts/
+          weight: 50 # order of items in the nav
+        - name: Search
+          url: search/
+          weight: 500 # order of items in the nav
+        # - identifier: categories
+        #   name: Categories
+        #   url: /categories/
+        #   weight: 10 # order of items in the nav
+        # - identifier: tags
+        #   name: Tags
+        #   url: /tags/
+        #   weight: 20 # order of items in the nav
