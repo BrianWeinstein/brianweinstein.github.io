@@ -29,7 +29,10 @@ comments: false
 
 ### _A checklist for developing better product metrics & KPIs_
 
-_Also published_ [_on Medium._](https://bweinstein.medium.com/defining-meaningful-metrics-for-product-teams-56576d34a684?source=friends_link&sk=0ad658b2703fce11d061f26278851618)
+###### _also published on_ [_Medium_](https://bweinstein.medium.com/defining-meaningful-metrics-for-product-teams-56576d34a684?source=friends_link&sk=0ad658b2703fce11d061f26278851618)
+
+
+
 
 ---
 
