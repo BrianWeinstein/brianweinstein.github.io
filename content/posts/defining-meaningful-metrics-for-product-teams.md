@@ -27,13 +27,20 @@ comments: false
 
 
 
-**_A checklist for developing better product metrics & KPIs_**
+### _A checklist for developing better product metrics & KPIs_
+
+###### _also published on_ [_Medium_](https://bweinstein.medium.com/defining-meaningful-metrics-for-product-teams-56576d34a684?source=friends_link&sk=0ad658b2703fce11d061f26278851618)
+
+
+
+
+---
 
 Defining clear KPIs is one of the most important things for a Product team, and (unfortunately) it’s incredibly easy to do poorly. A good metric not only helps evaluate your product’s performance, but also guides your team in building the right things to progress you toward your goal.
 
 The framework described below is one I’ve used for a few years while working with teams that develop software products, and has been very helpful for me, my Data Science teammates, and our Product partners in measuring the success or failure of the products we build.
 
-### Shared definitions for objectives, KPIs, & product metrics
+# Shared definitions for objectives, KPIs, & product metrics
 
 Before diving in, let’s define a few relevant terms and how they relate to each other.
 
@@ -50,7 +57,7 @@ A **health metric** is used to monitor the technical health of a product. These 
 ![Dudley Dursley uses bad metrics.](/brianweinstein/images/dudley-metrics.gif)
 (a bad metric)
 
-### The “good metric” checklist
+# The “good metric” checklist
 
 Since it’s so easy to come up with the wrong metric, I like to think through a few criteria while brainstorming to ensure we settle on a metric suitable to the product. The criteria below apply to both KPIs and Product Metrics.
 
@@ -66,7 +73,7 @@ Since it’s so easy to come up with the wrong metric, I like to think through a
 
 This certainly isn’t an exhaustive list, but captures some of the most important criteria. If your metric meets all five of these conditions you should be in fairly good shape. If your metric doesn’t meet one or more of these criteria, you’ll likely need to ideate other metrics to use for your product.
 
-### Benefits of this approach
+# Benefits of this approach
 
 It takes a fair amount of effort to pick the right metric, and this is why it all matters!
 
@@ -82,7 +89,7 @@ It takes a fair amount of effort to pick the right metric, and this is why it al
 
 **Indication of failure**: By monitoring progress toward your goals, it’s easy to correct course or sunset a product when your efforts aren’t as effective as intended.
 
-### Notes on this framework & further reading
+# Notes on this framework & further reading
 
 This is a work in progress! I’ve added to and generalized this framework over the past few years as I’ve worked with different types of teams (based on their domains, operating style, degree of data literacy, etc.), and will keep doing so in the future.
 
