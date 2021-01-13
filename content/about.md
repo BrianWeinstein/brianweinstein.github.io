@@ -25,4 +25,4 @@ cover:
 comments: false
 ---
 
-Hi! I'm Brian.
+Hi!
