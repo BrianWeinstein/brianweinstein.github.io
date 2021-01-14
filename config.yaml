@@ -1,4 +1,4 @@
-baseURL: "https://brianweinstein.github.io/brianweinstein/"
+baseURL: "https://brianweinstein.github.io/"
 title: Brian Weinstein
 # description: Brian's site
 paginate: 5
@@ -25,7 +25,7 @@ params:
     author: ["Brian Weinstein"]
 
     # images: "<link or path of image for opengraph, twitter-cards>"
-    images: /brianweinstein/images
+    images: /images
 
     ShowReadingTime: false
     ShowShareButtons: false

@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Brian Weinstein</title>
-    <link>https://brianweinstein.github.io/brianweinstein/</link>
+    <link>https://brianweinstein.github.io/</link>
     <description>Recent content on Brian Weinstein</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/brianweinstein/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Defining meaningful metrics for product teams</title>
-      <link>https://brianweinstein.github.io/brianweinstein/posts/defining-meaningful-metrics-for-product-teams/</link>
+      <link>https://brianweinstein.github.io/posts/defining-meaningful-metrics-for-product-teams/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://brianweinstein.github.io/brianweinstein/posts/defining-meaningful-metrics-for-product-teams/</guid>
+      <guid>https://brianweinstein.github.io/posts/defining-meaningful-metrics-for-product-teams/</guid>
       <description>A checklist for developing better product metrics &amp;amp; KPIs also published on Medium  Defining clear KPIs is one of the most important things for a Product team, and (unfortunately) it’s incredibly easy to do poorly. A good metric not only helps evaluate your product’s performance, but also guides your team in building the right things to progress you toward your goal.
 The framework described below is one I’ve used for a few years while working with teams that develop software products, and has been very helpful for me, my Data Science teammates, and our Product partners in measuring the success or failure of the products we build.</description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://brianweinstein.github.io/brianweinstein/posts/</link>
+      <link>https://brianweinstein.github.io/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://brianweinstein.github.io/brianweinstein/posts/</guid>
+      <guid>https://brianweinstein.github.io/posts/</guid>
       <description>posts</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://brianweinstein.github.io/brianweinstein/search/</link>
+      <link>https://brianweinstein.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://brianweinstein.github.io/brianweinstein/search/</guid>
+      <guid>https://brianweinstein.github.io/search/</guid>
       <description></description>
     </item>
     

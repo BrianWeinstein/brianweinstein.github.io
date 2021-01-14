@@ -17,7 +17,7 @@ hidemeta: false
 disableShare: true
 
 # cover:
-#     image: "/brianweinstein/images/dudley-metrics.gif"
+#     image: "/images/dudley-metrics.gif"
 #     alt: "<alt text>"
 #     caption: "<text>"
 #     relative: false
@@ -54,7 +54,7 @@ A **health metric** is used to monitor the technical health of a product. These 
 
 *You may have different names for some of these concepts, but the ideas behind them should be more or less the same. What’s most important is aligning on a common vocabulary for you and your team to use when talking about these ideas.*
 
-![Dudley Dursley uses bad metrics.](/brianweinstein/images/dudley-metrics.gif)
+![Dudley Dursley uses bad metrics.](/images/dudley-metrics.gif)
 (a bad metric)
 
 # The “good metric” checklist
