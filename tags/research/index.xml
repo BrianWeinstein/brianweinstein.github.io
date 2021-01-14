@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research on Brian Weinstein</title>
+    <link>https://brianweinstein.github.io/tags/research/</link>
+    <description>Recent content in research on Brian Weinstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 24 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moving beyond the Net Promoter Score</title>
+      <link>https://brianweinstein.github.io/posts/moving-beyond-the-net-promoter-score/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/posts/moving-beyond-the-net-promoter-score/</guid>
+      <description>A guide to building a more meaningful metric originally published on Medium  The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.
+Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant indicators of performance. NPS a bad measure of success, though. It uses a poorly phrased question, a response scale that’s entirely too big, and an absurd method of calculation.</description>
+    </item>
+    
+  </channel>
+</rss>

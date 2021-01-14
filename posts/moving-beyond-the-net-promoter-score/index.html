@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Moving beyond the Net Promoter Score | Brian Weinstein</title>
+
+<meta name="keywords" content="data, product, metrics, ux, research, surveys, design" />
+<meta name="description" content="A guide to building a more meaningful metric originally published on Medium  The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.
+Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant indicators of performance. NPS a bad measure of success, though. It uses a poorly phrased question, a response scale that’s entirely too big, and an absurd method of calculation.">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://brianweinstein.github.io/posts/moving-beyond-the-net-promoter-score/" />
+<link href="/assets/css/stylesheet.min.dd8880218de039fe9acb23d48360e312cf853dd63cb9f6c2e8260d1ccfc3d683.css" integrity="sha256-3YiAIY3gOf6ayyPUg2DjEs&#43;FPdY8ufbC6CYNHM/D1oM=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://brianweinstein.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://brianweinstein.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://brianweinstein.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://brianweinstein.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://brianweinstein.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+<meta property="og:title" content="Moving beyond the Net Promoter Score" />
+<meta property="og:description" content="A guide to building a more meaningful metric originally published on Medium  The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.
+Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant indicators of performance. NPS a bad measure of success, though. It uses a poorly phrased question, a response scale that’s entirely too big, and an absurd method of calculation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brianweinstein.github.io/posts/moving-beyond-the-net-promoter-score/" />
+<meta property="og:image" content="https://brianweinstein.github.io/images/nps-header.jpeg" /><meta property="article:published_time" content="2018-01-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-01-24T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://brianweinstein.github.io/images/nps-header.jpeg" />
+<meta name="twitter:title" content="Moving beyond the Net Promoter Score"/>
+<meta name="twitter:description" content="A guide to building a more meaningful metric originally published on Medium  The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.
+Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant indicators of performance. NPS a bad measure of success, though. It uses a poorly phrased question, a response scale that’s entirely too big, and an absurd method of calculation."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Moving beyond the Net Promoter Score",
+  "name": "Moving beyond the Net Promoter Score",
+  "description": "A guide to building a more meaningful metric originally published on Medium  The Net Promoter Score is a widely-used survey question that companies use to measure customer …",
+  "keywords": [
+    "data", "product", "metrics", "ux", "research", "surveys", "design"
+  ],
+  "articleBody": "A guide to building a more meaningful metric originally published on Medium  The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.\nProponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant indicators of performance. NPS a bad measure of success, though. It uses a poorly phrased question, a response scale that’s entirely too big, and an absurd method of calculation.\nThere are other metrics you can use that will be more accurate, more interpretable, and much more predictive of satisfaction, loyalty, or growth.\nBackground The standard Net Promoter Score (NPS) question asks, “How likely is it that you would recommend [company X] to a friend or colleague?” Respondents are given a scale ranging from 0–10, with 0 labeled with “Not at all likely,” and 10 labeled with “Extremely likely.”\nUnder the NPS methodology, respondents who submit a 9 or 10 are considered “promoters,” 7 or 8 are considered “passives”, and 0–6 are considered “detractors.”\nThe Net Promoter Score for a group of respondents is defined as the percentage of respondents who are promoters minus the percentage of respondents who are detractors.\nNPS = (# of promoters - # of detractors) / (total # of respondents)\nOrigin NPS was originally proposed in a December 2003 Harvard Business Review (HBR) article by Fred Reichheld, a director at the Bain \u0026 Company management consultancy. Reichheld proposed the score as a “loyalty” metric, which he defines as the “willingness of someone… to make an investment or personal sacrifice in order to strengthen a relationship.”\nReichheld tested eight survey questions among 4,000 consumers, and tracked these consumers’ future purchases and referrals. He then measured the link between the survey responses and actual purchase and referral behaviors.\nThe NPS question — “How likely is it that you would recommend [company X] to a friend or colleague?” — was the 1st- or 2nd- most predictive question in 11 of Reichheld’s 14 case studies, showing “the strongest statistical correlation with repeat purchases or referrals.”\nReichheld chose a 0-to-10 scale, where 10 meant “extremely likely” to recommend and 0 meant “not at all likely.” He claimed that this scale was\n “simple and unambiguous,” “divide[s] customers into practical groups deserving different… organizational responses,” was “intuitive to customers when they assign grades,” and was intuitive “to employees and partners responsible for interpreting the results and taking action.”  I disagree with all of these. More on that below.\nReichheld then grouped the 11-point scale into the three clusters: promoters, passives, and detractors. In his analysis, Reichheld found a strong correlation between companies’ net-promoter figures and their revenue growth rates.\nI highly recommend reading the original article with a critical eye: It’s full of anecdotes and correlations that Reichheld frames as causal relationships. Every few paragraphs he attempts to argue that NPS is superior over some alternative measurement in terms of assessing loyalty, growth, etc.; but fails to sufficiently justify his claims.\nWhy do companies use NPS? NPS is popular. I mean very popular. Tons of companies ask customers the NPS question, and many use it to measure and assess their performance.\nProponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant KPIs. It’s also easy to measure and produces a statistic that changes easily over time.\nIf you’re trying to get your organization to be more data-driven, then NPS is certainly better than nothing.\nWhy you shouldn’t use NPS Now that we’ve gotten that out of the way, it’s time to discuss the many, many shortcomings of NPS. The phrasing of the NPS question, the measurement scale it uses, and method of calculation all go against the basic principles of survey sciences.\nQuestion The NPS question asks a respondent to rate the likelihood of a hypothetical future; but strong, reliable survey questions ask respondents about their past behaviors, which tend to be much more predictive than forward-looking hypotheticals. “Do you plan to begin a diet in the next 6 weeks?”, for example, is a very different question from “Did you begin a diet in the last 6 weeks?” The NPS question forces the respondent to predict an ideal, future self, as opposed to reporting on their actualized behaviors.\nThe HBR article also claims that the NPS question measures loyalty and growth. In reality, though, it fails to ask about either, and isn’t necessarily what users of NPS are attempting to measure. In many cases, survey questions should be phrased to directly measure the quantity of interest.\nAn NPS-like question asking about actualized behavior would look more like, “In the last 6 weeks, have you referred [company X] to a friend or colleague?”\nReichheld promotes the NPS question as the most accurate one in predicting revenue growth rate. Proponents of NPS often fail to realize, however, that the NPS question was the most accurate from a set of 8 poorly phrased options in Reichheld’s study. In Reichheld’s findings, the NPS question wasn’t even the most accurate predictor in all industries: In database software and computer systems, for example, other questions were stronger predictors of revenue growth rate.\nScale Responses collected from a large, 11-point scale are extremely noisy, and meaningful changes in ratings are hard to detect. On the NPS scale, the difference between a “6” and a “7” isn’t clear in the survey analysis, and the lack of labels on the intermediate (i.e., non-extreme) choices also make the distinction very subjective to respondents. The NPS scale is poorly calibrated, and so are the responses.\nA better scale would use a 3-option Yes/Maybe/No system or a similar scale with 5 options. For any survey question, the response scale and number of options should be crafted to the individual question, and an 11-option scale is likely always too big.\nMethod of calculation The method of calculation is one of the stranger aspects of the NPS.\nThe bucketing methodology that groups respondents into Promoters, Passives, and Detractors ends up hiding some improvements and exaggerating others. Even if respondents were able to make meaningful distinctions between a “5” and a “6”, or between a “4” and a “5”, the bucketing method categorizes all of these into the “Detractor” group, and these changes aren’t reflected in the score. An extreme example is when a company with all “0” ratings improves to having all “6” ratings: this is a huge improvement, but the NPS methodology makes it so the score doesn’t change at all. Some changes are also exaggerated by the method of calculation: the distinction between a “6” (detractor) and a “7” (passive), or between an “8” (passive) and a “9” (promoter) is exaggerated by the bucketing methodology.\nThe method of calculation — subtracting the percentage of detractor respondents from the percentage of promoter respondents — also produces a metric that’s difficult to interpret and hides important information. All three of the following response sets, for example, produce an NPS of +60:\nFinding an alternative measurement NPS alternatives The most commonly used alternatives to NPS entail a rephrasing of the question and usage of a smaller scale.\nIf you’re truly trying to measure growth or word-of-mouth promotion, I highly recommend Netflix’s retrospective phrasing of an NPS-style question. In its early days, Netflix asked subscribers, “In the last 6 weeks, did you recommend us to a friend or family member?” and gave respondents only a Yes/No scale to respond. Netflix also paired this with another question: they asked new subscribers, “Were you recommended to us by a friend or family member?”\nOther companies, like Vox Media’s Polygon, use a similar phrasing of the question with binary response options.\nThese are both significant improvements over the standard NPS question and scale.\nYouTube has a version that deviates less from the standard NPS question and scale, but still makes some significant improvements: They keep the standard NPS question, but instead use a smaller, labeled scale.\nSome alternatives that are even better In any survey, the quantity you’re trying to measure should dictate both the question you ask and the scale you use. The questions and scales you design to measure growth, loyalty, satisfaction, etc. should each be customized for a given use case. A few examples for different measurements are outlined below.\n Growth: In the last 3 months, have you recommended [company X] to a friend, colleague, or family member? [Yes/No] Loyalty: In the last 6 weeks, have you considered [canceling your subscription, switching to another provider, etc.]? [Yes/No] Satisfaction: How satisfied are you with [company X]? [1 (Very dissatisfied), 2 (Dissatisfied), 3 (Neither), 4 (Satisfied), 5 (Very satisfied)]  What to do now  Identify what you’re trying to measure and write an appropriate question. If you want to measure word-of-mouth promotion or estimate future growth, then the “Growth” question above would be a good start. Measuring customer loyalty or customer satisfaction require entirely different questions, so make sure to ask about the thing you’re trying to measure. Pick a reasonable scale for your question. 3- or 5-option satisfaction scales, and a Yes/No binary scale all capture accurate information and are easy for respondents to select from in a response. Use a simple, logical method of calculation. If your response scale has 5 or fewer options, then it’s easy enough to report on the entire response distribution. If you need to have a single number to use in further analysis, then you might like a top-box or top-two-box percentage. You could also use the average of the numeric-encoded values, although you lose some information this way.  Whatever you do, pick something simpler and more interpretable than NPS.\nAdditional reading and references  Net Promoter Score Considered Harmful by Jared M. Spool On Surveys by Erika Hall Measuring the WeWork Member Experience by Tomer Sharon  ",
+  "wordCount" : "1646",
+  "inLanguage": "en",
+  "image":"https://brianweinstein.github.io/images/nps-header.jpeg","datePublished": "2018-01-24T00:00:00Z",
+  "dateModified": "2018-01-24T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Brian Weinstein"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://brianweinstein.github.io/posts/moving-beyond-the-net-promoter-score/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brian Weinstein",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://brianweinstein.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+</head>
+
+<body class="" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://brianweinstein.github.io/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://brianweinstein.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brianweinstein.github.io/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Moving beyond the Net Promoter Score
+    </h1>
+    <div class="post-description">
+      
+    </div>
+    <div class="post-meta">
+
+Jan 24, 2018&nbsp;·&nbsp;Brian Weinstein
+
+    </div>
+  </header> 
+<figure class="entry-cover"><img src="https://brianweinstein.github.io/images/nps-header.jpeg" alt="">
+        
+</figure>
+
+  <div class="post-content">
+<h3 id="_a-guide-to-building-a-more-meaningful-metric_"><em>A guide to building a more meaningful metric</em><a hidden class="anchor" aria-hidden="true" href="#_a-guide-to-building-a-more-meaningful-metric_">#</a></h3>
+<h6 id="_originally-published-on_-_medium_httpsbweinsteinmediumcommoving-beyond-the-net-promoter-score-9b560f3767basourcefriends_linkskbd16145b78737841c82e37e67b540f05"><em>originally published on</em> <a href="https://bweinstein.medium.com/moving-beyond-the-net-promoter-score-9b560f3767ba?source=friends_link&amp;sk=bd16145b78737841c82e37e67b540f05"><em>Medium</em></a><a hidden class="anchor" aria-hidden="true" href="#_originally-published-on_-_medium_httpsbweinsteinmediumcommoving-beyond-the-net-promoter-score-9b560f3767basourcefriends_linkskbd16145b78737841c82e37e67b540f05">#</a></h6>
+<hr>
+<p><img src="/images/nps-header.jpeg" alt=""></p>
+<p>The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.</p>
+<p>Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant indicators of performance. NPS a bad measure of success, though. It uses a poorly phrased question, a response scale that’s entirely too big, and an absurd method of calculation.</p>
+<p>There are other metrics you can use that will be more accurate, more interpretable, and much more predictive of satisfaction, loyalty, or growth.</p>
+<h1 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h1>
+<p>The standard Net Promoter Score (NPS) question asks, “How likely is it that you would recommend [company X] to a friend or colleague?” Respondents are given a scale ranging from 0–10, with 0 labeled with “Not at all likely,” and 10 labeled with “Extremely likely.”</p>
+<p><img src="/images/nps-standard.png" alt=""></p>
+<p>Under the NPS methodology, respondents who submit a 9 or 10 are considered “promoters,” 7 or 8 are considered “passives”, and 0–6 are considered “detractors.”</p>
+<p>The Net Promoter Score for a group of respondents is defined as the percentage of respondents who are promoters minus the percentage of respondents who are detractors.</p>
+<p>NPS = (# of promoters - # of detractors) / (total # of respondents)</p>
+<h1 id="origin">Origin<a hidden class="anchor" aria-hidden="true" href="#origin">#</a></h1>
+<p>NPS was originally proposed in a December 2003 <a href="https://hbr.org/2003/12/the-one-number-you-need-to-grow">Harvard Business Review (HBR) article</a> by Fred Reichheld, a director at the Bain &amp; Company management consultancy. Reichheld proposed the score as a “loyalty” metric, which he defines as the “willingness of someone… to make an investment or personal sacrifice in order to strengthen a relationship.”</p>
+<p>Reichheld tested eight survey questions among 4,000 consumers, and tracked these consumers’ future purchases and referrals. He then measured the link between the survey responses and actual purchase and referral behaviors.</p>
+<p>The NPS question — “How likely is it that you would recommend [company X] to a friend or colleague?” — was the 1st- or 2nd- most predictive question in 11 of Reichheld’s 14 case studies, showing “the strongest statistical correlation with repeat purchases or referrals.”</p>
+<p>Reichheld chose a 0-to-10 scale, where 10 meant “extremely likely” to recommend and 0 meant “not at all likely.” He claimed that this scale was</p>
+<ol>
+<li>“simple and unambiguous,”</li>
+<li>“divide[s] customers into practical groups deserving different… organizational responses,”</li>
+<li>was “intuitive to customers when they assign grades,” and</li>
+<li>was intuitive “to employees and partners responsible for interpreting the results and taking action.”</li>
+</ol>
+<p>I disagree with all of these. More on that below.</p>
+<p>Reichheld then grouped the 11-point scale into the three clusters: promoters, passives, and detractors. In his analysis, Reichheld found a strong correlation between companies’ net-promoter figures and their revenue growth rates.</p>
+<p><em>I highly recommend reading <a href="https://hbr.org/2003/12/the-one-number-you-need-to-grow">the original article</a> with a critical eye: It’s full of anecdotes and correlations that Reichheld frames as causal relationships. Every few paragraphs he attempts to argue that NPS is superior over some alternative measurement in terms of assessing loyalty, growth, etc.; but fails to sufficiently justify his claims.</em></p>
+<h1 id="why-do-companies-usenps">Why do companies use NPS?<a hidden class="anchor" aria-hidden="true" href="#why-do-companies-usenps">#</a></h1>
+<p>NPS is popular. I mean <em>very</em> popular. Tons of companies ask customers the NPS question, and many use it to measure and assess their performance.</p>
+<p><img src="/images/nps-expedia.png" alt=""></p>
+<p><img src="/images/nps-adobe.png" alt=""></p>
+<p><img src="/images/nps-glossier.png" alt=""></p>
+<p>Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant KPIs. It’s also easy to measure and produces a statistic that changes easily over time.</p>
+<p>If you’re trying to get your organization to be more data-driven, then NPS is certainly better than nothing.</p>
+<h1 id="why-you-shouldnt-usenps">Why you shouldn’t use NPS<a hidden class="anchor" aria-hidden="true" href="#why-you-shouldnt-usenps">#</a></h1>
+<p>Now that we’ve gotten that out of the way, it’s time to discuss the many, many shortcomings of NPS. The phrasing of the NPS question, the measurement scale it uses, and method of calculation all go against the basic principles of survey sciences.</p>
+<h2 id="question">Question<a hidden class="anchor" aria-hidden="true" href="#question">#</a></h2>
+<p>The NPS question asks a respondent to rate the likelihood of a hypothetical future; but strong, reliable survey questions ask respondents about their past behaviors, which tend to be much more predictive than forward-looking hypotheticals. “Do you plan to begin a diet in the next 6 weeks?”, for example, is a very different question from “Did you begin a diet in the last 6 weeks?” The NPS question forces the respondent to predict an ideal, future self, as opposed to reporting on their actualized behaviors.</p>
+<p>The <a href="https://hbr.org/2003/12/the-one-number-you-need-to-grow">HBR article</a> also claims that the NPS question measures loyalty and growth. In reality, though, it fails to ask about either, and isn’t necessarily what users of NPS are attempting to measure. In many cases, survey questions should be phrased to directly measure the quantity of interest.</p>
+<p>An NPS-like question asking about actualized behavior would look more like, “In the last 6 weeks, have you referred [company X] to a friend or colleague?”</p>
+<p>Reichheld promotes the NPS question as the most accurate one in predicting revenue growth rate. Proponents of NPS often fail to realize, however, that the NPS question was the most accurate <em>from a set of 8 poorly phrased options</em> in Reichheld’s study. In Reichheld’s findings, the NPS question wasn’t even the most accurate predictor in all industries: In database software and computer systems, for example, other questions were stronger predictors of revenue growth rate.</p>
+<h2 id="scale">Scale<a hidden class="anchor" aria-hidden="true" href="#scale">#</a></h2>
+<p>Responses collected from a large, 11-point scale are extremely noisy, and meaningful changes in ratings are hard to detect. On the NPS scale, the difference between a “6” and a “7” isn’t clear in the survey analysis, and the lack of labels on the intermediate (i.e., non-extreme) choices also make the distinction very subjective to respondents. The NPS scale is poorly calibrated, and so are the responses.</p>
+<p>A better scale would use a 3-option Yes/Maybe/No system or a similar scale with 5 options. For any survey question, the response scale and number of options should be crafted to the individual question, and an 11-option scale is likely <em>always</em> too big.</p>
+<h2 id="method-of-calculation">Method of calculation<a hidden class="anchor" aria-hidden="true" href="#method-of-calculation">#</a></h2>
+<p>The method of calculation is one of the stranger aspects of the NPS.</p>
+<p>The bucketing methodology that groups respondents into Promoters, Passives, and Detractors ends up hiding some improvements and exaggerating others. Even if respondents were able to make meaningful distinctions between a “5” and a “6”, or between a “4” and a “5”, the bucketing method categorizes all of these into the “Detractor” group, and these changes aren’t reflected in the score. An extreme example is when a company with all “0” ratings improves to having all “6” ratings: this is a huge improvement, but the NPS methodology makes it so the score doesn’t change at all. Some changes are also exaggerated by the method of calculation: the distinction between a “6” (detractor) and a “7” (passive), or between an “8” (passive) and a “9” (promoter) is exaggerated by the bucketing methodology.</p>
+<p>The method of calculation — subtracting the percentage of detractor respondents from the percentage of promoter respondents — also produces a metric that’s difficult to interpret and hides important information. All three of the following response sets, for example, produce an NPS of +60:</p>
+<p><img src="/images/nps-multiples.png" alt=""></p>
+<h1 id="finding-an-alternative-measurement">Finding an alternative measurement<a hidden class="anchor" aria-hidden="true" href="#finding-an-alternative-measurement">#</a></h1>
+<h2 id="nps-alternatives">NPS alternatives<a hidden class="anchor" aria-hidden="true" href="#nps-alternatives">#</a></h2>
+<p>The most commonly used alternatives to NPS entail a rephrasing of the question and usage of a smaller scale.</p>
+<p>If you’re truly trying to measure growth or word-of-mouth promotion, I highly recommend Netflix’s retrospective phrasing of an NPS-style question. In its early days, Netflix asked subscribers, “In the last 6 weeks, did you recommend us to a friend or family member?” and gave respondents only a Yes/No scale to respond. Netflix also paired this with another question: they asked <em>new</em> subscribers, “Were you recommended to us by a friend or family member?”</p>
+<p><img src="/images/nps-alt-netflix.png" alt=""></p>
+<p>Other companies, like Vox Media’s <a href="https://www.polygon.com/">Polygon</a>, use a similar phrasing of the question with binary response options.</p>
+<p><img src="/images/nps-alt-polygon.png" alt=""></p>
+<p>These are both significant improvements over the standard NPS question and scale.</p>
+<p>YouTube has a version that deviates less from the standard NPS question and scale, but still makes some significant improvements: They keep the standard NPS question, but instead use a smaller, labeled scale.</p>
+<p><img src="/images/nps-alt-youtube.png" alt=""></p>
+<h2 id="some-alternatives-that-are-even-better">Some alternatives that are even better<a hidden class="anchor" aria-hidden="true" href="#some-alternatives-that-are-even-better">#</a></h2>
+<p>In any survey, the quantity you’re trying to measure should dictate both the question you ask and the scale you use. The questions and scales you design to measure growth, loyalty, satisfaction, etc. should each be customized for a given use case. A few examples for different measurements are outlined below.</p>
+<ul>
+<li><strong>Growth:</strong> In the last 3 months, have you recommended [company X] to a friend, colleague, or family member? [Yes/No]</li>
+<li><strong>Loyalty:</strong> In the last 6 weeks, have you considered [canceling your subscription, switching to another provider, etc.]? [Yes/No]</li>
+<li><strong>Satisfaction:</strong> How satisfied are you with [company X]? [1 (Very dissatisfied), 2 (Dissatisfied), 3 (Neither), 4 (Satisfied), 5 (Very satisfied)]</li>
+</ul>
+<h1 id="what-to-donow">What to do now<a hidden class="anchor" aria-hidden="true" href="#what-to-donow">#</a></h1>
+<ol>
+<li>Identify what you’re trying to measure and write an appropriate question. If you want to measure word-of-mouth promotion or estimate future growth, then the “Growth” question above would be a good start. Measuring customer loyalty or customer satisfaction require entirely different questions, so make sure to ask about the thing you’re trying to measure.</li>
+<li>Pick a reasonable scale for your question. 3- or 5-option satisfaction scales, and a Yes/No binary scale all capture accurate information and are easy for respondents to select from in a response.</li>
+<li>Use a simple, logical method of calculation. If your response scale has 5 or fewer options, then it’s easy enough to report on the entire response distribution. If you need to have a single number to use in further analysis, then you might like a <a href="https://measuringu.com/top-box/">top-box</a> or top-two-box percentage. You could also use the average of the numeric-encoded values, although you lose some information this way.</li>
+</ol>
+<p>Whatever you do, pick something simpler and more interpretable than NPS.</p>
+<h1 id="additional-reading-and-references">Additional reading and references<a hidden class="anchor" aria-hidden="true" href="#additional-reading-and-references">#</a></h1>
+<ul>
+<li><a href="https://blog.usejournal.com/net-promoter-score-considered-harmful-and-what-ux-professionals-can-do-about-it-fe7a132f4430">Net Promoter Score Considered Harmful</a> by <a href="https://medium.com/u/b90ef6212176">Jared M. Spool</a></li>
+<li><a href="https://medium.com/mule-design/on-surveys-5a73dda5e9a0">On Surveys</a> by <a href="https://medium.com/u/d75bd682e04f">Erika Hall</a></li>
+<li><a href="https://medium.com/@tsharon/measuring-the-wework-member-experience-dca7312857a2">Measuring the WeWork Member Experience</a> by <a href="https://medium.com/u/45a23fe91a81">Tomer Sharon</a></li>
+</ul>
+
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://brianweinstein.github.io/tags/data/">data</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/product/">product</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/metrics/">metrics</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/ux/">ux</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/research/">research</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/surveys/">surveys</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/design/">design</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://brianweinstein.github.io/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>

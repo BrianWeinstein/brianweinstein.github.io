@@ -42,5 +42,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>design</title>
+      <link>https://brianweinstein.github.io/tags/design/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>https://brianweinstein.github.io/tags/research/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surveys</title>
+      <link>https://brianweinstein.github.io/tags/surveys/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/tags/surveys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ux</title>
+      <link>https://brianweinstein.github.io/tags/ux/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/tags/ux/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
