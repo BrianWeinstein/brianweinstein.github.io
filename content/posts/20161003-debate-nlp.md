@@ -87,10 +87,9 @@ The words each candidate used when directly answering the questions are all, uns
 
 ---
 
-A handful of my findings didn’t make it into this post. If you’re interested in more, there’s some additional analysis, including multiple classification models, in the project’s [GitHub repo](https://github.com/BrianWeinstein/presidential-debate-nlp). The text of this article (excluding this sentence) has polarity -0.4 and magnitude 15.5, so despite my best efforts it’s leaning slightly negative.
-
-
-R code posted [here](https://github.com/BrianWeinstein/presidential-debate-nlp).
-
-
-Many thanks to [Alvin Chang and Vox](https://www.vox.com/debates/2016/9/27/13070616/debate-clinton-trump-not-answers/in/12771101) for their permission to use their annotated transcript, and to [Kelsey Scherer](https://twitter.com/kelsa_) for designing the charts and lead image.Analysis was performed in R. Plots were generated using ggplot2, and then styled by Scherer using Sketch.The sentiment scores, part of speech tags, and all of the other NLP datasets can be found in the [GitHub repo](https://github.com/BrianWeinstein/presidential-debate-nlp).
+- A handful of my findings didn’t make it into this post. If you’re interested in more, there’s some additional analysis, including multiple classification models, in the project’s [GitHub repo](https://github.com/BrianWeinstein/presidential-debate-nlp).
+- The text of this article (excluding this sentence) has polarity -0.4 and magnitude 15.5, so despite my best efforts it’s leaning slightly negative.
+- Many thanks to [Alvin Chang and Vox](https://www.vox.com/debates/2016/9/27/13070616/debate-clinton-trump-not-answers/in/12771101) for their permission to use their annotated transcript, and to [Kelsey Scherer](https://twitter.com/kelsa_) for designing the charts and lead image.
+- Analysis was performed in R.
+- Plots were generated using ggplot2, and then styled by Scherer using Sketch.
+- The sentiment scores, part of speech tags, and all of the other NLP datasets can be found in the [GitHub repo](https://github.com/BrianWeinstein/presidential-debate-nlp).

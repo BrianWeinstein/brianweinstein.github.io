@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maps on Brian Weinstein</title>
+    <link>https://brianweinstein.github.io/tags/maps/</link>
+    <description>Recent content in maps on Brian Weinstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 31 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/tags/maps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mapping the frozen yogurt shop closest to each Manhattan apartment</title>
+      <link>https://brianweinstein.github.io/posts/20160531-froyo-nyc/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/posts/20160531-froyo-nyc/</guid>
+      <description>originally published on Fouriest Series  I love frozen yogurt. When I first moved to New York three years ago, I lived only 1/8th of a mile from the closest froyo shop. The convenience of this 4-minute walk is something I neither appreciated nor utilized enough at the time.
+After moving to Harlem last year, it’s been harder than ever to satisfy my near-constant craving for this cold candy soup — I’m now a 24-minute walk to the nearest frozen yogurt.</description>
+    </item>
+    
+  </channel>
+</rss>
