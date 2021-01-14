@@ -1,7 +1,7 @@
 baseURL: "https://brianweinstein.github.io/"
 title: Brian Weinstein
 # description: Brian's site
-paginate: 5
+paginate: 3
 theme: hugo-PaperMod
 
 # publishDir: docs #The directory to where Hugo will write the final static site (the HTML files etc.)
