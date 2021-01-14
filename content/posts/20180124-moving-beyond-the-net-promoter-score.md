@@ -3,7 +3,7 @@ title: "Moving beyond the Net Promoter Score"
 author: "Brian Weinstein"
 date: "2018-01-24"
 # weight: 1
-aliases: ["/posts/moving-beyond-the-net-promoter-score"] # alias url / permalink
+aliases: ["/posts/20180124-moving-beyond-the-net-promoter-score"] # alias url / permalink
 
 tags: ["data", "product", "metrics", "ux", "research", "surveys", "design"]
 categories: ["data"]
@@ -17,7 +17,7 @@ hidemeta: false
 disableShare: true
 
 cover:
-     image: "/images/nps-header.jpeg"
+#     image: "/images/nps-header.jpeg"
 #     alt: "<alt text>"
 #     caption: "<text>"
 #     relative: false
