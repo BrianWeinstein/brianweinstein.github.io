@@ -17,7 +17,7 @@ hidemeta: false
 disableShare: true
 
 # cover:
-#     image: "/images/dudley-metrics.gif"
+#     image: "/images/kpis-dudley-metrics.gif"
 #     alt: "<alt text>"
 #     caption: "<text>"
 #     relative: false
@@ -29,7 +29,7 @@ comments: false
 
 ### _A checklist for developing better product metrics & KPIs_
 
-###### _also published on_ [_Medium_](https://bweinstein.medium.com/defining-meaningful-metrics-for-product-teams-56576d34a684?source=friends_link&sk=0ad658b2703fce11d061f26278851618)
+###### _originally published on_ [_Medium_](https://bweinstein.medium.com/defining-meaningful-metrics-for-product-teams-56576d34a684?source=friends_link&sk=0ad658b2703fce11d061f26278851618)
 
 
 
@@ -52,9 +52,9 @@ A **product metric** measures the success of a specific feature. These are lower
 
 A **health metric** is used to monitor the technical health of a product. These are usually more pertinent to Engineers, but important for Product leaders to monitor as well. Performance metrics include things like page load time, API response time, etc. I won’t focus on them here, but want to call out that they’re distinct from these other types of metrics.
 
-*You may have different names for some of these concepts, but the ideas behind them should be more or less the same. What’s most important is aligning on a common vocabulary for you and your team to use when talking about these ideas.*
+_You may have different names for some of these concepts, but the ideas behind them should be more or less the same. What’s most important is aligning on a common vocabulary for you and your team to use when talking about these ideas._
 
-![Dudley Dursley uses bad metrics.](/images/dudley-metrics.gif)
+![](/images/kpis-dudley-metrics.gif)
 (a bad metric)
 
 # The “good metric” checklist
