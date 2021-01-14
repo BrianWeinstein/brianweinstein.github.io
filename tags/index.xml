@@ -43,20 +43,47 @@
     </item>
     
     <item>
-      <title>design</title>
-      <link>https://brianweinstein.github.io/tags/design/</link>
-      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      <title>analysis</title>
+      <link>https://brianweinstein.github.io/tags/analysis/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://brianweinstein.github.io/tags/design/</guid>
+      <guid>https://brianweinstein.github.io/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data science</title>
+      <link>https://brianweinstein.github.io/tags/data-science/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>questions</title>
+      <link>https://brianweinstein.github.io/tags/questions/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/tags/questions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research</title>
       <link>https://brianweinstein.github.io/tags/research/</link>
-      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://brianweinstein.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://brianweinstein.github.io/tags/design/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/tags/design/</guid>
       <description></description>
     </item>
     

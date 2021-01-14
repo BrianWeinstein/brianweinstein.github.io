@@ -8,20 +8,30 @@
     <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Defining meaningful metrics for product teams</title>
-      <link>https://brianweinstein.github.io/posts/defining-meaningful-metrics-for-product-teams/</link>
+      <link>https://brianweinstein.github.io/posts/20201222-defining-meaningful-metrics-for-product-teams/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://brianweinstein.github.io/posts/defining-meaningful-metrics-for-product-teams/</guid>
+      <guid>https://brianweinstein.github.io/posts/20201222-defining-meaningful-metrics-for-product-teams/</guid>
       <description>A checklist for developing better product metrics &amp;amp; KPIs originally published on Medium  Defining clear KPIs is one of the most important things for a Product team, and (unfortunately) it’s incredibly easy to do poorly. A good metric not only helps evaluate your product’s performance, but also guides your team in building the right things to progress you toward your goal.
 The framework described below is one I’ve used for a few years while working with teams that develop software products, and has been very helpful for me, my Data Science teammates, and our Product partners in measuring the success or failure of the products we build.</description>
     </item>
     
     <item>
+      <title>In defense of “nothing interesting”</title>
+      <link>https://brianweinstein.github.io/posts/20200219-in-defense-of-nothing-interesting/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/posts/20200219-in-defense-of-nothing-interesting/</guid>
+      <description>A tribute to useful, but less interesting research findings originally published on Medium   A tribute to useful, but less interesting research findings
+ A few years ago as a Data Scientist I was presenting to co-workers an analysis I’d been working on. The presentation went fine and the work was well-received, but I could tell the group was a little underwhelmed. Towards the end of the presentation, one co-worker asked, “Did you find anything that surprised you?</description>
+    </item>
+    
+    <item>
       <title>Moving beyond the Net Promoter Score</title>
-      <link>https://brianweinstein.github.io/posts/moving-beyond-the-net-promoter-score/</link>
+      <link>https://brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://brianweinstein.github.io/posts/moving-beyond-the-net-promoter-score/</guid>
+      <guid>https://brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</guid>
       <description>A guide to building a more meaningful metric originally published on Medium  The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.
 Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant indicators of performance. NPS a bad measure of success, though. It uses a poorly phrased question, a response scale that’s entirely too big, and an absurd method of calculation.</description>
     </item>

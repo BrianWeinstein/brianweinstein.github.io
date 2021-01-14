@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>questions on Brian Weinstein</title>
+    <link>https://brianweinstein.github.io/tags/questions/</link>
+    <description>Recent content in questions on Brian Weinstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 19 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/tags/questions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In defense of “nothing interesting”</title>
+      <link>https://brianweinstein.github.io/posts/20200219-in-defense-of-nothing-interesting/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/posts/20200219-in-defense-of-nothing-interesting/</guid>
+      <description>A tribute to useful, but less interesting research findings originally published on Medium   A tribute to useful, but less interesting research findings
+ A few years ago as a Data Scientist I was presenting to co-workers an analysis I’d been working on. The presentation went fine and the work was well-received, but I could tell the group was a little underwhelmed. Towards the end of the presentation, one co-worker asked, “Did you find anything that surprised you?</description>
+    </item>
+    
+  </channel>
+</rss>
