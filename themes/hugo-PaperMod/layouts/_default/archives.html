@@ -25,6 +25,9 @@
         <h3 class="archive-entry-title">
           {{- .Title | markdownify }}
         </h3>
+        <section class="entry-content">
+          <p>{{ .Summary | plainify | htmlUnescape }}...</p>
+        </section>
         <div class="archive-meta">
           {{- partial "post_meta.html" . -}}
         </div>
