@@ -1,7 +1,7 @@
 baseURL: "https://brianweinstein.github.io/"
 title: Brian Weinstein
 # description: Brian's site
-paginate: 3
+paginate: 10
 theme: hugo-PaperMod
 
 # publishDir: docs #The directory to where Hugo will write the final static site (the HTML files etc.)
@@ -100,8 +100,8 @@ menu:
         # - name: About
         #   url: about/
         #   weight: 5 # order of items in the nav
-        - name: Posts
-          url: posts/
+        - name: Writing
+          url: writing/
           weight: 50 # order of items in the nav
         # - name: Search
         #   url: search/
