@@ -3,7 +3,7 @@ title: "Defining meaningful metrics for product teams"
 author: "Brian Weinstein"
 date: "2020-12-22"
 # weight: 1
-aliases: ["/posts/20201222-defining-meaningful-metrics-for-product-teams"] # alias url / permalink
+aliases: ["/writing/20201222-defining-meaningful-metrics-for-product-teams"] # alias url / permalink
 
 tags: ["data", "product", "metrics", "kpis"]
 categories: ["data"]

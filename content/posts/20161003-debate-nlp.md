@@ -3,7 +3,7 @@ title: "Speaking like a president"
 author: "Brian Weinstein"
 date: "2016-10-03"
 # weight: 1
-aliases: ["/posts/20161003-debate-nlp"] # alias url / permalink
+aliases: ["/writing/20161003-debate-nlp"] # alias url / permalink
 
 tags: ["data", "analysis", "nlp"]
 categories: ["data"]
