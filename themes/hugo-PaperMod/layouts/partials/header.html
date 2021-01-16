@@ -2,6 +2,11 @@
 {{- if (not .Site.Params.disableThemeToggle) }}
 {{- /*  theme is light  */}}
 {{- if (eq .Site.Params.defaultTheme "light") }}
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
