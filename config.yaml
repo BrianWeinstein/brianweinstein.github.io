@@ -46,21 +46,25 @@ params:
         # icon: /apple-touch-icon.png
         # iconHeight: 35
 
-    # # profile-mode
-    # profileMode:
-    #     enabled: false # needs to be explicitly set
-    #     title: ExampleSite
-    #     # imageUrl: '<img location>'
-    #     # imageTitle: my image
-    #     buttons:
-    #         - name: Posts
-    #           url: posts
-    #         - name: Tags
-    #           url: tags
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        Title: "hello! 👋"
+        # subtitle: [Lorem](www.google.com) ipsum dolor sit amet, consectetur adipiscing elit
+        Content: I'm Brian. [Lorem](https://www.google.com) ipsum dolo
+        # imageUrl: "<image link>" # optional
+        # imageTitle: "<title of image as alt>" # optional
+        # imageWidth: 120 # custom size
+        # imageHeight: 120 # custom size
+        buttons:
+            # - name: Posts
+            #   url: posts
+            # - name: Tags
+            #   url: tags
 
     # home-info mode
     homeInfoParams:
-        enabled: true
+        enabled: false
         Title: "hello! 👋"
         Content: I'm Brian.
 
