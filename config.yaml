@@ -51,8 +51,23 @@ params:
         enabled: true # needs to be explicitly set
         Title: "hello! 👋"
         Content:
-            I'm Brian. #[Lorem](https://www.google.com) ipsum dolo
-        # imageUrl: "<image link>" # optional
+            "
+            I'm Brian.
+
+
+            I manage a team of Data Scientists and Product Analysts at [Slice](https://slicelife.onelink.me/ylsM/8425733). Our team works on our consumer apps, restaurant software, and internal tools; guiding the product direction and helping teams make informed product decisions using data.
+
+
+            I'm passionate about the intersection of data science, product, and research: from understanding and quantifying user problems to developing and testing product solutions. I also love people management: mentoring my team in data science and communication best practices, finding new opportunities so they can grow, and building a thoughtful and inclusive team culture.
+
+
+            Previously I managed the Data Science & Research team at WeWork, was a Data Scientist at WeWork, and was a Data Scientist at 1stdibs. I have my Master's degree in applied math and my Bachelor's in physics.
+
+
+            Outside of data, I enjoy making [pottery](https://www.etsy.com/shop/thingsbybrian/), eating froyo, baking cookies, and running.
+            "
+
+            #[Lorem](https://www.google.com) ipsum dolo        # imageUrl: "<image link>" # optional
         # imageTitle: "<title of image as alt>" # optional
         # imageWidth: 120 # custom size
         # imageHeight: 120 # custom size
