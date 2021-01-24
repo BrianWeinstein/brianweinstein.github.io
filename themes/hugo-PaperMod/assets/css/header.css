@@ -11,17 +11,17 @@
 }
 
 .nav a {
-    display: block
+    display: block;
 }
 
-.logo,
+/* .logo, */
 .menu {
     display: flex;
     margin: auto var(--gap);
 }
 
 .logo {
-    flex-wrap: inherit
+    flex-wrap: inherit;
 }
 
 .logo a {
@@ -36,7 +36,8 @@
     pointer-events: none;
     transform: translate(0, -10%);
     border-radius: 6px;
-    margin-inline-end: 8px
+    margin-inline-end: 8px;
+    /* justify-content: left; */
 }
 
 .theme-toggle svg {
@@ -58,11 +59,11 @@ body:not(.dark) #sun {
     list-style: none;
     word-break: keep-all;
     overflow-x: auto;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .menu li+li {
-    margin-inline-start: var(--gap)
+    margin-inline-start: var(--gap);
 }
 
 .menu a {

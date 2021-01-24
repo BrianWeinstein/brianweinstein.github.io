@@ -1,16 +1,20 @@
 .buttons,
 .main .profile {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    max-width: 700px;
+    padding: 0,25px
 }
 
 .main .profile {
-    position: absolute;
-    left: 0;
-    right: 0;
+    position: relative;
+    left: 0px;
+    right: 0px;
     align-items: center;
     height: 80%;
-    text-align: center
+    text-align: left;
+    margin: auto;
+
 }
 
 .profile .profile_inner h1 {
@@ -20,6 +24,11 @@
 .profile .profile_inner span {
     padding: 10px 0;
     font-size: 18px
+}
+
+.post-content {
+    /* transform: scale(.96) */
+
 }
 
 .profile img {
