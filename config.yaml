@@ -1,7 +1,7 @@
-baseURL: "https://brianweinstein.github.io/"
+baseURL: "https://www.brianweinstein.co/"
 title: Brian Weinstein
 # description: Brian's site
-paginate: 10 # TODO: add pagination sections to archives.html
+paginate: 3 # TODO: add pagination sections to archives.html
 theme: hugo-PaperMod
 
 # publishDir: docs #The directory to where Hugo will write the final static site (the HTML files etc.)
