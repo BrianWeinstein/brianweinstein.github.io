@@ -56,21 +56,21 @@ After moving to Harlem last year, it’s been harder than ever to satisfy my nea
     </item>
     
     <item>
+      <title></title>
+      <link>https://brianweinstein.github.io/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/writing/</guid>
+      <description>writing</description>
+    </item>
+    
+    <item>
       <title>Search</title>
       <link>https://brianweinstein.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://brianweinstein.github.io/search/</guid>
       <description>search</description>
-    </item>
-    
-    <item>
-      <title>Writing</title>
-      <link>https://brianweinstein.github.io/writing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://brianweinstein.github.io/writing/</guid>
-      <description>writing</description>
     </item>
     
   </channel>
