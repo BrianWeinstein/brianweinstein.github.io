@@ -37,7 +37,6 @@ comments: false
 
 ![](/images/debate-header.png)
 
-# Natural language processing on the first 2016 presidential debate
 
 The first debate in the 2016 presidential race was held on September 26. It’s no secret that Clinton and Trump are running on drastically different platforms, but how do they compare when it comes to their speech patterns and word choice? To quantify this, I dug into the data, using the debate transcript and natural language processing.
 
