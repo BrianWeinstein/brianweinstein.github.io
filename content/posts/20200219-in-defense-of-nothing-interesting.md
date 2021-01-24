@@ -3,7 +3,7 @@ title: "In defense of “nothing interesting”"
 author: "Brian Weinstein"
 date: "2020-02-19"
 # weight: 1
-aliases: ["/writing/20200219-in-defense-of-nothing-interesting"] # alias url / permalink
+aliases: ["/posts/20200219-in-defense-of-nothing-interesting"] # alias url / permalink
 
 tags: ["data", "data science", "research", "analysis", "questions"]
 categories: ["data"]
