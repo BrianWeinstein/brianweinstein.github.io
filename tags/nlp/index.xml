@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nlp on Brian Weinstein</title>
-    <link>https://brianweinstein.github.io/tags/nlp/</link>
+    <link>https://www.brianweinstein.co/tags/nlp/</link>
     <description>Recent content in nlp on Brian Weinstein</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://www.brianweinstein.co/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Speaking like a president</title>
-      <link>https://brianweinstein.github.io/posts/20161003-debate-nlp/</link>
+      <link>https://www.brianweinstein.co/posts/20161003-debate-nlp/</link>
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://brianweinstein.github.io/posts/20161003-debate-nlp/</guid>
+      <guid>https://www.brianweinstein.co/posts/20161003-debate-nlp/</guid>
       <description>Natural language processing on the first 2016 presidential debate originally published on Fouriest Series  Natural language processing on the first 2016 presidential debate The first debate in the 2016 presidential race was held on September 26. It’s no secret that Clinton and Trump are running on drastically different platforms, but how do they compare when it comes to their speech patterns and word choice? To quantify this, I dug into the data, using the debate transcript and natural language processing.</description>
     </item>
     
