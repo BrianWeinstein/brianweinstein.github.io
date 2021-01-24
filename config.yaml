@@ -1,7 +1,7 @@
 baseURL: "https://www.brianweinstein.co/"
 title: Brian Weinstein
 # description: Brian's site
-paginate: 3 # TODO: add pagination sections to archives.html
+paginate: 10 # TODO: add pagination sections to archives.html
 theme: hugo-PaperMod
 
 # publishDir: docs #The directory to where Hugo will write the final static site (the HTML files etc.)
@@ -116,7 +116,7 @@ menu:
         #   url: about/
         #   weight: 5 # order of items in the nav
         - name: Writing
-          url: writing/
+          url: posts/
           weight: 50 # order of items in the nav
         # - name: Search
         #   url: search/
