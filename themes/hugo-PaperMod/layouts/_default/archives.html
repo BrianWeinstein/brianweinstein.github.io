@@ -7,11 +7,11 @@
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- range $pages.GroupByPublishDate "2006" }}
 {{- if ne .Key "0001" }}
-<!-- <div class="archive-year"> -->
-  <!-- <h2 class="archive-year-header"> -->
+<!-- <div class="archive-year">
+  <h2 class="archive-year-header"> -->
     <!-- {{- replace .Key "0001" "" }} -->
     <!-- \ <sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup> -->
-  <!-- </h2> -->
+  </h2>
   {{- range .Pages.GroupByDate "January" }}
   <!-- <div class="archive-month"> -->
     <!-- <h3 -->
@@ -25,9 +25,9 @@
         <h3 class="archive-entry-title">
           {{- .Title | markdownify }}
         </h3>
-        <section class="entry-content">
+        <!-- <section class="entry-content">
           <p>{{ .Summary | plainify | htmlUnescape }}...</p>
-        </section>
+        </section> -->
         <div class="archive-meta">
           {{- partial "post_meta.html" . -}}
         </div>
@@ -35,10 +35,10 @@
       </div>
       {{- end }}
       {{- end }}
-    </div>
-  <!-- </div> -->
+    <!-- </div>
+  </div> -->
   {{- end }}
-<!-- </div> -->
+</div>
 {{- end }}
 {{- end }}
 

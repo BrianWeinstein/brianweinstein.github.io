@@ -1,6 +1,6 @@
 ---
-#title: "Writing"
+title: "Posts"
 layout: "posts"
 url: "/posts"
-summary: writing
+summary: Posts
 ---
