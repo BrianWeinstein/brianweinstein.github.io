@@ -30,25 +30,48 @@
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
+
+
+
+
 <article class="{{ $class }}">
-  {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList)}}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-  <header class="entry-header">
-    <h2>
-      {{ .Title }}
-      {{- if .Draft }}<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div>{{- end }}
-    </h2>
-  </header>
-  {{- if (ne .Site.Params.hideSummary true)}}
-  <section class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}...</p>
-  </section>
-  {{- end }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+
+    <div class="box">
+      <div class="one">
+
+          <header class="entry-header">
+            <h2>
+              {{ .Title }}
+              {{- if .Draft }}<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div>{{- end }}
+            </h2>
+          </header>
+
+          {{- if (ne .Site.Params.hideSummary true)}}
+          <section class="entry-content">
+            <p>{{ .Summary | plainify | htmlUnescape }}...</p>
+          </section>
+          {{- end }}
+          <footer class="entry-footer">
+            {{- partial "post_meta.html" . -}}
+          </footer>
+          <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+
+      </div>
+
+      <div class="two">
+          {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList)}}
+          {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+      </div>
+
+    </div>
+
+
+
 </article>
+
+
+
+
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
