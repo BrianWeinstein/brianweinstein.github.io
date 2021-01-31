@@ -95,7 +95,7 @@
 The equation appears throughout many fields in physics, including acoustics, fluid dynamics, electromagnetism, and quantum mechanics. With some modifications, it can even describe the spread of traffic jams on busy highways!
 The one-dimensional equation was first discovered by d’Alembert in 1746 as he studied how vibrations propagated through a string, and the two- and three-dimensional equations were solved soon after by Euler during his study of acoustics.
 The simulations above show the propagation of a disturbance on a two-dimensional surface for two different sets of boundary conditions [1] [2].
-Mathematica code posted here.
+ Mathematica code posted here.
 ...</p>
   </section>
   <footer class="entry-footer">
@@ -103,6 +103,180 @@ Mathematica code posted here.
 Jan 28, 2015&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Wave Equation" href="https://www.brianweinstein.co/posts/20150128-wave-equation/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Platonic Solids
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>                  A Platonic solid is a polyhedron where (1) each face is the same regular polygon, and (2) each vertex joins the same number of faces.
+The Platonic solids are highly symmetrical, and, in three dimensions, only five such solids can exist: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron.
+This was first proven in Euclid’s Elements around 300 B.C., and has since been more rigorously proven using the Euler characteristic. The proofs are relatively easy to follow, and if you’re interested you can check them out both here and here.
+ Mathematica code:
+pSolids={&#34;Tetrahedron&#34;,&#34;Cube&#34;,&#34;Octahedron&#34;,&#34;Dodecahedron&#34;,&#34;Icosahedron&#34;} Manipulate[Graphics3D[ {Opacity[0.8],Rotate[PolyhedronData[pSolids[[n]],&#34;Faces&#34;],th,{0,0,1}], Opacity[0],Circumsphere[PolyhedronData[pSolids[[n]], &#34;VertexCoordinates&#34;][[1;;4]]]}, Boxed-&gt;False,SphericalRegion-&gt;True],{n,1,5,1},{th,0,2\[Pi]}] ...</p>
+  </section>
+  <footer class="entry-footer">
+
+Jan 20, 2015&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Platonic Solids" href="https://www.brianweinstein.co/posts/20150120-platonic-solids/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Lonely Runner Conjecture
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>                      Imagine n runners on a circular track of length 1. The runners start from the same spot at the same time, and each has a distinct, constant speed. A runner is considered “lonely” whenever it is a distance of at least 1/n from every other runner. The Lonely Runner Conjecture (LRC) states that each runner will eventually, at some point in time, be lonely.
+Said differently, the LRC states that for each runner, the spacing around it will eventually be greater than or equal to the spacing it would experience if the all of the runners were equally distributed around the track.
+The conjecture has been proven to be true for 7 or fewer runners, but, interestingly enough, has never been proven to work for all cases of 8 or more runners. [In my 8-runner simulation above, I’ve only shown that it works for a specific set of runner speeds — I haven’t proven that it works for all sets of speeds.]
+In the GIFs above, an arc appears around a runner whenever the runner is lonely, and the color of a runner fades after it’s been lonely at least once.
+ Mathematica code posted here.
+Additional sources not linked above: [1] [2] [3]
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+Dec 25, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Lonely Runner Conjecture" href="https://www.brianweinstein.co/posts/20141225-lonely-runner-conjecture/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Modeling Comet 67P
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>                      Two weeks ago, the ESA made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.
+Determining where Philae would land was a big step in this mission. Many attributes about the comet, including its topography, were taken into account. To help in this process, the ESA derived a 3D model of the comet’s surface, and the data (made up of over 30,000 measurements) was recently released.
+The images above use ESA data to model the surface of 67P. By adjusting lighting and orientation, actual photos taken by Rosetta (images 3 and 5) can be reproduced.
+You can play around with the model yourself!
+Either use the code below in Mathematica or on the Wolfram Programming Cloud (with a free account), or play with the model online by clicking here*.
+ *This link will expire on Dec 23, 2014, after which you’ll have to upload the .obj file directly to the online viewer.
+Mathematica code:
+objLink = &#34;http://sci.esa.int/science-e/www/object/doc.cfm?fobjectid=54726&#34;; comet = Import[objLink, &#34;OBJ&#34;]; pts = Import[objLink, {&#34;OBJ&#34;, &#34;VertexData&#34;}]; ListSurfacePlot3D[pts, MaxPlotPoints -&gt; 20, Mesh -&gt; All, MeshStyle -&gt; Opacity[0.4]] Show[comet, Background -&gt; Black, Lighting -&gt; {{&#34;Directional&#34;, LightGray, {-7, -10, 10}}}] Additional sources: [1] [2] [3]
+Images 3 &amp; 5: ESA/Rosetta/NAVCAM, CC BY-SA IGO 3.0
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+Nov 24, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Modeling Comet 67P" href="https://www.brianweinstein.co/posts/20141124-comet-67p/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Harmonographs
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>                  A harmonograph is a mechanical device consisting of two or more pendulums attached to a pen. The swinging pendulums control the motion of the pen, tracing out a geometric pattern on a sheet of paper.
+Since the system is damped by friction, the pattern spirals in on itself as time progresses.
+Each of the GIFs above simulate the output of a 4-pendulum system (modeled after a harmonograph as configured in this video). The different outputs are generated by using different pendulum length ratios in each simulation.
+ Mathematica code posted here.
+Additional source not linked above.
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+Nov 10, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Harmonographs" href="https://www.brianweinstein.co/posts/20141110-harmonographs/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Curves of Constant Width and Odd-Sided Reuleaux Polygons
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>                  A curve of constant width is a convex, two-dimensional shape that, when rotated inside a square, always makes contact with all four sides.
+A circle is the most obvious (but somewhat trivial) example. Some non-trivial examples are the odd-sided Reuleaux polygons — the first four of which are shown above.
+Since they don’t have fixed axes of rotation, curves of constant width (except the circle) have few practical applications. One notable use of the Reuleaux triangle, though, is in drilling holes in the shape of a slightly rounded square (watch one of the triangle’s vertices and notice the shape it traces out as it spins).
+On a less technical note, all curves of constant width are solutions to the brainteaser, “Other than a circle, what shape can you make a manhole cover such that it can’t fall through the hole it covers?”
+ Mathematica code posted here.
+Additional source not linked above.
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+Oct 20, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Curves of Constant Width and Odd-Sided Reuleaux Polygons" href="https://www.brianweinstein.co/posts/20141020-curves-of-constant-width/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Atomic Models
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>              Evidence-based theories on the structure of atoms have been around since the early 1800s. Dalton’s billiard ball model was the first on the map, and with further discoveries and experiments — like Thompson’s discovery of the electron and Rutherford’s gold foil experiment — improved models of atomic structure were introduced.
+The first GIF above shows Rutherford’s planetary model, which was proposed in 1911. In his model, negatively-charged electrons orbit an incredibly small, dense nucleus of positive charge. Despite being a completely incorrect model, most people still think this is what atoms really look like*. This is not an atom. It’s physically impossible for electrons to stably orbit like this, and the idea of orbiting electrons was entirely replaced by 1926.
+I can’t say what an atom actually looks like, but the most accurate model we have today is governed by the laws of quantum mechanics. The location of an electron is determined by a probability distribution, called an atomic orbital, which tells us the probability of an electron existing in any specific region around a nucleus. The second image shows the surface around a hydrogen nucleus on which an excited electron is most likely to exist.
+ Mathematica code posted here.
+*Advertisements and popular science articles incorrectly represent atoms all the time. Even the US Atomic Energy Commission and the International Atomic Energy Agency use the Rutherford model in their logos!
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+Sep 22, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Atomic Models" href="https://www.brianweinstein.co/posts/20140922-atomic-models/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Cops and Robbers (and Zombies and Humans)
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>              Cops and Robbers is a mathematical game in which pursuers (cops) attempt to capture evaders (robbers). The game is one of many pursuit-evasion games, each of which is governed by a different set of rules. The general goal of these problems is to determine the number of pursuers required to capture a given number of evaders.
+The GIFs above show two versions of the game. The first is similar to the standard Cops and Robbers rendition, and the second is best described as “Zombies and Humans”.
+In both versions, an evader moves in the direction that gets it furthest away from the pursuers (focusing more on the closer pursuers), and a pursuer moves in the direction that gets it closest to the evaders (focusing more on the closer evaders).
+In the first simulation, members of both groups have a constant speed. In the second simulation, members of a group move more quickly the closer they are to members of the opposite group, and slower when further away.
+ Mathematica code posted here.
+Additional sources not linked above: [1] [2]
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+Sep 2, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Cops and Robbers (and Zombies and Humans)" href="https://www.brianweinstein.co/posts/20140902-cops-and-robbers/"></a>
 </article>
 
     </main><footer class="footer">

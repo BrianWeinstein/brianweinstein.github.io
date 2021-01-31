@@ -17,5 +17,76 @@ The equation appears throughout many fields in physics, including acoustics, flu
 The one-dimensional equation was first discovered by d’Alembert in 1746 as he studied how vibrations propagated through a string, and the two- and three-dimensional equations were solved soon after by Euler during his study of acoustics.</description>
     </item>
     
+    <item>
+      <title>Platonic Solids</title>
+      <link>https://www.brianweinstein.co/posts/20150120-platonic-solids/</link>
+      <pubDate>Tue, 20 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20150120-platonic-solids/</guid>
+      <description>A Platonic solid is a polyhedron where (1) each face is the same regular polygon, and (2) each vertex joins the same number of faces.
+The Platonic solids are highly symmetrical, and, in three dimensions, only five such solids can exist: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron.
+This was first proven in Euclid’s Elements around 300 B.</description>
+    </item>
+    
+    <item>
+      <title>Lonely Runner Conjecture</title>
+      <link>https://www.brianweinstein.co/posts/20141225-lonely-runner-conjecture/</link>
+      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20141225-lonely-runner-conjecture/</guid>
+      <description>Imagine n runners on a circular track of length 1. The runners start from the same spot at the same time, and each has a distinct, constant speed. A runner is considered “lonely” whenever it is a distance of at least 1/n from every other runner. The Lonely Runner Conjecture (LRC) states that each runner will eventually, at some point in time, be lonely.</description>
+    </item>
+    
+    <item>
+      <title>Modeling Comet 67P</title>
+      <link>https://www.brianweinstein.co/posts/20141124-comet-67p/</link>
+      <pubDate>Mon, 24 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20141124-comet-67p/</guid>
+      <description>Two weeks ago, the ESA made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.
+Determining where Philae would land was a big step in this mission. Many attributes about the comet, including its topography, were taken into account.</description>
+    </item>
+    
+    <item>
+      <title>Harmonographs</title>
+      <link>https://www.brianweinstein.co/posts/20141110-harmonographs/</link>
+      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20141110-harmonographs/</guid>
+      <description>A harmonograph is a mechanical device consisting of two or more pendulums attached to a pen. The swinging pendulums control the motion of the pen, tracing out a geometric pattern on a sheet of paper.
+Since the system is damped by friction, the pattern spirals in on itself as time progresses.
+Each of the GIFs above simulate the output of a 4-pendulum system (modeled after a harmonograph as configured in this video).</description>
+    </item>
+    
+    <item>
+      <title>Curves of Constant Width and Odd-Sided Reuleaux Polygons</title>
+      <link>https://www.brianweinstein.co/posts/20141020-curves-of-constant-width/</link>
+      <pubDate>Mon, 20 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20141020-curves-of-constant-width/</guid>
+      <description>A curve of constant width is a convex, two-dimensional shape that, when rotated inside a square, always makes contact with all four sides.
+A circle is the most obvious (but somewhat trivial) example. Some non-trivial examples are the odd-sided Reuleaux polygons — the first four of which are shown above.
+Since they don&amp;rsquo;t have fixed axes of rotation, curves of constant width (except the circle) have few practical applications.</description>
+    </item>
+    
+    <item>
+      <title>Atomic Models</title>
+      <link>https://www.brianweinstein.co/posts/20140922-atomic-models/</link>
+      <pubDate>Mon, 22 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140922-atomic-models/</guid>
+      <description>Evidence-based theories on the structure of atoms have been around since the early 1800s. Dalton’s billiard ball model was the first on the map, and with further discoveries and experiments — like Thompson’s discovery of the electron and Rutherford’s gold foil experiment — improved models of atomic structure were introduced.
+The first GIF above shows Rutherford’s planetary model, which was proposed in 1911.</description>
+    </item>
+    
+    <item>
+      <title>Cops and Robbers (and Zombies and Humans)</title>
+      <link>https://www.brianweinstein.co/posts/20140902-cops-and-robbers/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140902-cops-and-robbers/</guid>
+      <description>Cops and Robbers is a mathematical game in which pursuers (cops) attempt to capture evaders (robbers). The game is one of many pursuit-evasion games, each of which is governed by a different set of rules. The general goal of these problems is to determine the number of pursuers required to capture a given number of evaders.</description>
+    </item>
+    
   </channel>
 </rss>

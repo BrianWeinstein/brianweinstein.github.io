@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Modeling Comet 67P | Brian Weinstein</title>
+
+<meta name="keywords" content="physics, math, visualization" />
+<meta name="description" content="Two weeks ago, the ESA made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.
+Determining where Philae would land was a big step in this mission. Many attributes about the comet, including its topography, were taken into account.">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://www.brianweinstein.co/posts/20141124-comet-67p/" />
+<link href="/assets/css/stylesheet.min.2b658e81b7ca71767768c0a5cf1f4588ac810daf2c963e7ee56b8503474962ae.css" integrity="sha256-K2WOgbfKcXZ3aMClzx9FiKyBDa8slj5&#43;5WuFA0dJYq4=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.brianweinstein.co/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.brianweinstein.co/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.brianweinstein.co/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.brianweinstein.co/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+<meta property="og:title" content="Modeling Comet 67P" />
+<meta property="og:description" content="Two weeks ago, the ESA made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.
+Determining where Philae would land was a big step in this mission. Many attributes about the comet, including its topography, were taken into account." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.brianweinstein.co/posts/20141124-comet-67p/" />
+<meta property="og:image" content="https://www.brianweinstein.co/47"/>
+<meta property="article:published_time" content="2014-11-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-11-24T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.brianweinstein.co/47"/>
+
+<meta name="twitter:title" content="Modeling Comet 67P"/>
+<meta name="twitter:description" content="Two weeks ago, the ESA made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.
+Determining where Philae would land was a big step in this mission. Many attributes about the comet, including its topography, were taken into account."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Modeling Comet 67P",
+  "name": "Modeling Comet 67P",
+  "description": "Two weeks ago, the ESA made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.\nDetermining …",
+  "keywords": [
+    "physics", "math", "visualization"
+  ],
+  "articleBody": "                      Two weeks ago, the ESA made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.\nDetermining where Philae would land was a big step in this mission. Many attributes about the comet, including its topography, were taken into account. To help in this process, the ESA derived a 3D model of the comet’s surface, and the data (made up of over 30,000 measurements) was recently released.\nThe images above use ESA data to model the surface of 67P. By adjusting lighting and orientation, actual photos taken by Rosetta (images 3 and 5) can be reproduced.\nYou can play around with the model yourself!\nEither use the code below in Mathematica or on the Wolfram Programming Cloud (with a free account), or play with the model online by clicking here*.\n *This link will expire on Dec 23, 2014, after which you’ll have to upload the .obj file directly to the online viewer.\nMathematica code:\nobjLink = \"http://sci.esa.int/science-e/www/object/doc.cfm?fobjectid=54726\"; comet = Import[objLink, \"OBJ\"]; pts = Import[objLink, {\"OBJ\", \"VertexData\"}]; ListSurfacePlot3D[pts, MaxPlotPoints - 20, Mesh - All, MeshStyle - Opacity[0.4]] Show[comet, Background - Black, Lighting - {{\"Directional\", LightGray, {-7, -10, 10}}}] Additional sources: [1] [2] [3]\nImages 3 \u0026 5: ESA/Rosetta/NAVCAM, CC BY-SA IGO 3.0\n",
+  "wordCount" : "215",
+  "inLanguage": "en",
+  "datePublished": "2014-11-24T00:00:00Z",
+  "dateModified": "2014-11-24T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Brian Weinstein"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.brianweinstein.co/posts/20141124-comet-67p/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brian Weinstein",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.brianweinstein.co/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+</head>
+
+<body class="" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.brianweinstein.co/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://www.brianweinstein.co/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.brianweinstein.co/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Modeling Comet 67P
+    </h1>
+    <div class="post-description">
+      
+    </div>
+    <div class="post-meta">
+
+Nov 24, 2014&nbsp;·&nbsp;Brian Weinstein
+
+    </div>
+  </header> 
+
+  <div class="post-content">
+<!-- raw HTML omitted -->
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/images/comet-model-1.gif" alt=""></td>
+<td><img src="/images/comet-model-2.png" alt=""></td>
+</tr>
+<tr>
+<td><img src="/images/comet-photo-3.png" alt=""></td>
+<td><img src="/images/comet-model-4.png" alt=""></td>
+</tr>
+<tr>
+<td><img src="/images/comet-photo-5.png" alt=""></td>
+<td><img src="/images/comet-model-6.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>Two weeks ago, the <a href="http://www.esa.int/ESA">ESA</a> made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.</p>
+<p>Determining where Philae would land was a big step in this mission. <a href="http://sci.esa.int/rosetta/54468-selecting-a-landing-site-for-rosettas-lander-philae/">Many attributes</a> about the comet, including its topography, were taken into account. To help in this process, the ESA derived a 3D model of the comet&rsquo;s surface, and the <a href="http://blogs.esa.int/rosetta/2014/10/03/measuring-comet-67pc-g/">data</a> (made up of over 30,000 measurements) was recently released.</p>
+<p>The images above use ESA data to model the surface of 67P. By adjusting lighting and orientation, actual photos taken by Rosetta (images 3 and 5) can be reproduced.</p>
+<p><strong>You can play around with the model yourself!</strong></p>
+<p>Either use the code below in Mathematica or on the <a href="http://programming.wolframcloud.com/app">Wolfram Programming Cloud</a> (with a free account), or play with the model online by clicking <a href="http://www.3dvieweronline.com/share/SC4HG2qYFx5fsPo/SC4HG2qYFx5fsPo">here</a>*.</p>
+<hr>
+<p>*This link will expire on Dec 23, 2014, after which you&rsquo;ll have to upload the <a href="http://sci.esa.int/science-e/www/object/doc.cfm?fobjectid=54726">.obj file</a> directly to the <a href="http://www.3dvieweronline.com/">online viewer</a>.</p>
+<p><a href="http://www.wolfram.com/mathematica/">Mathematica</a> code:</p>
+<pre><code>objLink =
+    &quot;http://sci.esa.int/science-e/www/object/doc.cfm?fobjectid=54726&quot;;
+comet = Import[objLink, &quot;OBJ&quot;];
+pts = Import[objLink, {&quot;OBJ&quot;, &quot;VertexData&quot;}];
+ListSurfacePlot3D[pts, MaxPlotPoints -&gt; 20,
+    Mesh -&gt; All, MeshStyle -&gt; Opacity[0.4]]
+Show[comet, Background -&gt; Black,
+    Lighting -&gt; {{&quot;Directional&quot;, LightGray, {-7, -10, 10}}}]
+</code></pre><p>Additional sources: [<a href="http://www.reddit.com/r/Mathematica/comments/2mputc/your_very_own_comet_67pcg/">1</a>] [<a href="http://www.esa.int/spaceinimages/Images/2014/07/Shape_model_of_comet">2</a>] [<a href="http://sci.esa.int/rosetta/54523-cometwatch-navcam-images/">3</a>]</p>
+<p><em>Images 3 &amp; 5: ESA/Rosetta/NAVCAM,</em> <em><a href="http://creativecommons.org/licenses/by-sa/3.0/igo/">CC BY-SA IGO 3.0</a></em></p>
+
+</div>
+
+  <div class="post-published-elsewhere">
+      Originally published on <a href="https://fouriestseries.tumblr.com/post/103500165758/modeling-comet-67p">Fouriest Series</a>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.brianweinstein.co/tags/physics/">physics</a></li>
+      <li><a href="https://www.brianweinstein.co/tags/math/">math</a></li>
+      <li><a href="https://www.brianweinstein.co/tags/visualization/">visualization</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://www.brianweinstein.co/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>
