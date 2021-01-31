@@ -12,8 +12,7 @@
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.brianweinstein.co/posts/20201222-defining-meaningful-metrics-for-product-teams/</guid>
-      <description>A checklist for developing better product metrics &amp;amp; KPIs originally published on Medium  Defining clear KPIs is one of the most important things for a Product team, and (unfortunately) it’s incredibly easy to do poorly. A good metric not only helps evaluate your product’s performance, but also guides your team in building the right things to progress you toward your goal.
-The framework described below is one I’ve used for a few years while working with teams that develop software products, and has been very helpful for me, my Data Science teammates, and our Product partners in measuring the success or failure of the products we build.</description>
+      <description>A checklist for developing better product metrics &amp;amp; KPIs</description>
     </item>
     
     <item>
@@ -22,8 +21,7 @@ The framework described below is one I’ve used for a few years while working w
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.brianweinstein.co/posts/20200219-in-defense-of-nothing-interesting/</guid>
-      <description>A tribute to useful, but less interesting research findings originally published on Medium   A tribute to useful, but less interesting research findings
- A few years ago as a Data Scientist I was presenting to co-workers an analysis I’d been working on. The presentation went fine and the work was well-received, but I could tell the group was a little underwhelmed. Towards the end of the presentation, one co-worker asked, “Did you find anything that surprised you?</description>
+      <description>A tribute to useful, but less interesting research findings</description>
     </item>
     
     <item>
@@ -32,8 +30,7 @@ The framework described below is one I’ve used for a few years while working w
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.brianweinstein.co/posts/20180124-moving-beyond-the-net-promoter-score/</guid>
-      <description>A guide to building a more meaningful metric originally published on Medium  The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.
-Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant indicators of performance. NPS a bad measure of success, though. It uses a poorly phrased question, a response scale that’s entirely too big, and an absurd method of calculation.</description>
+      <description>A guide to building a more meaningful metric</description>
     </item>
     
     <item>
@@ -42,7 +39,7 @@ Proponents of NPS are drawn to it because it’s a single number that appears 
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.brianweinstein.co/posts/20161003-debate-nlp/</guid>
-      <description>Natural language processing on the first 2016 presidential debate originally published on Fouriest Series  The first debate in the 2016 presidential race was held on September 26. It’s no secret that Clinton and Trump are running on drastically different platforms, but how do they compare when it comes to their speech patterns and word choice? To quantify this, I dug into the data, using the debate transcript and natural language processing.</description>
+      <description>Natural language processing on the first 2016 presidential debate</description>
     </item>
     
     <item>
@@ -51,7 +48,7 @@ Proponents of NPS are drawn to it because it’s a single number that appears 
       <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.brianweinstein.co/posts/20160531-froyo-nyc/</guid>
-      <description>originally published on Fouriest Series  I love frozen yogurt. When I first moved to New York three years ago, I lived only 1/8th of a mile from the closest froyo shop. The convenience of this 4-minute walk is something I neither appreciated nor utilized enough at the time.
+      <description>I love frozen yogurt. When I first moved to New York three years ago, I lived only 1/8th of a mile from the closest froyo shop. The convenience of this 4-minute walk is something I neither appreciated nor utilized enough at the time.
 After moving to Harlem last year, it’s been harder than ever to satisfy my near-constant craving for this cold candy soup — I’m now a 24-minute walk to the nearest frozen yogurt.</description>
     </item>
     
@@ -61,7 +58,7 @@ After moving to Harlem last year, it’s been harder than ever to satisfy my nea
       <pubDate>Wed, 28 Jan 2015 00:00:00 +0000</pubDate>
       
       <guid>https://www.brianweinstein.co/posts/20150128-wave-equation/</guid>
-      <description>originally published on Fouriest Series  The wave equation is a partial differential equation that describes the propagation of various types of waves.
+      <description>The wave equation is a partial differential equation that describes the propagation of various types of waves.
 The equation appears throughout many fields in physics, including acoustics, fluid dynamics, electromagnetism, and quantum mechanics. With some modifications, it can even describe the spread of traffic jams on busy highways!
 The one-dimensional equation was first discovered by d’Alembert in 1746 as he studied how vibrations propagated through a string, and the two- and three-dimensional equations were solved soon after by Euler during his study of acoustics.</description>
     </item>

@@ -1,7 +1,10 @@
 ---
 title: "Wave Equation"
+# description: "asdf"
+# summary: "asdf"
 author: "Brian Weinstein"
 date: "2015-01-28"
+publishedElsewhere: "Originally published on [Fouriest Series](https://fouriestseries.tumblr.com/post/109430113393/wave-equation)"
 # weight: 1
 aliases: ["/posts/20150128-wave-equation"] # alias url / permalink
 
@@ -24,14 +27,6 @@ disableShare: true
 
 comments: false
 ---
-
-
-###### _originally published on_ [_Fouriest Series_](https://fouriestseries.tumblr.com/post/109430113393/wave-equation)
-
-
-
----
-
 
 ![](/images/wave-equation-1.gif)
 ![](/images/wave-equation-2.gif)

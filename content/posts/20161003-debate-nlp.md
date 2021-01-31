@@ -1,7 +1,10 @@
 ---
 title: "Speaking like a president"
+description: "Natural language processing on the first 2016 presidential debate"
+summary: "Natural language processing on the first 2016 presidential debate"
 author: "Brian Weinstein"
 date: "2016-10-03"
+publishedElsewhere: "Originally published on [Fouriest Series](https://fouriestseries.tumblr.com/post/151287440363/natural-language-processing-on-the-first-2016)"
 # weight: 1
 aliases: ["/posts/20161003-debate-nlp"] # alias url / permalink
 
@@ -24,18 +27,6 @@ cover:
 
 comments: false
 ---
-
-
-
-### _Natural language processing on the first 2016 presidential debate_
-
-###### _originally published on_ [_Fouriest Series_](https://fouriestseries.tumblr.com/post/151287440363/natural-language-processing-on-the-first-2016)
-
-
-
----
-
-<!-- ![](/images/debate-header.png) -->
 
 
 The first debate in the 2016 presidential race was held on September 26. It’s no secret that Clinton and Trump are running on drastically different platforms, but how do they compare when it comes to their speech patterns and word choice? To quantify this, I dug into the data, using the debate transcript and natural language processing.

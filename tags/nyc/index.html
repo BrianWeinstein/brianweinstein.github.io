@@ -11,7 +11,7 @@
 <meta name="description" content="bw description">
 <meta name="author" content="Brian Weinstein">
 <link rel="canonical" href="https://www.brianweinstein.co/tags/nyc/" />
-<link href="/assets/css/stylesheet.min.aa92a50683bb800c6881635be21763051f34a6f3af5cf8258ff98c6eca9a9852.css" integrity="sha256-qpKlBoO7gAxogWNb4hdjBR80pvOvXPglj/mMbsqamFI=" rel="preload stylesheet"
+<link href="/assets/css/stylesheet.min.ca48ef62a17a5e64989026f6c23725b6442c24544ead477b65854431c0ea2f64.css" integrity="sha256-ykjvYqF6XmSYkCb2wjcltkQsJFROrUd7ZYVEMcDqL2Q=" rel="preload stylesheet"
     as="style">
 
 <link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
@@ -87,9 +87,17 @@
       Mapping the frozen yogurt shop closest to each Manhattan apartment
     </h2>
   </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
   <section class="entry-content">
-    <p>originally published on Fouriest Series  I love frozen yogurt. When I first moved to New York three years ago, I lived only 1/8th of a mile from the closest froyo shop. The convenience of this 4-minute walk is something I neither appreciated nor utilized enough at the time.
-After moving to Harlem last year, it’s been harder than ever to satisfy my near-constant craving for this cold candy soup — I’m now a 24-minute walk to the nearest frozen yogurt....</p>
+    <p>I love frozen yogurt. When I first moved to New York three years ago, I lived only 1/8th of a mile from the closest froyo shop. The convenience of this 4-minute walk is something I neither appreciated nor utilized enough at the time.
+After moving to Harlem last year, it’s been harder than ever to satisfy my near-constant craving for this cold candy soup — I’m now a 24-minute walk to the nearest frozen yogurt.
+As someone who loves data and has too much time to spare, I decided to find the locations in Manhattan with highest and lowest froyo densitiy. Inspired by Ben Wellington’s work on I Quant NY, I calculated the distance from every lot in Manhattan to the nearest froyo shop and mapped it out.
+https://brianweinstein.cartodb.com/viz/27dd05e0-2486-11e6-98ba-0e98b61680bf/embed_map
+The highest density of froyo is right around West 33rd St. and 8th Ave., with three shops within a 1-block radius. The lowest density is right in Harlem. The red circle on the map shows the location farthest from frozen yogurt. The record belongs to 700 Esplanade Gardens Plaza, a co-op right by the 145th St. stop on the 3-train, with a 51-minute trek across Manhattan to the Pinkberry by Columbia.
+The map shows all of the froyo shops in Manhattan, and you can click on any lot to find the distance to the closest shop.
+  R code posted here. All distances in the map are measured using great-circle distance (i.e., ”as the crow flies”), according to the law of cosines. Frozen yogurt locations were found via the Google Places Nearby Search API. The API returned some non-froyo-exclusive shops like Ben and Jerry’s, which I kept in the dataset since they technically serve some frozen yogurt (although we all know these shops don’t really count). I only included froyo shops that were in Manhattan, so some lots may have a closer shop than the one listed if we include those in other boroughs. Manhattan lot locations are from PLUTO. The map was created using CartoDB. Tons of inspiration for this came from Ben Wellington’s work on I Quant NY.  ...</p>
   </section>
   <footer class="entry-footer">
 

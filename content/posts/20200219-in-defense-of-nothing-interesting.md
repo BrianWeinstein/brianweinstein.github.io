@@ -1,7 +1,10 @@
 ---
 title: "In defense of “nothing interesting”"
+description: "A tribute to useful, but less interesting research findings"
+summary: "A tribute to useful, but less interesting research findings"
 author: "Brian Weinstein"
 date: "2020-02-19"
+publishedElsewhere: "Originally published on [Medium](https://towardsdatascience.com/in-defense-of-nothing-interesting-577b47b198da?source=friends_link&sk=1ce03345fd14ca451d3988057025bade)"
 # weight: 1
 aliases: ["/posts/20200219-in-defense-of-nothing-interesting"] # alias url / permalink
 
@@ -25,18 +28,6 @@ disableShare: true
 comments: false
 ---
 
-
-
-### _A tribute to useful, but less interesting research findings_
-
-###### _originally published on_ [_Medium_](https://towardsdatascience.com/in-defense-of-nothing-interesting-577b47b198da?source=friends_link&sk=1ce03345fd14ca451d3988057025bade)
-
-
-
-
----
-
-> A tribute to useful, but less interesting research findings
 
 A few years ago as a Data Scientist I was presenting to co-workers an analysis I’d been working on. The presentation went fine and the work was well-received, but I could tell the group was a little underwhelmed. Towards the end of the presentation, one co-worker asked, “Did you find anything that surprised you? Anything we didn’t already know?”
 
