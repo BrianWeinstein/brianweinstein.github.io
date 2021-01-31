@@ -60,8 +60,19 @@
     font-size: 24px
 }
 
+.entry-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 5px 0px 0px 0px;
+    overflow: hidden;
+    color: var(--secondary);
+
+
+}
+
 .entry-content {
-    margin: 8px 0;
+    margin: 10px 0px 10px 0px;
     color: var(--secondary);
     font-size: 14px;
     line-height: 1.6;

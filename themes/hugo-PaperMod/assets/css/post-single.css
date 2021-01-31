@@ -4,7 +4,7 @@
 
 .post-title {
     margin-bottom: 2px;
-    font-size: 40px;
+    font-size: 30px;
     transform: translateX(-2px)
 }
 
@@ -52,17 +52,17 @@
 }
 
 .post-content h1 {
-    margin: 40px auto 32px;
-    font-size: 40px
+    margin: 28px auto 16px auto;
+    font-size: 30px
 }
 
 .post-content h2 {
-    margin: 32px auto 24px;
-    font-size: 32px
+    margin: 28px auto 24px auto;
+    font-size: 24px
 }
 
 .post-content h3 {
-    font-size: 24px
+    font-size: 20px
 }
 
 .post-content h4 {
