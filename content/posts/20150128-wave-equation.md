@@ -28,8 +28,10 @@ disableShare: true
 comments: false
 ---
 
-![](/images/wave-equation-1.gif)
-![](/images/wave-equation-2.gif)
+<!-- create a table for side by side images -->
+ |
+--- | ---
+![](/images/wave-equation-1.gif) | ![](/images/wave-equation-2.gif)
 
 
 The [wave equation](http://en.wikipedia.org/wiki/Wave_equation)&nbsp;is a [partial differential equation](http://en.wikipedia.org/wiki/Partial_differential_equation) that describes the propagation of various types of waves.
@@ -40,4 +42,4 @@ The one-dimensional equation was first discovered by [d’Alembert](http://en.wi
 
 The simulations above show the propagation of a disturbance on a two-dimensional surface for two different sets of [boundary conditions](http://en.wikipedia.org/wiki/Boundary_value_problem) [[1](http://en.wikipedia.org/wiki/Dirichlet_boundary_condition)]&nbsp;[[2](http://en.wikipedia.org/wiki/Neumann_boundary_condition)].
 
-<pre>[Mathematica](http://www.wolfram.com/mathematica/) code posted [here](https://gist.github.com/BrianWeinstein/7c38a5040f7eb1b56b04).</pre>
+[Mathematica](http://www.wolfram.com/mathematica/) code posted [here](https://gist.github.com/BrianWeinstein/7c38a5040f7eb1b56b04).
