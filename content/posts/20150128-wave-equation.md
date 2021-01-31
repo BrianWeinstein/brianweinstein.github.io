@@ -42,4 +42,6 @@ The one-dimensional equation was first discovered by [d’Alembert](http://en.wi
 
 The simulations above show the propagation of a disturbance on a two-dimensional surface for two different sets of [boundary conditions](http://en.wikipedia.org/wiki/Boundary_value_problem) [[1](http://en.wikipedia.org/wiki/Dirichlet_boundary_condition)]&nbsp;[[2](http://en.wikipedia.org/wiki/Neumann_boundary_condition)].
 
+---
+
 [Mathematica](http://www.wolfram.com/mathematica/) code posted [here](https://gist.github.com/BrianWeinstein/7c38a5040f7eb1b56b04).
