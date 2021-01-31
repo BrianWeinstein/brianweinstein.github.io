@@ -1,7 +1,10 @@
 ---
 title: "Defining meaningful metrics for product teams"
+description: "A checklist for developing better product metrics & KPIs"
+summary: "A checklist for developing better product metrics & KPIs"
 author: "Brian Weinstein"
 date: "2020-12-22"
+publishedElsewhere: "Originally published on [Medium](https://bweinstein.medium.com/defining-meaningful-metrics-for-product-teams-56576d34a684?source=friends_link&sk=0ad658b2703fce11d061f26278851618)"
 # weight: 1
 aliases: ["/posts/20201222-defining-meaningful-metrics-for-product-teams"] # alias url / permalink
 
@@ -25,16 +28,6 @@ disableShare: true
 comments: false
 ---
 
-
-
-### _A checklist for developing better product metrics & KPIs_
-
-###### _originally published on_ [_Medium_](https://bweinstein.medium.com/defining-meaningful-metrics-for-product-teams-56576d34a684?source=friends_link&sk=0ad658b2703fce11d061f26278851618)
-
-
-
-
----
 
 Defining clear KPIs is one of the most important things for a Product team, and (unfortunately) it’s incredibly easy to do poorly. A good metric not only helps evaluate your product’s performance, but also guides your team in building the right things to progress you toward your goal.
 

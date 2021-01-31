@@ -1,7 +1,10 @@
 ---
 title: "Moving beyond the Net Promoter Score"
+description: "A guide to building a more meaningful metric"
+summary: "A guide to building a more meaningful metric"
 author: "Brian Weinstein"
 date: "2018-01-24"
+publishedElsewhere: "Originally published on [Medium](https://bweinstein.medium.com/moving-beyond-the-net-promoter-score-9b560f3767ba?source=friends_link&sk=bd16145b78737841c82e37e67b540f05)"
 # weight: 1
 aliases: ["/posts/20180124-moving-beyond-the-net-promoter-score"] # alias url / permalink
 
@@ -17,26 +20,13 @@ hidemeta: false
 disableShare: true
 
 cover:
-#     image: "/images/nps-header.jpeg"
+     image: "/images/nps-header.jpeg"
 #     alt: "<alt text>"
 #     caption: "<text>"
 #     relative: false
 
 comments: false
 ---
-
-
-
-### _A guide to building a more meaningful metric_
-
-###### _originally published on_ [_Medium_](https://bweinstein.medium.com/moving-beyond-the-net-promoter-score-9b560f3767ba?source=friends_link&sk=bd16145b78737841c82e37e67b540f05)
-
-
-
-
----
-
-![](/images/nps-header.jpeg)
 
 The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.
 
