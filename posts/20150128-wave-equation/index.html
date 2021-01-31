@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Wave Equation | Brian Weinstein</title>
+
+<meta name="keywords" content="physics, math, visualization" />
+<meta name="description" content="originally published on Fouriest Series  The wave equation is a partial differential equation that describes the propagation of various types of waves.
+The equation appears throughout many fields in physics, including acoustics, fluid dynamics, electromagnetism, and quantum mechanics. With some modifications, it can even describe the spread of traffic jams on busy highways!
+The one-dimensional equation was first discovered by d’Alembert in 1746 as he studied how vibrations propagated through a string, and the two- and three-dimensional equations were solved soon after by Euler during his study of acoustics.">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://www.brianweinstein.co/posts/20150128-wave-equation/" />
+<link href="/assets/css/stylesheet.min.aa92a50683bb800c6881635be21763051f34a6f3af5cf8258ff98c6eca9a9852.css" integrity="sha256-qpKlBoO7gAxogWNb4hdjBR80pvOvXPglj/mMbsqamFI=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.brianweinstein.co/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.brianweinstein.co/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.brianweinstein.co/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.brianweinstein.co/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+<meta property="og:title" content="Wave Equation" />
+<meta property="og:description" content="originally published on Fouriest Series  The wave equation is a partial differential equation that describes the propagation of various types of waves.
+The equation appears throughout many fields in physics, including acoustics, fluid dynamics, electromagnetism, and quantum mechanics. With some modifications, it can even describe the spread of traffic jams on busy highways!
+The one-dimensional equation was first discovered by d’Alembert in 1746 as he studied how vibrations propagated through a string, and the two- and three-dimensional equations were solved soon after by Euler during his study of acoustics." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.brianweinstein.co/posts/20150128-wave-equation/" />
+<meta property="og:image" content="https://www.brianweinstein.co/47"/>
+<meta property="article:published_time" content="2015-01-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-01-28T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.brianweinstein.co/47"/>
+
+<meta name="twitter:title" content="Wave Equation"/>
+<meta name="twitter:description" content="originally published on Fouriest Series  The wave equation is a partial differential equation that describes the propagation of various types of waves.
+The equation appears throughout many fields in physics, including acoustics, fluid dynamics, electromagnetism, and quantum mechanics. With some modifications, it can even describe the spread of traffic jams on busy highways!
+The one-dimensional equation was first discovered by d’Alembert in 1746 as he studied how vibrations propagated through a string, and the two- and three-dimensional equations were solved soon after by Euler during his study of acoustics."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Wave Equation",
+  "name": "Wave Equation",
+  "description": "originally published on Fouriest Series  The wave equation is a partial differential equation that describes the propagation of various types of waves.\nThe equation appears …",
+  "keywords": [
+    "physics", "math", "visualization"
+  ],
+  "articleBody": "originally published on Fouriest Series  The wave equation is a partial differential equation that describes the propagation of various types of waves.\nThe equation appears throughout many fields in physics, including acoustics, fluid dynamics, electromagnetism, and quantum mechanics. With some modifications, it can even describe the spread of traffic jams on busy highways!\nThe one-dimensional equation was first discovered by d’Alembert in 1746 as he studied how vibrations propagated through a string, and the two- and three-dimensional equations were solved soon after by Euler during his study of acoustics.\nThe simulations above show the propagation of a disturbance on a two-dimensional surface for two different sets of boundary conditions [1] [2].\n",
+  "wordCount" : "111",
+  "inLanguage": "en",
+  "datePublished": "2015-01-28T00:00:00Z",
+  "dateModified": "2015-01-28T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Brian Weinstein"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.brianweinstein.co/posts/20150128-wave-equation/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brian Weinstein",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.brianweinstein.co/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+</head>
+
+<body class="" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.brianweinstein.co/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://www.brianweinstein.co/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.brianweinstein.co/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Wave Equation
+    </h1>
+    <div class="post-description">
+      
+    </div>
+    <div class="post-meta">
+
+Jan 28, 2015&nbsp;·&nbsp;Brian Weinstein
+
+    </div>
+  </header> 
+
+  <div class="post-content">
+<h6 id="_originally-published-on_-_fouriest-series_httpsfouriestseriestumblrcompost109430113393wave-equation"><em>originally published on</em> <a href="https://fouriestseries.tumblr.com/post/109430113393/wave-equation"><em>Fouriest Series</em></a><a hidden class="anchor" aria-hidden="true" href="#_originally-published-on_-_fouriest-series_httpsfouriestseriestumblrcompost109430113393wave-equation">#</a></h6>
+<hr>
+<p><img src="/images/wave-equation-1.gif" alt="">
+<img src="/images/wave-equation-2.gif" alt=""></p>
+<p>The <a href="http://en.wikipedia.org/wiki/Wave_equation">wave equation</a> is a <a href="http://en.wikipedia.org/wiki/Partial_differential_equation">partial differential equation</a> that describes the propagation of various types of waves.</p>
+<p>The equation appears throughout many fields in physics, including acoustics, fluid dynamics, electromagnetism, and quantum mechanics. With some modifications, it can even describe the spread of traffic jams on busy highways!</p>
+<p>The one-dimensional equation was first discovered by <a href="http://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert">d’Alembert</a> in 1746 as he studied how vibrations propagated through a string, and the two- and three-dimensional equations were solved soon after by <a href="http://en.wikipedia.org/wiki/Leonhard_Euler">Euler</a> during his study of acoustics.</p>
+<p>The simulations above show the propagation of a disturbance on a two-dimensional surface for two different sets of <a href="http://en.wikipedia.org/wiki/Boundary_value_problem">boundary conditions</a> [<a href="http://en.wikipedia.org/wiki/Dirichlet_boundary_condition">1</a>] [<a href="http://en.wikipedia.org/wiki/Neumann_boundary_condition">2</a>].</p>
+<!-- raw HTML omitted -->
+
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.brianweinstein.co/tags/physics/">physics</a></li>
+      <li><a href="https://www.brianweinstein.co/tags/math/">math</a></li>
+      <li><a href="https://www.brianweinstein.co/tags/visualization/">visualization</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://www.brianweinstein.co/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>
