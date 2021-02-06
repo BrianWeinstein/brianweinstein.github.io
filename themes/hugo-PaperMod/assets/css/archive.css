@@ -42,7 +42,7 @@
     margin: 20px 0;
     font-size: 15px;
     background-color: #ffffff;
-    border-radius: 10px
+    border-radius: var(--radius);
     /* border-top: 2px solid var(--border); */
     /* border-bottom: 2px solid var(--border); */
 }
