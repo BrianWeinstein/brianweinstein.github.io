@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Gabriel’s Horn and the Painter’s Paradox | Brian Weinstein</title>
+
+<meta name="keywords" content="physics, math, visualization" />
+<meta name="description" content="Gabriel’s Horn is a three-dimensional horn shape with the counterintuitive property of having a finite volume but an infinite surface area.
+This fact results in the Painter’s Paradox — A painter could fill the horn with a finite quantity of paint, “and yet that paint would not be sufficient to coat [the horn’s] inner surface” [1].
+If the horn’s bell had, for example, a 6-inch radius, we’d only need about a half gallon of paint to fill the horn all the way up.">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://www.brianweinstein.co/posts/20140629-painters-paradox/" />
+<link href="/assets/css/stylesheet.min.de32830eb8ae1cd98ed4969a69dfba5574d5dc0f3eedc0ce674e2dab15321e23.css" integrity="sha256-3jKDDriuHNmO1Jaaad&#43;6VXTV3A8&#43;7cDOZ04tqxUyHiM=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.brianweinstein.co/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.brianweinstein.co/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.brianweinstein.co/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.brianweinstein.co/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-CPC9GR2VCM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<meta property="og:title" content="Gabriel’s Horn and the Painter’s Paradox" />
+<meta property="og:description" content="Gabriel’s Horn is a three-dimensional horn shape with the counterintuitive property of having a finite volume but an infinite surface area.
+This fact results in the Painter’s Paradox — A painter could fill the horn with a finite quantity of paint, “and yet that paint would not be sufficient to coat [the horn’s] inner surface” [1].
+If the horn’s bell had, for example, a 6-inch radius, we’d only need about a half gallon of paint to fill the horn all the way up." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.brianweinstein.co/posts/20140629-painters-paradox/" />
+<meta property="og:image" content="https://www.brianweinstein.co/images/painters-paradox.gif" /><meta property="article:published_time" content="2014-06-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-06-29T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://www.brianweinstein.co/images/painters-paradox.gif" />
+<meta name="twitter:title" content="Gabriel’s Horn and the Painter’s Paradox"/>
+<meta name="twitter:description" content="Gabriel’s Horn is a three-dimensional horn shape with the counterintuitive property of having a finite volume but an infinite surface area.
+This fact results in the Painter’s Paradox — A painter could fill the horn with a finite quantity of paint, “and yet that paint would not be sufficient to coat [the horn’s] inner surface” [1].
+If the horn’s bell had, for example, a 6-inch radius, we’d only need about a half gallon of paint to fill the horn all the way up."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Gabriel’s Horn and the Painter’s Paradox",
+  "name": "Gabriel’s Horn and the Painter’s Paradox",
+  "description": "Gabriel’s Horn is a three-dimensional horn shape with the counterintuitive property of having a finite volume but an infinite surface area.\nThis fact results in the Painter’s …",
+  "keywords": [
+    "physics", "math", "visualization"
+  ],
+  "articleBody": "Gabriel’s Horn is a three-dimensional horn shape with the counterintuitive property of having a finite volume but an infinite surface area.\nThis fact results in the Painter’s Paradox — A painter could fill the horn with a finite quantity of paint, “and yet that paint would not be sufficient to coat [the horn’s] inner surface” [1].\nIf the horn’s bell had, for example, a 6-inch radius, we’d only need about a half gallon of paint to fill the horn all the way up. Even though this half gallon is enough to entirely fill the horn, it’s not enough to even coat a fraction of the inner wall!\nThe mathematical explanation is a bit confusing if you haven’t taken a first course in calculus, but if you’re interested, you can check it out here.\n Mathematica code:\nx[u_, v_] := u y[u_, v_] := Cos[v]/u z[u_, v_] := Sin[v]/u Manipulate[ParametricPlot3D[{{x[u, v], y[u, v], z[u, v]}}, {u, 1, umax}, {v, 0, 2*Pi}, PlotRange -\u0026gt; {{0, 20}, {-1, 1}, {-1, 1}}, Mesh -\u0026gt; {Floor[umax], 20}, Axes -\u0026gt; False, Boxed -\u0026gt; False], {{umax, 20}, 1.1, 20}] Additional source not linked above.\n",
+  "wordCount" : "186",
+  "inLanguage": "en",
+  "image":"https://www.brianweinstein.co/images/painters-paradox.gif","datePublished": "2014-06-29T00:00:00Z",
+  "dateModified": "2014-06-29T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Brian Weinstein"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.brianweinstein.co/posts/20140629-painters-paradox/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brian Weinstein",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.brianweinstein.co/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+</head>
+
+<body class="" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.brianweinstein.co/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://www.brianweinstein.co/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.brianweinstein.co/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Gabriel’s Horn and the Painter’s Paradox
+    </h1>
+    <div class="post-description">
+      
+    </div>
+    <div class="post-meta">
+
+Jun 29, 2014&nbsp;·&nbsp;Brian Weinstein
+
+    </div>
+  </header> 
+<figure class="entry-cover"><img src="https://www.brianweinstein.co/images/painters-paradox.gif" alt="">
+        
+</figure>
+
+  <div class="post-content">
+<p><a href="http://en.wikipedia.org/wiki/Gabriel">Gabriel’s Horn</a> is a three-dimensional horn shape with the counterintuitive property of having a finite volume but an infinite surface area.</p>
+<p>This fact results in the <a href="http://en.wikipedia.org/wiki/Gabriel">Painter’s Paradox</a> — A painter could fill the horn with a finite quantity of paint, “and yet that paint would not be sufficient to coat [the horn’s] inner surface” [<a href="http://en.wikipedia.org/wiki/Gabriel">1</a>].</p>
+<p>If the horn’s bell had, for example, a 6-inch radius, we’d only need about a half gallon of paint to fill the horn all the way up. Even though this half gallon is enough to entirely fill the horn, it’s not enough to even coat a fraction of the inner wall!</p>
+<p>The mathematical explanation is a bit confusing if you haven’t taken a first course in calculus, but if you’re interested, you can check it out <a href="http://mathworld.wolfram.com/GabrielsHorn.html">here</a>.</p>
+<hr>
+<p><a href="http://www.wolfram.com/mathematica/">Mathematica</a> code:</p>
+<pre><code>x[u_, v_] := u
+y[u_, v_] := Cos[v]/u
+z[u_, v_] := Sin[v]/u
+Manipulate[ParametricPlot3D[{{x[u, v], y[u, v], z[u, v]}},
+    {u, 1, umax}, {v, 0, 2*Pi},
+    PlotRange -&amp;gt; {{0, 20}, {-1, 1}, {-1, 1}},
+    Mesh -&amp;gt; {Floor[umax], 20}, Axes -&amp;gt; False, Boxed -&amp;gt; False],
+    {{umax, 20}, 1.1, 20}]
+</code></pre><p><a href="http://tocontriveandjive.wordpress.com/2014/02/25/gabriels-horn-and-the-painters-paradox/">Additional source</a> not linked above.</p>
+
+</div>
+
+  <div class="post-published-elsewhere">
+      Originally published on <a href="https://fouriestseries.tumblr.com/post/90296337418/gabriels-horn-and-the-painters-paradox">Fouriest Series</a>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.brianweinstein.co/tags/physics/">physics</a></li>
+      <li><a href="https://www.brianweinstein.co/tags/math/">math</a></li>
+      <li><a href="https://www.brianweinstein.co/tags/visualization/">visualization</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://www.brianweinstein.co/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Non-Orientable Surfaces | Brian Weinstein</title>
+
+<meta name="keywords" content="physics, math, visualization" />
+<meta name="description" content="An orientable surface is a surface on which it’s possible to make a consistent definition of direction. Most surfaces we encounter – like spheres, planes, and tori (doughnut shapes) – are orientable. When visualized in three dimensions, orientable surfaces have two distinct sides.
+Non-orientable surfaces, on the other hand, have only one side. From Wikipedia, “The essence of one-sidedness is that [an] ant can crawl from one side of the surface to the ‘other’ without going through the surface or flipping over an edge, but simply by crawling far enough.">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://www.brianweinstein.co/posts/20140505-non-orientable-surfaces/" />
+<link href="/assets/css/stylesheet.min.de32830eb8ae1cd98ed4969a69dfba5574d5dc0f3eedc0ce674e2dab15321e23.css" integrity="sha256-3jKDDriuHNmO1Jaaad&#43;6VXTV3A8&#43;7cDOZ04tqxUyHiM=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.brianweinstein.co/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.brianweinstein.co/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.brianweinstein.co/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.brianweinstein.co/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-CPC9GR2VCM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<meta property="og:title" content="Non-Orientable Surfaces" />
+<meta property="og:description" content="An orientable surface is a surface on which it’s possible to make a consistent definition of direction. Most surfaces we encounter – like spheres, planes, and tori (doughnut shapes) – are orientable. When visualized in three dimensions, orientable surfaces have two distinct sides.
+Non-orientable surfaces, on the other hand, have only one side. From Wikipedia, “The essence of one-sidedness is that [an] ant can crawl from one side of the surface to the ‘other’ without going through the surface or flipping over an edge, but simply by crawling far enough." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.brianweinstein.co/posts/20140505-non-orientable-surfaces/" />
+<meta property="og:image" content="https://www.brianweinstein.co/47"/>
+<meta property="article:published_time" content="2014-05-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-05-05T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.brianweinstein.co/47"/>
+
+<meta name="twitter:title" content="Non-Orientable Surfaces"/>
+<meta name="twitter:description" content="An orientable surface is a surface on which it’s possible to make a consistent definition of direction. Most surfaces we encounter – like spheres, planes, and tori (doughnut shapes) – are orientable. When visualized in three dimensions, orientable surfaces have two distinct sides.
+Non-orientable surfaces, on the other hand, have only one side. From Wikipedia, “The essence of one-sidedness is that [an] ant can crawl from one side of the surface to the ‘other’ without going through the surface or flipping over an edge, but simply by crawling far enough."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Non-Orientable Surfaces",
+  "name": "Non-Orientable Surfaces",
+  "description": "An orientable surface is a surface on which it’s possible to make a consistent definition of direction. Most surfaces we encounter – like spheres, planes, and tori (doughnut …",
+  "keywords": [
+    "physics", "math", "visualization"
+  ],
+  "articleBody": "              An orientable surface is a surface on which it’s possible to make a consistent definition of direction. Most surfaces we encounter – like spheres, planes, and tori (doughnut shapes) – are orientable. When visualized in three dimensions, orientable surfaces have two distinct sides.\nNon-orientable surfaces, on the other hand, have only one side. From Wikipedia, “The essence of one-sidedness is that [an] ant can crawl from one side of the surface to the ‘other’ without going through the surface or flipping over an edge, but simply by crawling far enough.” At any point on a non-orientable surface it’s impossible to uniquely define, for example, the “clockwise” direction.\nThe GIFs above show two examples of non-orientable surfaces: a Klein bottle and a Möbius strip.\n Mathematica code [Klein Bottle]:\nxk[u_, v_] := (-2/15)*Cos[u]*(3*Cos[v] - 30*Sin[u] + 90*Cos[u]^4*Sin[u] - 60*Cos[u]^6*Sin[u] + 5*Cos[u]*Cos[v]*Sin[u]) yk[u_, v_] := (-15^(-1))*Sin[u]*(3*Cos[v] - 3*Cos[u]^2*Cos[v] - 48*Cos[u]^4*Cos[v] + 48*Cos[u]^6*Cos[v] - 60*Sin[u] + 5*Cos[u]*Cos[v]*Sin[u] - 5*Cos[u]^3*Cos[v]*Sin[u] - 80*Cos[u]^5*Cos[v]*Sin[u] + 80*Cos[u]^7*Cos[v]*Sin[u]) zk[u_, v_] := (2/15)*(3 + 5*Cos[u]*Sin[u])*Sin[v] kb[u_, v_] := {xk[u, v], yk[u, v], zk[u, v]} Manipulate[ParametricPlot3D[kb[u, v], {u, 0, umax}, {v, 0, 2*Pi}, PlotRange - {{-1.8, 2}, {0, 4.5}, {-0.75, 0.75}}, Axes - False, Boxed - False, PlotStyle - {Opacity[0.65]}, Mesh - {20, 11}, MeshStyle - Directive[Gray, Opacity[0.65], Thickness[0.003]]], {umax, 0.001, Pi}] Mathematica code [Möbius Strip]:\nxm[u_, v_] := (1 + (v/2)*Cos[u/2])*Cos[u] ym[u_, v_] := (1 + (v/2)*Cos[u/2])*Sin[u] zm[u_, v_] := (v/2)*Sin[u/2] ms[u_, v_] := {xm[u, v], ym[u, v], zm[u, v]} Manipulate[ParametricPlot3D[ ms[u, v], {u, 0, umax}, {v, -1, 1}, PlotRange - {{-1.1, 1.5}, {-1.5, 1.5}, {-0.5, 0.5}}, PlotStyle - {Opacity[0.65]}, Axes - False, Boxed - False, Mesh - {20, 5}, MeshStyle - Directive[Gray, Opacity[0.65], Thickness[0.003]]], {umax, 0.001, 2*Pi}] ",
+  "wordCount" : "278",
+  "inLanguage": "en",
+  "datePublished": "2014-05-05T00:00:00Z",
+  "dateModified": "2014-05-05T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Brian Weinstein"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.brianweinstein.co/posts/20140505-non-orientable-surfaces/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brian Weinstein",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.brianweinstein.co/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+</head>
+
+<body class="" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.brianweinstein.co/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://www.brianweinstein.co/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.brianweinstein.co/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Non-Orientable Surfaces
+    </h1>
+    <div class="post-description">
+      
+    </div>
+    <div class="post-meta">
+
+May 5, 2014&nbsp;·&nbsp;Brian Weinstein
+
+    </div>
+  </header> 
+
+  <div class="post-content">
+<!-- raw HTML omitted -->
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/images/non-orientable-surfaces-klein-bottle.gif" alt=""></td>
+<td><img src="/images/non-orientable-surfaces-mobius-strip.gif" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>An <a href="http://en.wikipedia.org/wiki/Orientability">orientable</a> surface is a surface on which it’s possible to make a consistent definition of direction. Most surfaces we encounter – like spheres, planes, and tori (doughnut shapes) – are orientable. When visualized in three dimensions, orientable surfaces have two distinct sides.</p>
+<p>Non-orientable surfaces, on the other hand, have only one side. From <a href="http://en.wikipedia.org/wiki/Orientability#Orientable_surfaces">Wikipedia</a>, “The essence of one-sidedness is that [an] ant can crawl from one side of the surface to the ‘other’ without going through the surface or flipping over an edge, but simply by crawling far enough.” At any point on a non-orientable surface it’s impossible to uniquely define, for example, the “<a href="http://en.wikipedia.org/wiki/Right-hand_rule#Direction_associated_with_a_rotation">clockwise</a>” direction.</p>
+<p>The GIFs above show two examples of non-orientable surfaces: a <a href="http://en.wikipedia.org/wiki/Klein_bottle">Klein bottle</a> and a <a href="http://en.wikipedia.org/wiki/M%C3%B6bius_strip">Möbius strip</a>.</p>
+<hr>
+<p><a href="http://www.wolfram.com/mathematica/">Mathematica</a> code [Klein Bottle]:</p>
+<pre><code>xk[u_, v_] := (-2/15)*Cos[u]*(3*Cos[v] - 30*Sin[u] +
+   90*Cos[u]^4*Sin[u] - 60*Cos[u]^6*Sin[u] + 5*Cos[u]*Cos[v]*Sin[u])
+yk[u_, v_] := (-15^(-1))*Sin[u]*(3*Cos[v] - 3*Cos[u]^2*Cos[v] -
+   48*Cos[u]^4*Cos[v] + 48*Cos[u]^6*Cos[v] - 60*Sin[u] +
+   5*Cos[u]*Cos[v]*Sin[u] - 5*Cos[u]^3*Cos[v]*Sin[u] -
+   80*Cos[u]^5*Cos[v]*Sin[u] + 80*Cos[u]^7*Cos[v]*Sin[u])
+zk[u_, v_] := (2/15)*(3 + 5*Cos[u]*Sin[u])*Sin[v]
+kb[u_, v_] := {xk[u, v], yk[u, v], zk[u, v]}
+Manipulate[ParametricPlot3D[kb[u, v], {u, 0, umax}, {v, 0, 2*Pi},
+   PlotRange -&gt; {{-1.8, 2}, {0, 4.5}, {-0.75, 0.75}}, Axes -&gt;
+   False, Boxed -&gt; False, PlotStyle -&gt; {Opacity[0.65]},
+   Mesh -&gt; {20, 11}, MeshStyle -&gt;
+   Directive[Gray, Opacity[0.65], Thickness[0.003]]],
+   {umax, 0.001, Pi}]
+</code></pre><p><a href="http://www.wolfram.com/mathematica/">Mathematica</a> code [Möbius Strip]:</p>
+<pre><code>xm[u_, v_] := (1 + (v/2)*Cos[u/2])*Cos[u]
+ym[u_, v_] := (1 + (v/2)*Cos[u/2])*Sin[u]
+zm[u_, v_] := (v/2)*Sin[u/2]
+ms[u_, v_] := {xm[u, v], ym[u, v], zm[u, v]}
+Manipulate[ParametricPlot3D[
+   ms[u, v], {u, 0, umax}, {v, -1, 1},
+   PlotRange -&gt; {{-1.1, 1.5}, {-1.5, 1.5}, {-0.5, 0.5}},
+   PlotStyle -&gt; {Opacity[0.65]}, Axes -&gt; False, Boxed -&gt;
+   False,  Mesh -&gt; {20, 5}, MeshStyle -&gt;
+   Directive[Gray, Opacity[0.65], Thickness[0.003]]],
+   {umax, 0.001, 2*Pi}]
+</code></pre>
+</div>
+
+  <div class="post-published-elsewhere">
+      Originally published on <a href="https://fouriestseries.tumblr.com/post/84869520663/non-orientable-surfaces">Fouriest Series</a>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.brianweinstein.co/tags/physics/">physics</a></li>
+      <li><a href="https://www.brianweinstein.co/tags/math/">math</a></li>
+      <li><a href="https://www.brianweinstein.co/tags/visualization/">visualization</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://www.brianweinstein.co/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>

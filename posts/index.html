@@ -11,7 +11,7 @@
 <meta name="description" content="bw description">
 <meta name="author" content="Brian Weinstein">
 <link rel="canonical" href="https://www.brianweinstein.co/posts/" />
-<link href="/assets/css/stylesheet.min.2b658e81b7ca71767768c0a5cf1f4588ac810daf2c963e7ee56b8503474962ae.css" integrity="sha256-K2WOgbfKcXZ3aMClzx9FiKyBDa8slj5&#43;5WuFA0dJYq4=" rel="preload stylesheet"
+<link href="/assets/css/stylesheet.min.de32830eb8ae1cd98ed4969a69dfba5574d5dc0f3eedc0ce674e2dab15321e23.css" integrity="sha256-3jKDDriuHNmO1Jaaad&#43;6VXTV3A8&#43;7cDOZ04tqxUyHiM=" rel="preload stylesheet"
     as="style">
 
 <link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
@@ -25,6 +25,17 @@
 <link rel="alternate" type="application/rss&#43;xml" href="https://www.brianweinstein.co/posts/index.xml">
 
 
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-CPC9GR2VCM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 <meta property="og:title" content="Posts" />
 <meta property="og:description" content="bw description" />
 <meta property="og:type" content="website" />
@@ -265,133 +276,12 @@ May 31, 2016&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Mapping the frozen yogurt shop closest to each Manhattan apartment" href="https://www.brianweinstein.co/posts/20160531-froyo-nyc/"></a>
 </article>
-<article class="post-entry">
-  
-  <header class="entry-header">
-    <h2>
-      Wave Equation
-    </h2>
-  </header>
-  <section class="entry-subtitle">
-    <p></p>
-  </section>
-  <section class="entry-content">
-    <p>              The wave equation is a partial differential equation that describes the propagation of various types of waves.
-The equation appears throughout many fields in physics, including acoustics, fluid dynamics, electromagnetism, and quantum mechanics. With some modifications, it can even describe the spread of traffic jams on busy highways!
-The one-dimensional equation was first discovered by d’Alembert in 1746 as he studied how vibrations propagated through a string, and the two- and three-dimensional equations were solved soon after by Euler during his study of acoustics.
-The simulations above show the propagation of a disturbance on a two-dimensional surface for two different sets of boundary conditions [1] [2].
- Mathematica code posted here.
-...</p>
-  </section>
-  <footer class="entry-footer">
 
-Jan 28, 2015&nbsp;·&nbsp;Brian Weinstein
-</footer>
-  <a class="entry-link" aria-label="post link to Wave Equation" href="https://www.brianweinstein.co/posts/20150128-wave-equation/"></a>
-</article>
-<article class="post-entry">
-  
-  <header class="entry-header">
-    <h2>
-      Platonic Solids
-    </h2>
-  </header>
-  <section class="entry-subtitle">
-    <p></p>
-  </section>
-  <section class="entry-content">
-    <p>                  A Platonic solid is a polyhedron where (1) each face is the same regular polygon, and (2) each vertex joins the same number of faces.
-The Platonic solids are highly symmetrical, and, in three dimensions, only five such solids can exist: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron.
-This was first proven in Euclid’s Elements around 300 B.C., and has since been more rigorously proven using the Euler characteristic. The proofs are relatively easy to follow, and if you’re interested you can check them out both here and here.
- Mathematica code:
-pSolids={&#34;Tetrahedron&#34;,&#34;Cube&#34;,&#34;Octahedron&#34;,&#34;Dodecahedron&#34;,&#34;Icosahedron&#34;} Manipulate[Graphics3D[ {Opacity[0.8],Rotate[PolyhedronData[pSolids[[n]],&#34;Faces&#34;],th,{0,0,1}], Opacity[0],Circumsphere[PolyhedronData[pSolids[[n]], &#34;VertexCoordinates&#34;][[1;;4]]]}, Boxed-&gt;False,SphericalRegion-&gt;True],{n,1,5,1},{th,0,2\[Pi]}] ...</p>
-  </section>
-  <footer class="entry-footer">
-
-Jan 20, 2015&nbsp;·&nbsp;Brian Weinstein
-</footer>
-  <a class="entry-link" aria-label="post link to Platonic Solids" href="https://www.brianweinstein.co/posts/20150120-platonic-solids/"></a>
-</article>
-<article class="post-entry">
-  
-  <header class="entry-header">
-    <h2>
-      Lonely Runner Conjecture
-    </h2>
-  </header>
-  <section class="entry-subtitle">
-    <p></p>
-  </section>
-  <section class="entry-content">
-    <p>                      Imagine n runners on a circular track of length 1. The runners start from the same spot at the same time, and each has a distinct, constant speed. A runner is considered “lonely” whenever it is a distance of at least 1/n from every other runner. The Lonely Runner Conjecture (LRC) states that each runner will eventually, at some point in time, be lonely.
-Said differently, the LRC states that for each runner, the spacing around it will eventually be greater than or equal to the spacing it would experience if the all of the runners were equally distributed around the track.
-The conjecture has been proven to be true for 7 or fewer runners, but, interestingly enough, has never been proven to work for all cases of 8 or more runners. [In my 8-runner simulation above, I’ve only shown that it works for a specific set of runner speeds — I haven’t proven that it works for all sets of speeds.]
-In the GIFs above, an arc appears around a runner whenever the runner is lonely, and the color of a runner fades after it’s been lonely at least once.
- Mathematica code posted here.
-Additional sources not linked above: [1] [2] [3]
-...</p>
-  </section>
-  <footer class="entry-footer">
-
-Dec 25, 2014&nbsp;·&nbsp;Brian Weinstein
-</footer>
-  <a class="entry-link" aria-label="post link to Lonely Runner Conjecture" href="https://www.brianweinstein.co/posts/20141225-lonely-runner-conjecture/"></a>
-</article>
-<article class="post-entry">
-  
-  <header class="entry-header">
-    <h2>
-      Modeling Comet 67P
-    </h2>
-  </header>
-  <section class="entry-subtitle">
-    <p></p>
-  </section>
-  <section class="entry-content">
-    <p>                      Two weeks ago, the ESA made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.
-Determining where Philae would land was a big step in this mission. Many attributes about the comet, including its topography, were taken into account. To help in this process, the ESA derived a 3D model of the comet’s surface, and the data (made up of over 30,000 measurements) was recently released.
-The images above use ESA data to model the surface of 67P. By adjusting lighting and orientation, actual photos taken by Rosetta (images 3 and 5) can be reproduced.
-You can play around with the model yourself!
-Either use the code below in Mathematica or on the Wolfram Programming Cloud (with a free account), or play with the model online by clicking here*.
- *This link will expire on Dec 23, 2014, after which you’ll have to upload the .obj file directly to the online viewer.
-Mathematica code:
-objLink = &#34;http://sci.esa.int/science-e/www/object/doc.cfm?fobjectid=54726&#34;; comet = Import[objLink, &#34;OBJ&#34;]; pts = Import[objLink, {&#34;OBJ&#34;, &#34;VertexData&#34;}]; ListSurfacePlot3D[pts, MaxPlotPoints -&gt; 20, Mesh -&gt; All, MeshStyle -&gt; Opacity[0.4]] Show[comet, Background -&gt; Black, Lighting -&gt; {{&#34;Directional&#34;, LightGray, {-7, -10, 10}}}] Additional sources: [1] [2] [3]
-Images 3 &amp; 5: ESA/Rosetta/NAVCAM, CC BY-SA IGO 3.0
-...</p>
-  </section>
-  <footer class="entry-footer">
-
-Nov 24, 2014&nbsp;·&nbsp;Brian Weinstein
-</footer>
-  <a class="entry-link" aria-label="post link to Modeling Comet 67P" href="https://www.brianweinstein.co/posts/20141124-comet-67p/"></a>
-</article>
-<article class="post-entry">
-  
-  <header class="entry-header">
-    <h2>
-      Harmonographs
-    </h2>
-  </header>
-  <section class="entry-subtitle">
-    <p></p>
-  </section>
-  <section class="entry-content">
-    <p>                  A harmonograph is a mechanical device consisting of two or more pendulums attached to a pen. The swinging pendulums control the motion of the pen, tracing out a geometric pattern on a sheet of paper.
-Since the system is damped by friction, the pattern spirals in on itself as time progresses.
-Each of the GIFs above simulate the output of a 4-pendulum system (modeled after a harmonograph as configured in this video). The different outputs are generated by using different pendulum length ratios in each simulation.
- Mathematica code posted here.
-Additional source not linked above.
-...</p>
-  </section>
-  <footer class="entry-footer">
-
-Nov 10, 2014&nbsp;·&nbsp;Brian Weinstein
-</footer>
-  <a class="entry-link" aria-label="post link to Harmonographs" href="https://www.brianweinstein.co/posts/20141110-harmonographs/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
+    <a class="view-all-posts-no-prev" href="/archives">View All</a>
     <a class="next" href="https://www.brianweinstein.co/posts/page/2/">Next Page »</a>
+
   </nav>
 </footer>
 

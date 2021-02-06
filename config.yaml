@@ -1,7 +1,7 @@
 baseURL: "https://www.brianweinstein.co/"
 title: Brian Weinstein
 # description: Brian's site
-paginate: 10
+paginate: 5
 theme: hugo-PaperMod
 
 # publishDir: docs #The directory to where Hugo will write the final static site (the HTML files etc.)
@@ -12,7 +12,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# googleAnalytics: UA-123-45
+googleAnalytics: G-CPC9GR2VCM
 
 minify:
     disableXML: true

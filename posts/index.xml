@@ -134,5 +134,118 @@ The first GIF above shows Rutherford’s planetary model, which was proposed in 
       <description>Cops and Robbers is a mathematical game in which pursuers (cops) attempt to capture evaders (robbers). The game is one of many pursuit-evasion games, each of which is governed by a different set of rules. The general goal of these problems is to determine the number of pursuers required to capture a given number of evaders.</description>
     </item>
     
+    <item>
+      <title>Signal Collection and Parabolic Reflectors</title>
+      <link>https://www.brianweinstein.co/posts/20140811-signal-collection-parabolic-reflectors/</link>
+      <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140811-signal-collection-parabolic-reflectors/</guid>
+      <description>A reflector is a type of antenna that receives and focuses various types of signals. Reflectors have numerous applications, from satellite dishes and telescopes, to long-distance microphones and car headlights. One common feature of these examples is their parabolic shape, giving them the name parabolic reflectors.
+It turns out that paraboloids are the perfect shape for focusing signals from distant sources.</description>
+    </item>
+    
+    <item>
+      <title>Taylor Series Approximations</title>
+      <link>https://www.brianweinstein.co/posts/20140730-taylor-series-approximations/</link>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140730-taylor-series-approximations/</guid>
+      <description>A Taylor series is a way to represent a function in terms of polynomials. Since polynomials are usually much easier to work with than complicated functions, Taylor series have numerous applications in both math and physics.
+There are many equations in physics — like the one describing the motion of a pendulum — that are impossible to solve in terms of elementary functions. &amp;ldquo;Approximations using the first few terms of a Taylor series can make [these] otherwise unsolvable problems&amp;rdquo; solvable for a restricted area of interest [1].</description>
+    </item>
+    
+    <item>
+      <title>Rotational Stability</title>
+      <link>https://www.brianweinstein.co/posts/20140713-rotational-stability/</link>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140713-rotational-stability/</guid>
+      <description>Time for an experiment! Find a book and secure it shut using tape or a rubber band. Now experiment with spinning the book while tossing it into the air. You’ll notice that when the book is spun about its longest or shortest axis it rotates stably, but when spun about its intermediate-length axis it quickly wobbles out of control.</description>
+    </item>
+    
+    <item>
+      <title>Gabriel’s Horn and the Painter’s Paradox</title>
+      <link>https://www.brianweinstein.co/posts/20140629-painters-paradox/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140629-painters-paradox/</guid>
+      <description>Gabriel’s Horn is a three-dimensional horn shape with the counterintuitive property of having a finite volume but an infinite surface area.
+This fact results in the Painter’s Paradox — A painter could fill the horn with a finite quantity of paint, “and yet that paint would not be sufficient to coat [the horn’s] inner surface” [1].
+If the horn’s bell had, for example, a 6-inch radius, we’d only need about a half gallon of paint to fill the horn all the way up.</description>
+    </item>
+    
+    <item>
+      <title>Lagrangian Points</title>
+      <link>https://www.brianweinstein.co/posts/20140609-lagrangian-points/</link>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140609-lagrangian-points/</guid>
+      <description>The Lagrangian points are the five locations in an orbital system where the combined gravitational force of two large masses is exactly canceled out by the centrifugal force arising from the rotating reference frame.
+At these five points, the net force on a third body (of negligible mass) is 0, allowing the third object to be completely stationary relative to the two other masses. That is, when placed at any of these points, the third body stays perfectly still in the rotating frame.</description>
+    </item>
+    
+    <item>
+      <title>Sonic Booms and the Doppler Effect</title>
+      <link>https://www.brianweinstein.co/posts/20140528-sonic-boom-doppler-effect/</link>
+      <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140528-sonic-boom-doppler-effect/</guid>
+      <description>The Doppler effect is the shift in the frequency of a wave observed when the source of the wave (or the medium through which the wave travels) is moving relative to the observer.
+We’re most familiar with the Doppler effect as it appears in sound waves traveling through air (i.e., pressure waves) – think of how the pitch of a siren drops as an emergency vehicle passes you.</description>
+    </item>
+    
+    <item>
+      <title>Chaos and the Double Pendulum</title>
+      <link>https://www.brianweinstein.co/posts/20140519-chaos-and-the-double-pendulum/</link>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140519-chaos-and-the-double-pendulum/</guid>
+      <description>A chaotic system is one in which infinitesimal differences in the starting conditions lead to drastically different results as the system evolves.
+Summarized by mathematician Edward Lorenz, &amp;ldquo;Chaos [is] when the present determines the future, but the approximate present does not approximately determine the future.&amp;rdquo;
+There&amp;rsquo;s an important distinction to make between a chaotic system and a random system. Given the starting conditions, a chaotic system is entirely deterministic. A random system, on the other hand, is entirely non-deterministic, even when the starting conditions are known.</description>
+    </item>
+    
+    <item>
+      <title>Three-Body Problem in 3D</title>
+      <link>https://www.brianweinstein.co/posts/20140512-three-body-problem-3d/</link>
+      <pubDate>Mon, 12 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140512-three-body-problem-3d/</guid>
+      <description>A couple of weeks ago I made a post about the classical three-body problem, which involves determining the motion of three masses interacting via gravity over time.
+In that simulation, the three masses were restricted to a plane. Even though we live in three spatial dimensions, a two-dimensional model for celestial orbits isn’t such a bad approximation – the orbits of masses in celestial system are often within a few degrees of the same plane.</description>
+    </item>
+    
+    <item>
+      <title>Non-Orientable Surfaces</title>
+      <link>https://www.brianweinstein.co/posts/20140505-non-orientable-surfaces/</link>
+      <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140505-non-orientable-surfaces/</guid>
+      <description>An orientable surface is a surface on which it’s possible to make a consistent definition of direction. Most surfaces we encounter – like spheres, planes, and tori (doughnut shapes) – are orientable. When visualized in three dimensions, orientable surfaces have two distinct sides.
+Non-orientable surfaces, on the other hand, have only one side. From Wikipedia, “The essence of one-sidedness is that [an] ant can crawl from one side of the surface to the ‘other’ without going through the surface or flipping over an edge, but simply by crawling far enough.</description>
+    </item>
+    
+    <item>
+      <title>Three-Body Problem on a Plane</title>
+      <link>https://www.brianweinstein.co/posts/20140425-three-body-problem/</link>
+      <pubDate>Fri, 25 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140425-three-body-problem/</guid>
+      <description>Given the starting positions, velocities, and masses of three objects interacting via gravity, the classical three-body problem involves determining the motions of the three particles throughout time.
+What’s cool about the three-body system is that it’s impossible to solve for the motions of the objects exactly. That is, we can’t write down an equation that describes the system. Instead of finding an exact solution, we solve the system numerically, which amounts to finding an accurate approximation.</description>
+    </item>
+    
+    <item>
+      <title>Fourier Series</title>
+      <link>https://www.brianweinstein.co/posts/20140423-fourier-series/</link>
+      <pubDate>Wed, 23 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.co/posts/20140423-fourier-series/</guid>
+      <description>A Fourier series is a way to expand a periodic function in terms of sines and cosines. The Fourier series is named after Joseph Fourier, who introduced the series as he solved for a mathematical way to describe how heat transfers in a metal plate.
+The GIFs above show the 8-term Fourier series approximations of the square wave and the sawtooth wave.
+ Mathematica code:
+f[t_] := SawtoothWave[t] T = 1; nmax = 18; a0 = (2/T)*Integrate[f[t], {t, -(T/2), T/2}] anlist = Table[(2/T)*Integrate[f[t]*Cos[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] bnlist = Table[(2/T)*Integrate[f[t]*Sin[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] fs[t_, nmax_] := a0/2 + Sum[anlist[[n]]*Cos[(2*Pi*n*t)/T] + bnlist[[n]]*Sin[(2*Pi*n*t)/T], {n, 1, nmax}] Manipulate[Column[{Plot[{f[t], fs[t, nmax0]}, {t, -1, 1}, PlotRange -&amp;gt; All, AxesLabel -&amp;gt; {&amp;quot;t&amp;quot;, &amp;quot;f(t)&amp;quot;}, PlotStyle -&amp;gt; {{Thick, Black}, {Thick, Red}}, ImageSize -&amp;gt; 700, AspectRatio -&amp;gt; 1/2.</description>
+    </item>
+    
   </channel>
 </rss>

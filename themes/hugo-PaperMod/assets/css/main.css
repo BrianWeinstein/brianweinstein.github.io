@@ -33,6 +33,34 @@
     margin-inline-start: auto
 }
 
+.pagination .view-all-posts-no-prev {
+    /* margin-inline-start: auto; */
+    background: var(--code-bg);
+    color: var(--content);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--tertiary);
+}
+
+.pagination .view-all-posts-yes-both {
+    margin-inline-start: auto;
+    background: var(--code-bg);
+    color: var(--content);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--tertiary);
+}
+
+.pagination .view-all-posts-no-next {
+    margin-inline-start: auto;
+    background: var(--code-bg);
+    color: var(--content);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--tertiary);
+}
+
+
 .social-icons {
     padding: 12px 0
 }

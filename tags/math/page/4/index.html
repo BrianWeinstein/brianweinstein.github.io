@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>math | Brian Weinstein</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content="bw description">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://www.brianweinstein.co/tags/math/" />
+<link href="/assets/css/stylesheet.min.de32830eb8ae1cd98ed4969a69dfba5574d5dc0f3eedc0ce674e2dab15321e23.css" integrity="sha256-3jKDDriuHNmO1Jaaad&#43;6VXTV3A8&#43;7cDOZ04tqxUyHiM=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.brianweinstein.co/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.brianweinstein.co/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.brianweinstein.co/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.brianweinstein.co/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+<link rel="alternate" type="application/rss&#43;xml" href="https://www.brianweinstein.co/tags/math/index.xml">
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-CPC9GR2VCM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<meta property="og:title" content="math" />
+<meta property="og:description" content="bw description" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.brianweinstein.co/tags/math/" />
+<meta property="og:image" content="https://www.brianweinstein.co/47"/>
+<meta property="og:updated_time" content="2015-01-28T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.brianweinstein.co/47"/>
+
+<meta name="twitter:title" content="math"/>
+<meta name="twitter:description" content="bw description"/>
+
+
+
+</head>
+
+<body class="list" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.brianweinstein.co/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://www.brianweinstein.co/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.brianweinstein.co/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main"> 
+<header class="page-header">
+  <h1>math</h1>
+</header>
+
+
+
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Three-Body Problem in 3D
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>A couple of weeks ago I made a post about the classical three-body problem, which involves determining the motion of three masses interacting via gravity over time.
+In that simulation, the three masses were restricted to a plane. Even though we live in three spatial dimensions, a two-dimensional model for celestial orbits isn’t such a bad approximation – the orbits of masses in celestial system are often within a few degrees of the same plane.
+In the simulation above I’ve built in a third spatial dimension and modeled a system in which the masses do not stay within the same plane. In this simulation, the green and red bodies are 9 and 13 times more massive than the blue body, respectively.
+ The Mathematica code for this one was a bit long, so I’ve posted it here.
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+May 12, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Three-Body Problem in 3D" href="https://www.brianweinstein.co/posts/20140512-three-body-problem-3d/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Non-Orientable Surfaces
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>              An orientable surface is a surface on which it’s possible to make a consistent definition of direction. Most surfaces we encounter – like spheres, planes, and tori (doughnut shapes) – are orientable. When visualized in three dimensions, orientable surfaces have two distinct sides.
+Non-orientable surfaces, on the other hand, have only one side. From Wikipedia, “The essence of one-sidedness is that [an] ant can crawl from one side of the surface to the ‘other’ without going through the surface or flipping over an edge, but simply by crawling far enough.” At any point on a non-orientable surface it’s impossible to uniquely define, for example, the “clockwise” direction.
+The GIFs above show two examples of non-orientable surfaces: a Klein bottle and a Möbius strip.
+ Mathematica code [Klein Bottle]:
+xk[u_, v_] := (-2/15)*Cos[u]*(3*Cos[v] - 30*Sin[u] &#43; 90*Cos[u]^4*Sin[u] - 60*Cos[u]^6*Sin[u] &#43; 5*Cos[u]*Cos[v]*Sin[u]) yk[u_, v_] := (-15^(-1))*Sin[u]*(3*Cos[v] - 3*Cos[u]^2*Cos[v] - 48*Cos[u]^4*Cos[v] &#43; 48*Cos[u]^6*Cos[v] - 60*Sin[u] &#43; 5*Cos[u]*Cos[v]*Sin[u] - 5*Cos[u]^3*Cos[v]*Sin[u] - 80*Cos[u]^5*Cos[v]*Sin[u] &#43; 80*Cos[u]^7*Cos[v]*Sin[u]) zk[u_, v_] := (2/15)*(3 &#43; 5*Cos[u]*Sin[u])*Sin[v] kb[u_, v_] := {xk[u, v], yk[u, v], zk[u, v]} Manipulate[ParametricPlot3D[kb[u, v], {u, 0, umax}, {v, 0, 2*Pi}, PlotRange -&gt; {{-1.8, 2}, {0, 4.5}, {-0.75, 0.75}}, Axes -&gt; False, Boxed -&gt; False, PlotStyle -&gt; {Opacity[0.65]}, Mesh -&gt; {20, 11}, MeshStyle -&gt; Directive[Gray, Opacity[0.65], Thickness[0.003]]], {umax, 0.001, Pi}] Mathematica code [Möbius Strip]:
+xm[u_, v_] := (1 &#43; (v/2)*Cos[u/2])*Cos[u] ym[u_, v_] := (1 &#43; (v/2)*Cos[u/2])*Sin[u] zm[u_, v_] := (v/2)*Sin[u/2] ms[u_, v_] := {xm[u, v], ym[u, v], zm[u, v]} Manipulate[ParametricPlot3D[ ms[u, v], {u, 0, umax}, {v, -1, 1}, PlotRange -&gt; {{-1.1, 1.5}, {-1.5, 1.5}, {-0.5, 0.5}}, PlotStyle -&gt; {Opacity[0.65]}, Axes -&gt; False, Boxed -&gt; False, Mesh -&gt; {20, 5}, MeshStyle -&gt; Directive[Gray, Opacity[0.65], Thickness[0.003]]], {umax, 0.001, 2*Pi}] ...</p>
+  </section>
+  <footer class="entry-footer">
+
+May 5, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Non-Orientable Surfaces" href="https://www.brianweinstein.co/posts/20140505-non-orientable-surfaces/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Three-Body Problem on a Plane
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>Given the starting positions, velocities, and masses of three objects interacting via gravity, the classical three-body problem involves determining the motions of the three particles throughout time.
+What’s cool about the three-body system is that it’s impossible to solve for the motions of the objects exactly. That is, we can’t write down an equation that describes the system. Instead of finding an exact solution, we solve the system numerically, which amounts to finding an accurate approximation.
+The three-body problem is an example of a chaotic system, meaning that even a slight change in the starting conditions drastically changes the time-evolution of the system.
+The GIF above shows a planar (i.e., two-dimensional) three-body system.
+ Mathematica code:
+G = 1; time = 30; mA = 1; xA0 = 0; yA0 = 0; vxA0 = 0; vyA0 = 0; mB = 1; xB0 = 1; yB0 = 0; vxB0 = 0; vyB0 = 0; mC = 1; xC0 = 0; yC0 = 0.8; vxC0 = 0; vyC0 = 0; soln1 = NDSolve[ {mA*Derivative[2][xA][t] == -((G*mA*mB*(xA[t] - xB[t]))/((xA[t] - xB[t])^2 &#43; (yA[t] - yB[t])^2)^(3/2)) - (G*mA*mC*(xA[t] - xC[t]))/((xA[t] - xC[t])^2 &#43; (yA[t] - yC[t])^2)^(3/2), mA*Derivative[2][yA][t] == -((G*mA*mB*(yA[t] - yB[t]))/((xA[t] - xB[t])^2 &#43; (yA[t] - yB[t])^2)^(3/2)) - (G*mA*mC*(yA[t] - yC[t]))/((xA[t] - xC[t])^2 &#43; (yA[t] - yC[t])^2)^(3/2), mB*Derivative[2][xB][t] == -((G*mB*mC*(xB[t] - xC[t]))/((xB[t] - xC[t])^2 &#43; (yB[t] - yC[t])^2)^(3/2)) - (G*mB*mA*(xB[t] - xA[t]))/((xB[t] - xA[t])^2 &#43; (yB[t] - yA[t])^2)^(3/2), mB*Derivative[2][yB][t] == -((G*mB*mC*(yB[t] - yC[t]))/((xB[t] - xC[t])^2 &#43; (yB[t] - yC[t])^2)^(3/2)) - (G*mB*mA*(yB[t] - yA[t]))/((xB[t] - xA[t])^2 &#43; (yB[t] - yA[t])^2)^(3/2), mC*Derivative[2][xC][t] == -((G*mC*mA*(xC[t] - xA[t]))/((xC[t] - xA[t])^2 &#43; (yC[t] - yA[t])^2)^(3/2)) - (G*mC*mB*(xC[t] - xB[t]))/((xC[t] - xB[t])^2 &#43; (yC[t] - yB[t])^2)^(3/2), mC*Derivative[2][yC][t] == -((G*mC*mA*(yC[t] - yA[t]))/((xC[t] - xA[t])^2 &#43; (yC[t] - yA[t])^2)^(3/2)) - (G*mC*mB*(yC[t] - yB[t]))/((xC[t] - xB[t])^2 &#43; (yC[t] - yB[t])^2)^(3/2), xA[0] == xA0, yA[0] == yA0, Derivative[1][xA][0] == vxA0, Derivative[1][yA][0] == vyA0, xB[0] == xB0, yB[0] == yB0, Derivative[1][xB][0] == vxB0, Derivative[1][yB][0] == vyB0, xC[0] == xC0, yC[0] == yC0, Derivative[1][xC][0] == vxC0, Derivative[1][yC][0] == vyC0 }, {xA, yA, xB, yB, xC, yC},{t, 0, time}, MaxSteps -&gt; 100000] x1[t_] := Evaluate[xA[t] /. soln1[[1,1]]] y1[t_] := Evaluate[yA[t] /. soln1[[1,2]]] x2[t_] := Evaluate[xB[t] /. soln1[[1,3]]] y2[t_] := Evaluate[yB[t] /. soln1[[1,4]]] x3[t_] := Evaluate[xC[t] /. soln1[[1,5]]] y3[t_] := Evaluate[yC[t] /. soln1[[1,6]]] Manipulate[Show[ {ParametricPlot[ {{x1[t], y1[t]}, {x2[t], y2[t]}, {x3[t], y3[t]}}, {t, tmax - 0.5, tmax}, Axes -&gt; False, PlotRange -&gt; {{-0.55, 1.45}, {-0.55, 1.08}}, PlotStyle -&gt; {Red, Green, Blue}, GridLines -&gt; {Table[0.25*x &#43; 0.07, {x, -100, 100}], Table[0.25*y &#43; 0.01, {y, -100, 100}]}, GridLinesStyle -&gt; Directive[LightGray]]}, {Graphics[{Opacity[0.7], EdgeForm[Directive[Black]], Red, Disk[{x1[tmax], y1[tmax]}, 0.03], Green, Disk[{x2[tmax], y2[tmax]}, 0.03], Blue, Disk[{x3[tmax], y3[tmax]}, 0.03]}]}, ImageSize -&gt; 600], {tmax, 6.05, 16.05}] ...</p>
+  </section>
+  <footer class="entry-footer">
+
+Apr 25, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Three-Body Problem on a Plane" href="https://www.brianweinstein.co/posts/20140425-three-body-problem/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Fourier Series
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>A Fourier series is a way to expand a periodic function in terms of sines and cosines. The Fourier series is named after Joseph Fourier, who introduced the series as he solved for a mathematical way to describe how heat transfers in a metal plate.
+The GIFs above show the 8-term Fourier series approximations of the square wave and the sawtooth wave.
+ Mathematica code:
+f[t_] := SawtoothWave[t] T = 1; nmax = 18; a0 = (2/T)*Integrate[f[t], {t, -(T/2), T/2}] anlist = Table[(2/T)*Integrate[f[t]*Cos[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] bnlist = Table[(2/T)*Integrate[f[t]*Sin[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] fs[t_, nmax_] := a0/2 &#43; Sum[anlist[[n]]*Cos[(2*Pi*n*t)/T] &#43; bnlist[[n]]*Sin[(2*Pi*n*t)/T], {n, 1, nmax}] Manipulate[Column[{Plot[{f[t], fs[t, nmax0]}, {t, -1, 1}, PlotRange -&gt; All, AxesLabel -&gt; {&#34;t&#34;, &#34;f(t)&#34;}, PlotStyle -&gt; {{Thick, Black}, {Thick, Red}}, ImageSize -&gt; 700, AspectRatio -&gt; 1/2.8], Row[{&#34;f(t)=&#34;, fs[t, nmax0]}]}], {nmax0, 1, nmax, 1}] ...</p>
+  </section>
+  <footer class="entry-footer">
+
+Apr 23, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Fourier Series" href="https://www.brianweinstein.co/posts/20140423-fourier-series/"></a>
+</article>
+
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://www.brianweinstein.co/tags/math/page/3/">« Prev Page</a>
+    <a class="view-all-posts-no-next" href="/archives">View All</a>
+
+  </nav>
+</footer>
+
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://www.brianweinstein.co/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>
