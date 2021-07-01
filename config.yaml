@@ -21,7 +21,7 @@ minify:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Brian Weinstein
-    description: "bw description"
+    description: "hello! 👋"
     author: ["Brian Weinstein"]
 
     # images: "<link or path of image for opengraph, twitter-cards>"
