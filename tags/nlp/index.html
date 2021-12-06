@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>nlp | Brian Weinstein</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content="hello! 👋">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://www.brianweinstein.co/tags/nlp/" />
+<link href="/assets/css/stylesheet.min.7ba29db53678306c69ab8292cc067bc3c9fb1d63ce0f2136a7d02e3c8d38bd86.css" integrity="sha256-e6KdtTZ4MGxpq4KSzAZ7w8n7HWPODyE2p9AuPI04vYY=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.brianweinstein.co/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.brianweinstein.co/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.brianweinstein.co/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.brianweinstein.co/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.89.4" />
+<link rel="alternate" type="application/rss&#43;xml" href="https://www.brianweinstein.co/tags/nlp/index.xml">
+
+
+<meta property="og:title" content="nlp" />
+<meta property="og:description" content="hello! 👋" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.brianweinstein.co/tags/nlp/" />
+<meta property="og:image" content="https://www.brianweinstein.co/47"/>
+<meta property="og:updated_time" content="2016-10-03T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.brianweinstein.co/47"/>
+
+<meta name="twitter:title" content="nlp"/>
+<meta name="twitter:description" content="hello! 👋"/>
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPC9GR2VCM"></script>
+<script>
+if (location.hostname === "brianweinstein.co")
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CPC9GR2VCM');
+</script>
+
+</head>
+
+<body class="list" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.brianweinstein.co/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://www.brianweinstein.co/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.brianweinstein.co/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main"> 
+<header class="page-header">
+  <h1>nlp</h1>
+</header>
+
+
+
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Speaking like a president
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p>Natural language processing on the first 2016 presidential debate</p>
+  </section>
+  <section class="entry-content">
+    <p>The first debate in the 2016 presidential race was held on September 26. It’s no secret that Clinton and Trump are running on drastically different platforms, but how do they compare when it comes to their speech patterns and word choice? To quantify this, I dug into the data, using the debate transcript and natural language processing.
+I measured the sentiment of Clinton’s and Trump’s responses, and examined how emotional their words were throughout the debate. I also looked at each candidate’s most commonly used adjectives. Building off the work of Alvin Chang at Vox, I was also able to examine how the speech patterns of Clinton and Trump each changed when directly responding to and when skirting the questions.
+Sentiment Using the Google Cloud Natural Language API, I measured the sentiment of each candidate’s answers. The polarity of a response is a measure of how positive or negative it is, and the magnitude indicates how much emotion the words convey. The chart below shows the polarity of each candidate’s responses, weighted by the magnitude.
+Trump and Clinton matched each other’s polarity for the first half of the debate, but after his defense of stop-and-frisk around 9:50 PM, Trump’s words became much more negative.
+Throughout the rest of the debate — during the questions on birtherism, cyber security, homegrown terrorism, nuclear weapons, and Clinton’s looks and stamina — Clinton became more positive and Trump more negative.
+The combination of polarity and magnitude gives us the best understanding of each line’s overall sentiment, and each candidate’s most positive and negative responses are posted here.
+Braggadocios, and other adjectives I was also interested in the adjectives each candidate used most frequently during the debate. Using syntax analysis to extract each word’s part of speech, I identified the most-used adjectives of each candidate.
+Answers vs non-answers As Chang found, the candidates spent a lot of time not answering Holt’s questions — 48% of Clinton’s words and a whopping 69% of Trump’s words were used in non-answers — and using the data Chang compiled, I was able to look at how the candidate’s speech patterns differed when answering and not answering the questions.
+Sentence subjects (“I alone can fix it”) Using part-of-speech tagging, I also identified the subjects of each candidate’s sentences. Clinton was more inclusive in her words, but only when directly responding to questions — using the plural “we” more frequently than the singular “I” — and the the opposite was true for her when avoiding a response. Trump, on the other hand, was always more likely to use “I” over “we”.
+Non-answer phrases The words each candidate used when directly answering the questions are all, unsurprisingly, highly related to the questions Holt asked. What’s interesting here are the topics the candidates defaulted to when avoiding a response.
+  A handful of my findings didn’t make it into this post. If you’re interested in more, there’s some additional analysis, including multiple classification models, in the project’s GitHub repo. The text of this article (excluding this sentence) has polarity -0.4 and magnitude 15.5, so despite my best efforts it’s leaning slightly negative. Many thanks to Alvin Chang and Vox for their permission to use their annotated transcript, and to Kelsey Scherer for designing the charts and lead image. Analysis was performed in R. Plots were generated using ggplot2, and then styled by Scherer using Sketch. The sentiment scores, part of speech tags, and all of the other NLP datasets can be found in the GitHub repo.  ...</p>
+  </section>
+  <footer class="entry-footer">
+
+Oct 3, 2016&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Speaking like a president" href="https://www.brianweinstein.co/posts/20161003-debate-nlp/"></a>
+</article>
+
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://www.brianweinstein.co/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>

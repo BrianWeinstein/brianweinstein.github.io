@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>product | Brian Weinstein</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content="hello! 👋">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://www.brianweinstein.co/tags/product/" />
+<link href="/assets/css/stylesheet.min.7ba29db53678306c69ab8292cc067bc3c9fb1d63ce0f2136a7d02e3c8d38bd86.css" integrity="sha256-e6KdtTZ4MGxpq4KSzAZ7w8n7HWPODyE2p9AuPI04vYY=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.brianweinstein.co/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.brianweinstein.co/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.brianweinstein.co/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.brianweinstein.co/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.89.4" />
+<link rel="alternate" type="application/rss&#43;xml" href="https://www.brianweinstein.co/tags/product/index.xml">
+
+
+<meta property="og:title" content="product" />
+<meta property="og:description" content="hello! 👋" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.brianweinstein.co/tags/product/" />
+<meta property="og:image" content="https://www.brianweinstein.co/47"/>
+<meta property="og:updated_time" content="2020-12-22T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.brianweinstein.co/47"/>
+
+<meta name="twitter:title" content="product"/>
+<meta name="twitter:description" content="hello! 👋"/>
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPC9GR2VCM"></script>
+<script>
+if (location.hostname === "brianweinstein.co")
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CPC9GR2VCM');
+</script>
+
+</head>
+
+<body class="list" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.brianweinstein.co/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://www.brianweinstein.co/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.brianweinstein.co/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main"> 
+<header class="page-header">
+  <h1>product</h1>
+</header>
+
+
+
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Defining meaningful metrics for product teams
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p>A checklist for developing better product metrics &amp; KPIs</p>
+  </section>
+  <section class="entry-content">
+    <p>Defining clear KPIs is one of the most important things for a Product team, and (unfortunately) it’s incredibly easy to do poorly. A good metric not only helps evaluate your product’s performance, but also guides your team in building the right things to progress you toward your goal.
+The framework described below is one I’ve used for a few years while working with teams that develop software products, and has been very helpful for me, my Data Science teammates, and our Product partners in measuring the success or failure of the products we build.
+Shared definitions for objectives, KPIs, &amp; product metrics Before diving in, let’s define a few relevant terms and how they relate to each other.
+An objective is a description of the impact you want to have on the business. It should be qualitative, easy to understand, and somewhat obvious.
+A key performance indicator (KPI) (aka success metric) is the one, top-level metric that measures if your product is driving the outcome outlined in the Objective. This is the quantifiable top-level goal of your product, and should be a more quantitative statement of your objective. This is the metric you use to measure the performance of your product. Your success metric should be set longer-term and the definition of it shouldn’t change very much, if at all, from quarter to quarter.
+A product metric measures the success of a specific feature. These are lower level metrics than KPIs: product metrics are something you should monitor to make sure your feature is facilitating the user behaviors that ultimately contribute to your KPI. Product metrics are also helpful in reporting: to ensure users are making use of the feature you’ve built in the way that you intend.
+A health metric is used to monitor the technical health of a product. These are usually more pertinent to Engineers, but important for Product leaders to monitor as well. Performance metrics include things like page load time, API response time, etc. I won’t focus on them here, but want to call out that they’re distinct from these other types of metrics.
+You may have different names for some of these concepts, but the ideas behind them should be more or less the same. What’s most important is aligning on a common vocabulary for you and your team to use when talking about these ideas.
+(a bad metric)
+The “good metric” checklist Since it’s so easy to come up with the wrong metric, I like to think through a few criteria while brainstorming to ensure we settle on a metric suitable to the product. The criteria below apply to both KPIs and Product Metrics.
+Specific &amp; sensitive: Metrics should be specific to the product or feature, and need to be explicitly and quantitatively defined. The metric should also be sensitive enough to measure the impact we expect to see.
+Robust: To complement the sensitivity criteria above, we also need to make sure the metric is measuring only the effect of the product of interest, and that it isn’t reactive to things we expect to change but don’t control. Related to internal validity, we should try to avoid using a metric that can be significantly influenced by anything other than the product/feature we care about.
+Measurable: This one is kind of obvious, but a metric must be something that we can actually measure. It’s not uncommon to ideate a bunch of “ideal” metrics that would perfectly measure the impact of your product, but end up being impossible or infeasible to really capture.
+Interpretable: Metrics should be easy to understand and agreed upon by those whose success is measured by the metric. There’s often a tradeoff between simplicity and accuracy, and I typically err on the side of simplicity. A metric that’s hard to understand provides none of the benefits listed in the section below.
+Aligned: Objectives, KPIs, and Product Metrics are hierarchical: every product should have an objective, a KPI that quantitatively measures progress toward achieving the objective, and then multiple product metrics to evaluate the performance of individual features. A product’s KPI should also be aligned upward with higher level company metrics. Any movement in these metrics should also be reflected in and contribute to those above them in the hierarchy.
+This certainly isn’t an exhaustive list, but captures some of the most important criteria. If your metric meets all five of these conditions you should be in fairly good shape. If your metric doesn’t meet one or more of these criteria, you’ll likely need to ideate other metrics to use for your product.
+Benefits of this approach It takes a fair amount of effort to pick the right metric, and this is why it all matters!
+Clarity of thought: Often what seems obvious to you is not so clear to others. Defining your goals &amp; objectives in terms of hard numbers forces you to make your personal intuition clear to your team and to others at the company.
+Opportunity for innovation: KPIs and product metrics represent a goal, but don’t mandate the path to get there. This frees up everyone on the team to think about new ways to move the needle rather than focusing on a prescribed solution.
+Alignment on goals: When you set your metrics, you tell your business partners what return it should expect from its investment in your team. If expectations aren’t aligned, you’re able to pivot before it becomes a problem.
+Insight for prioritization: You can use your pre-defined KPI to compare the potential impact of a handful of projects you’re considering working on.
+Proof of success: It’s much easier to communicate your impact on the organization when your goals are quantifiable.
+Indication of failure: By monitoring progress toward your goals, it’s easy to correct course or sunset a product when your efforts aren’t as effective as intended.
+Notes on this framework &amp; further reading This is a work in progress! I’ve added to and generalized this framework over the past few years as I’ve worked with different types of teams (based on their domains, operating style, degree of data literacy, etc.), and will keep doing so in the future.
+There’s a lot I don’t touch on in this article, like leading &amp; lagging indicators, reliability, defining targets for your metrics, balancing metrics, and more. For further reading, I like:
+ Finding the metrics that matter for your product by the Product &amp; Data team at Intercom How to grow product with KPIs and How to prioritize work with KPIs by Ilya Leyrikh A framework to define your product metrics by Zandre Coetzer 10 tips on how to choose the right key performance indicators by Roman Pichler  ...</p>
+  </section>
+  <footer class="entry-footer">
+
+Dec 22, 2020&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Defining meaningful metrics for product teams" href="https://www.brianweinstein.co/posts/20201222-defining-meaningful-metrics-for-product-teams/"></a>
+</article>
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Moving beyond the Net Promoter Score
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p>A guide to building a more meaningful metric</p>
+  </section>
+  <section class="entry-content">
+    <p>The Net Promoter Score is a widely-used survey question that companies use to measure customer satisfaction, loyalty, and growth.
+Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant indicators of performance. NPS a bad measure of success, though. It uses a poorly phrased question, a response scale that’s entirely too big, and an absurd method of calculation.
+There are other metrics you can use that will be more accurate, more interpretable, and much more predictive of satisfaction, loyalty, or growth.
+Background The standard Net Promoter Score (NPS) question asks, “How likely is it that you would recommend [company X] to a friend or colleague?” Respondents are given a scale ranging from 0–10, with 0 labeled with “Not at all likely,” and 10 labeled with “Extremely likely.”
+Under the NPS methodology, respondents who submit a 9 or 10 are considered “promoters,” 7 or 8 are considered “passives”, and 0–6 are considered “detractors.”
+The Net Promoter Score for a group of respondents is defined as the percentage of respondents who are promoters minus the percentage of respondents who are detractors.
+NPS = (# of promoters - # of detractors) / (total # of respondents)
+Origin NPS was originally proposed in a December 2003 Harvard Business Review (HBR) article by Fred Reichheld, a director at the Bain &amp; Company management consultancy. Reichheld proposed the score as a “loyalty” metric, which he defines as the “willingness of someone… to make an investment or personal sacrifice in order to strengthen a relationship.”
+Reichheld tested eight survey questions among 4,000 consumers, and tracked these consumers’ future purchases and referrals. He then measured the link between the survey responses and actual purchase and referral behaviors.
+The NPS question — “How likely is it that you would recommend [company X] to a friend or colleague?” — was the 1st- or 2nd- most predictive question in 11 of Reichheld’s 14 case studies, showing “the strongest statistical correlation with repeat purchases or referrals.”
+Reichheld chose a 0-to-10 scale, where 10 meant “extremely likely” to recommend and 0 meant “not at all likely.” He claimed that this scale was
+ “simple and unambiguous,” “divide[s] customers into practical groups deserving different… organizational responses,” was “intuitive to customers when they assign grades,” and was intuitive “to employees and partners responsible for interpreting the results and taking action.”  I disagree with all of these. More on that below.
+Reichheld then grouped the 11-point scale into the three clusters: promoters, passives, and detractors. In his analysis, Reichheld found a strong correlation between companies’ net-promoter figures and their revenue growth rates.
+I highly recommend reading the original article with a critical eye: It’s full of anecdotes and correlations that Reichheld frames as causal relationships. Every few paragraphs he attempts to argue that NPS is superior over some alternative measurement in terms of assessing loyalty, growth, etc.; but fails to sufficiently justify his claims.
+Why do companies use NPS? NPS is popular. I mean very popular. Tons of companies ask customers the NPS question, and many use it to measure and assess their performance.
+Proponents of NPS are drawn to it because it’s a single number that appears — on the surface, at least — to be linked to some significant KPIs. It’s also easy to measure and produces a statistic that changes easily over time.
+If you’re trying to get your organization to be more data-driven, then NPS is certainly better than nothing.
+Why you shouldn’t use NPS Now that we’ve gotten that out of the way, it’s time to discuss the many, many shortcomings of NPS. The phrasing of the NPS question, the measurement scale it uses, and method of calculation all go against the basic principles of survey sciences.
+Question The NPS question asks a respondent to rate the likelihood of a hypothetical future; but strong, reliable survey questions ask respondents about their past behaviors, which tend to be much more predictive than forward-looking hypotheticals. “Do you plan to begin a diet in the next 6 weeks?”, for example, is a very different question from “Did you begin a diet in the last 6 weeks?” The NPS question forces the respondent to predict an ideal, future self, as opposed to reporting on their actualized behaviors.
+The HBR article also claims that the NPS question measures loyalty and growth. In reality, though, it fails to ask about either, and isn’t necessarily what users of NPS are attempting to measure. In many cases, survey questions should be phrased to directly measure the quantity of interest.
+An NPS-like question asking about actualized behavior would look more like, “In the last 6 weeks, have you referred [company X] to a friend or colleague?”
+Reichheld promotes the NPS question as the most accurate one in predicting revenue growth rate. Proponents of NPS often fail to realize, however, that the NPS question was the most accurate from a set of 8 poorly phrased options in Reichheld’s study. In Reichheld’s findings, the NPS question wasn’t even the most accurate predictor in all industries: In database software and computer systems, for example, other questions were stronger predictors of revenue growth rate.
+Scale Responses collected from a large, 11-point scale are extremely noisy, and meaningful changes in ratings are hard to detect. On the NPS scale, the difference between a “6” and a “7” isn’t clear in the survey analysis, and the lack of labels on the intermediate (i.e., non-extreme) choices also make the distinction very subjective to respondents. The NPS scale is poorly calibrated, and so are the responses.
+A better scale would use a 3-option Yes/Maybe/No system or a similar scale with 5 options. For any survey question, the response scale and number of options should be crafted to the individual question, and an 11-option scale is likely always too big.
+Method of calculation The method of calculation is one of the stranger aspects of the NPS.
+The bucketing methodology that groups respondents into Promoters, Passives, and Detractors ends up hiding some improvements and exaggerating others. Even if respondents were able to make meaningful distinctions between a “5” and a “6”, or between a “4” and a “5”, the bucketing method categorizes all of these into the “Detractor” group, and these changes aren’t reflected in the score. An extreme example is when a company with all “0” ratings improves to having all “6” ratings: this is a huge improvement, but the NPS methodology makes it so the score doesn’t change at all. Some changes are also exaggerated by the method of calculation: the distinction between a “6” (detractor) and a “7” (passive), or between an “8” (passive) and a “9” (promoter) is exaggerated by the bucketing methodology.
+The method of calculation — subtracting the percentage of detractor respondents from the percentage of promoter respondents — also produces a metric that’s difficult to interpret and hides important information. All three of the following response sets, for example, produce an NPS of &#43;60:
+Finding an alternative measurement NPS alternatives The most commonly used alternatives to NPS entail a rephrasing of the question and usage of a smaller scale.
+If you’re truly trying to measure growth or word-of-mouth promotion, I highly recommend Netflix’s retrospective phrasing of an NPS-style question. In its early days, Netflix asked subscribers, “In the last 6 weeks, did you recommend us to a friend or family member?” and gave respondents only a Yes/No scale to respond. Netflix also paired this with another question: they asked new subscribers, “Were you recommended to us by a friend or family member?”
+Other companies, like Vox Media’s Polygon, use a similar phrasing of the question with binary response options.
+These are both significant improvements over the standard NPS question and scale.
+YouTube has a version that deviates less from the standard NPS question and scale, but still makes some significant improvements: They keep the standard NPS question, but instead use a smaller, labeled scale.
+Some alternatives that are even better In any survey, the quantity you’re trying to measure should dictate both the question you ask and the scale you use. The questions and scales you design to measure growth, loyalty, satisfaction, etc. should each be customized for a given use case. A few examples for different measurements are outlined below.
+ Growth: In the last 3 months, have you recommended [company X] to a friend, colleague, or family member? [Yes/No] Loyalty: In the last 6 weeks, have you considered [canceling your subscription, switching to another provider, etc.]? [Yes/No] Satisfaction: How satisfied are you with [company X]? [1 (Very dissatisfied), 2 (Dissatisfied), 3 (Neither), 4 (Satisfied), 5 (Very satisfied)]  What to do now  Identify what you’re trying to measure and write an appropriate question. If you want to measure word-of-mouth promotion or estimate future growth, then the “Growth” question above would be a good start. Measuring customer loyalty or customer satisfaction require entirely different questions, so make sure to ask about the thing you’re trying to measure. Pick a reasonable scale for your question. 3- or 5-option satisfaction scales, and a Yes/No binary scale all capture accurate information and are easy for respondents to select from in a response. Use a simple, logical method of calculation. If your response scale has 5 or fewer options, then it’s easy enough to report on the entire response distribution. If you need to have a single number to use in further analysis, then you might like a top-box or top-two-box percentage. You could also use the average of the numeric-encoded values, although you lose some information this way.  Whatever you do, pick something simpler and more interpretable than NPS.
+Additional reading and references  Net Promoter Score Considered Harmful by Jared M. Spool On Surveys by Erika Hall Measuring the WeWork Member Experience by Tomer Sharon  ...</p>
+  </section>
+  <footer class="entry-footer">
+
+Jan 24, 2018&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Moving beyond the Net Promoter Score" href="https://www.brianweinstein.co/posts/20180124-moving-beyond-the-net-promoter-score/"></a>
+</article>
+
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://www.brianweinstein.co/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>
