@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>metrics on Brian Weinstein</title>
+    <link>https://www.brianweinstein.github.io/tags/metrics/</link>
+    <description>Recent content in metrics on Brian Weinstein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.brianweinstein.github.io/tags/metrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defining meaningful metrics for product teams</title>
+      <link>https://www.brianweinstein.github.io/posts/20201222-defining-meaningful-metrics-for-product-teams/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.github.io/posts/20201222-defining-meaningful-metrics-for-product-teams/</guid>
+      <description>A checklist for developing better product metrics &amp;amp; KPIs</description>
+    </item>
+    
+    <item>
+      <title>Moving beyond the Net Promoter Score</title>
+      <link>https://www.brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</link>
+      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</guid>
+      <description>A guide to building a more meaningful metric</description>
+    </item>
+    
+  </channel>
+</rss>
