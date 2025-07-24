@@ -1,61 +1,68 @@
-# from https://medium.com/zendesk-engineering/a-github-actions-workflow-to-generate-publish-your-hugo-website-f36375e56cf7
-# and from https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/.github/workflows/gh-pages.yml
+# This workflow builds a Hugo site and deploys it to GitHub Pages.
+# It is designed to be placed in your repository at .github/workflows/deploy-hugo.yml
 
-# see also https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-first-deployment-with-github_token
+name: Deploy Hugo Site to GitHub Pages
 
-# Workflow to build and deploy site to Github Pages using Hugo
-
-# Name of Workflow
-name: github pages
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# Controls when the workflow will run.
+# Triggers on pushes to the 'master' branch.
+# If your main content branch is named 'main', change 'master' to 'main'.
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master # Or 'main', depending on your default branch name
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 jobs:
-  # This workflow contains a single job called "deploy"
+  # This workflow contains a single job called "deploy".
   deploy:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-20.04 # ubuntu-latest
+    # The type of runner that the job will run on.
+    runs-on: ubuntu-latest # Using ubuntu-latest for broader compatibility
+
+    # Permissions required for deploying to GitHub Pages.
+    # 'contents: write' is needed to push the build output to the gh-pages branch.
+    # 'pages: write' and 'id-token: write' are recommended for GitHub Pages deployments.
     permissions:
       contents: write
       pages: write
+      id-token: write
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
+      # Step 1: Checks-out your repository under $GITHUB_WORKSPACE.
+      # This action checks out your repository, so your workflow can access it.
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Using v4 for the latest stable version
+        with:
+          submodules: true # Fetch Hugo themes if they are added as submodules
+          fetch-depth: 0   # Fetch all history for .GitInfo and .Lastmod (important for Hugo)
 
-    # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
-    - name: Git checkout
-      uses: actions/checkout@v2
-      with:
-          submodules: true  # Fetch Hugo themes
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      # Step 2: Sets up the specified version of Hugo.
+      # This action installs Hugo on the runner.
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2 # Using v2 as it's widely used and stable
+        with:
+          # Specify the Hugo version. You can use a specific version like '0.120.4'
+          # or 'latest' to always get the newest version.
+          hugo-version: '0.120.4' # Recommended to pin to a specific version for consistent builds
+          # extended: true # Uncomment if you use Sass/SCSS features in your Hugo site
 
-    # Step 2 - Sets up the latest version of Hugo
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-          hugo-version: '0.80.0'
+      # Step 3: Clean the public directory.
+      # This step ensures that no old files from previous builds remain,
+      # preventing potential issues with stale content.
+      - name: Clean public directory
+        run: rm -rf public
 
-    # # Step 3 - Clean and don't fail
-    # - name: Clean public directory
-    #   run: rm -rf public
+      # Step 4: Builds the site using Hugo.
+      # The 'hugo' command generates the static site files into the 'public/' directory.
+      - name: Build Hugo site
+        run: hugo --minify # --minify is good practice for production sites
 
-    # Step 4 - Builds the site using the latest version of Hugo
-    # Also specifies the theme we want to use
-    - name: Build
-      run: hugo # -- theme=hugo-PaperMod # -- theme=fresh
-
-    # # Step 5 - Create name file
-    # - name: Create cname file
-    #   run: echo 'custom_domain_123.net' > public/CNAME
-
-    # Step 6 - Push our generated site
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      # Step 5: Deploys the generated site to the gh-pages branch.
+      # This action publishes the content of the 'public' directory to the 'gh-pages' branch.
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3 # Using v3 for this action
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub Actions
+          publish_dir: ./public # Crucial: This points to the directory where Hugo outputs the site
+          publish_branch: gh-pages # Explicitly specify the target branch (default for this action)
+          # cname: custom_domain_123.net # Uncomment and replace if you use a custom domain
