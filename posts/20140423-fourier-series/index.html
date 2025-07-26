@@ -13,15 +13,15 @@ The GIFs above show the 8-term Fourier series approximations of the square wave 
  Mathematica code:
 f[t_] := SawtoothWave[t] T = 1; nmax = 18; a0 = (2/T)*Integrate[f[t], {t, -(T/2), T/2}] anlist = Table[(2/T)*Integrate[f[t]*Cos[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] bnlist = Table[(2/T)*Integrate[f[t]*Sin[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] fs[t_, nmax_] := a0/2 &#43; Sum[anlist[[n]]*Cos[(2*Pi*n*t)/T] &#43; bnlist[[n]]*Sin[(2*Pi*n*t)/T], {n, 1, nmax}] Manipulate[Column[{Plot[{f[t], fs[t, nmax0]}, {t, -1, 1}, PlotRange -&gt; All, AxesLabel -&gt; {&quot;t&quot;, &quot;f(t)&quot;}, PlotStyle -&gt; {{Thick, Black}, {Thick, Red}}, ImageSize -&gt; 700, AspectRatio -&gt; 1/2.">
 <meta name="author" content="Brian Weinstein">
-<link rel="canonical" href="https://www.brianweinstein.co/posts/20140423-fourier-series/" />
+<link rel="canonical" href="https://www.brianweinstein.github.io/posts/20140423-fourier-series/" />
 <link href="/assets/css/stylesheet.min.de32830eb8ae1cd98ed4969a69dfba5574d5dc0f3eedc0ce674e2dab15321e23.css" integrity="sha256-3jKDDriuHNmO1Jaaad&#43;6VXTV3A8&#43;7cDOZ04tqxUyHiM=" rel="preload stylesheet"
     as="style">
 
-<link rel="icon" href="https://www.brianweinstein.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://www.brianweinstein.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://www.brianweinstein.co/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://www.brianweinstein.co/apple-touch-icon.png">
-<link rel="mask-icon" href="https://www.brianweinstein.co/safari-pinned-tab.svg">
+<link rel="icon" href="https://www.brianweinstein.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.brianweinstein.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.brianweinstein.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.brianweinstein.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.brianweinstein.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.80.0" />
@@ -33,12 +33,12 @@ The GIFs above show the 8-term Fourier series approximations of the square wave 
  Mathematica code:
 f[t_] := SawtoothWave[t] T = 1; nmax = 18; a0 = (2/T)*Integrate[f[t], {t, -(T/2), T/2}] anlist = Table[(2/T)*Integrate[f[t]*Cos[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] bnlist = Table[(2/T)*Integrate[f[t]*Sin[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] fs[t_, nmax_] := a0/2 &#43; Sum[anlist[[n]]*Cos[(2*Pi*n*t)/T] &#43; bnlist[[n]]*Sin[(2*Pi*n*t)/T], {n, 1, nmax}] Manipulate[Column[{Plot[{f[t], fs[t, nmax0]}, {t, -1, 1}, PlotRange -&gt; All, AxesLabel -&gt; {&quot;t&quot;, &quot;f(t)&quot;}, PlotStyle -&gt; {{Thick, Black}, {Thick, Red}}, ImageSize -&gt; 700, AspectRatio -&gt; 1/2." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.brianweinstein.co/posts/20140423-fourier-series/" />
-<meta property="og:image" content="https://www.brianweinstein.co/47"/>
+<meta property="og:url" content="https://www.brianweinstein.github.io/posts/20140423-fourier-series/" />
+<meta property="og:image" content="https://www.brianweinstein.github.io/47"/>
 <meta property="article:published_time" content="2014-04-23T00:00:00+00:00" />
 <meta property="article:modified_time" content="2014-04-23T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://www.brianweinstein.co/47"/>
+<meta name="twitter:image" content="https://www.brianweinstein.github.io/47"/>
 
 <meta name="twitter:title" content="Fourier Series"/>
 <meta name="twitter:description" content="A Fourier series is a way to expand a periodic function in terms of sines and cosines. The Fourier series is named after Joseph Fourier, who introduced the series as he solved for a mathematical way to describe how heat transfers in a metal plate.
@@ -67,14 +67,14 @@ f[t_] := SawtoothWave[t] T = 1; nmax = 18; a0 = (2/T)*Integrate[f[t], {t, -(T/2)
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.brianweinstein.co/posts/20140423-fourier-series/"
+    "@id": "https://www.brianweinstein.github.io/posts/20140423-fourier-series/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Brian Weinstein",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.brianweinstein.co/favicon.ico"
+      "url": "https://www.brianweinstein.github.io/favicon.ico"
     }
   }
 }
@@ -108,19 +108,19 @@ if (location.hostname === "brianweinstein.co")
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://www.brianweinstein.co/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <a href="https://www.brianweinstein.github.io/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
             <span class="logo-switches">
                 
             </span>
         </div>
         <ul class="menu" id="menu" onscroll="menu_on_scroll()">
             <li>
-                <a href="https://www.brianweinstein.co/" title="Home">
+                <a href="https://www.brianweinstein.github.io/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://www.brianweinstein.co/posts/" title="Writing">
+                <a href="https://www.brianweinstein.github.io/posts/" title="Writing">
                     <span>Writing</span>
                 </a>
             </li></ul>
@@ -175,14 +175,14 @@ Manipulate[Column[{Plot[{f[t], fs[t, nmax0]}, {t, -1, 1},
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://www.brianweinstein.co/tags/physics/">physics</a></li>
-      <li><a href="https://www.brianweinstein.co/tags/math/">math</a></li>
-      <li><a href="https://www.brianweinstein.co/tags/visualization/">visualization</a></li>
+      <li><a href="https://www.brianweinstein.github.io/tags/physics/">physics</a></li>
+      <li><a href="https://www.brianweinstein.github.io/tags/math/">math</a></li>
+      <li><a href="https://www.brianweinstein.github.io/tags/visualization/">visualization</a></li>
     </ul>
   </footer>
 </article>
     </main><footer class="footer">
-    <span>&copy; 2025 <a href="https://www.brianweinstein.co/">Brian Weinstein</a></span>
+    <span>&copy; 2025 <a href="https://www.brianweinstein.github.io/">Brian Weinstein</a></span>
     <span>&middot;</span>
     <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
     <span>&middot;</span>

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>data on Brian Weinstein</title>
-    <link>https://www.brianweinstein.co/categories/data/</link>
+    <link>https://www.brianweinstein.github.io/categories/data/</link>
     <description>Recent content in data on Brian Weinstein</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.brianweinstein.co/categories/data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.brianweinstein.github.io/categories/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Defining meaningful metrics for product teams</title>
-      <link>https://www.brianweinstein.co/posts/20201222-defining-meaningful-metrics-for-product-teams/</link>
+      <link>https://www.brianweinstein.github.io/posts/20201222-defining-meaningful-metrics-for-product-teams/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.brianweinstein.co/posts/20201222-defining-meaningful-metrics-for-product-teams/</guid>
+      <guid>https://www.brianweinstein.github.io/posts/20201222-defining-meaningful-metrics-for-product-teams/</guid>
       <description>A checklist for developing better product metrics &amp;amp; KPIs</description>
     </item>
     
     <item>
       <title>In defense of “nothing interesting”</title>
-      <link>https://www.brianweinstein.co/posts/20200219-in-defense-of-nothing-interesting/</link>
+      <link>https://www.brianweinstein.github.io/posts/20200219-in-defense-of-nothing-interesting/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.brianweinstein.co/posts/20200219-in-defense-of-nothing-interesting/</guid>
+      <guid>https://www.brianweinstein.github.io/posts/20200219-in-defense-of-nothing-interesting/</guid>
       <description>A tribute to useful, but less interesting research findings</description>
     </item>
     
     <item>
       <title>Moving beyond the Net Promoter Score</title>
-      <link>https://www.brianweinstein.co/posts/20180124-moving-beyond-the-net-promoter-score/</link>
+      <link>https://www.brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.brianweinstein.co/posts/20180124-moving-beyond-the-net-promoter-score/</guid>
+      <guid>https://www.brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</guid>
       <description>A guide to building a more meaningful metric</description>
     </item>
     
     <item>
       <title>Speaking like a president</title>
-      <link>https://www.brianweinstein.co/posts/20161003-debate-nlp/</link>
+      <link>https://www.brianweinstein.github.io/posts/20161003-debate-nlp/</link>
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.brianweinstein.co/posts/20161003-debate-nlp/</guid>
+      <guid>https://www.brianweinstein.github.io/posts/20161003-debate-nlp/</guid>
       <description>Natural language processing on the first 2016 presidential debate</description>
     </item>
     
     <item>
       <title>Mapping the frozen yogurt shop closest to each Manhattan apartment</title>
-      <link>https://www.brianweinstein.co/posts/20160531-froyo-nyc/</link>
+      <link>https://www.brianweinstein.github.io/posts/20160531-froyo-nyc/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.brianweinstein.co/posts/20160531-froyo-nyc/</guid>
+      <guid>https://www.brianweinstein.github.io/posts/20160531-froyo-nyc/</guid>
       <description>I love frozen yogurt. When I first moved to New York three years ago, I lived only 1/8th of a mile from the closest froyo shop. The convenience of this 4-minute walk is something I neither appreciated nor utilized enough at the time.
 After moving to Harlem last year, it’s been harder than ever to satisfy my near-constant craving for this cold candy soup — I’m now a 24-minute walk to the nearest frozen yogurt.</description>
     </item>
