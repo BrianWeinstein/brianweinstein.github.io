@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ux on Brian Weinstein</title>
-    <link>https://www.brianweinstein.github.io/tags/ux/</link>
+    <link>https://brianweinstein.github.io/tags/ux/</link>
     <description>Recent content in ux on Brian Weinstein</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://www.brianweinstein.github.io/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/tags/ux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moving beyond the Net Promoter Score</title>
-      <link>https://www.brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</link>
+      <link>https://brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</guid>
+      <guid>https://brianweinstein.github.io/posts/20180124-moving-beyond-the-net-promoter-score/</guid>
       <description>A guide to building a more meaningful metric</description>
     </item>
     
