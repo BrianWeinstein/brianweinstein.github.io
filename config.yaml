@@ -88,8 +88,8 @@ params:
           url: "https://www.linkedin.com/in/brianmweinstein/"
         - name: medium
           url: "https://bweinstein.medium.com/"
-        - name: twitter
-          url: "https://twitter.com/BriMaster3000"
+        # - name: twitter
+        #   url: "https://twitter.com/BriMaster3000"
         - name: github
           url: "https://github.com/BrianWeinstein"
         - name: etsy
