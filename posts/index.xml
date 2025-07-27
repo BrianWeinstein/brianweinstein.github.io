@@ -5,7 +5,16 @@
     <link>https://brianweinstein.github.io/posts/</link>
     <description>Recent content in Posts on Brian Weinstein</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defining meaningful metrics for product teams</title>
+      <link>https://brianweinstein.github.io/posts/20250727-camera-3000/</link>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/posts/20250727-camera-3000/</guid>
+      <description>An AI-powered camera app that captures everything in the scene except the important details.</description>
+    </item>
+    
     <item>
       <title>Defining meaningful metrics for product teams</title>
       <link>https://brianweinstein.github.io/posts/20201222-defining-meaningful-metrics-for-product-teams/</link>

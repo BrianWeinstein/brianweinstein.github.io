@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>ai | Brian Weinstein</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content="hello! 👋">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://brianweinstein.github.io/tags/ai/" />
+<link href="/assets/css/stylesheet.min.de32830eb8ae1cd98ed4969a69dfba5574d5dc0f3eedc0ce674e2dab15321e23.css" integrity="sha256-3jKDDriuHNmO1Jaaad&#43;6VXTV3A8&#43;7cDOZ04tqxUyHiM=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://brianweinstein.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://brianweinstein.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://brianweinstein.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://brianweinstein.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://brianweinstein.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+<link rel="alternate" type="application/rss&#43;xml" href="https://brianweinstein.github.io/tags/ai/index.xml">
+
+
+<meta property="og:title" content="ai" />
+<meta property="og:description" content="hello! 👋" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://brianweinstein.github.io/tags/ai/" />
+<meta property="og:image" content="https://brianweinstein.github.io/47"/>
+<meta property="og:updated_time" content="2025-07-27T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://brianweinstein.github.io/47"/>
+
+<meta name="twitter:title" content="ai"/>
+<meta name="twitter:description" content="hello! 👋"/>
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPC9GR2VCM"></script>
+<script>
+if (location.hostname === "brianweinstein.co")
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CPC9GR2VCM');
+</script>
+
+</head>
+
+<body class="list" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://brianweinstein.github.io/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://brianweinstein.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brianweinstein.github.io/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main"> 
+<header class="page-header">
+  <h1>ai</h1>
+</header>
+
+
+
+<article class="post-entry tag-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Defining meaningful metrics for product teams
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p>An AI-powered camera app that captures everything in the scene except the important details.</p>
+  </section>
+  <section class="entry-content">
+    <p>I’m excited to share my new web app: Camera 3000: The Camera of the Future1.
+It’s an AI-powered camera app that captures everything in the scene except the important details, so the photo you get is eerily similar to reality, but not quite right.2 It just barely “takes a photo.”
+I was loosely inspired by the “What is a photo?” debate and the rampant overuse of AI. I’m sure there’s something deep to say about both of these, but I have nothing new to add to that discourse. In reality, I just thought it’d be fun to take those ideas to the extreme.
+How it works: Given a photo, the app first uses the Gemini API to generate a detailed description of the image. Next, the Imagen API uses that description as a prompt to create a new, entirely-AI image of something that only sort of resembles the original scene.
+How it’s made: In the spirit of overusing AI, I used Gemini/Canvas3 to write most of the app’s code and followed its instructions to get the app live. In the spirit of over-overusing AI, I did almost everything it told me to do, too, including things I knew to be terrible, like publicly exposing my API key4. I’m sure there’s a lesson here somewhere.5
+The app could use some polish: The error states are wonky, the UI is barebones, and I’ve given up on allowing a range of aspect ratios for the photo, but alas, it’s just a silly little novelty app. It’s functional, so just have fun with it.
+Please be kind in your use of this app: I recognize that image generation can be used for malicious purposes, so the app will error out if a user attempts to generate harmful images. All of the AI generated images adhere to the SynthID digital watermarking standard too.
+Please go try it out! The AI-everywhere future is already here, and it’s partially running on a publicly exposed API key.6
+   It’s the “camera of the future” in the same way that Dippin&#39; Dots is the “ice cream of the future”: it’s not, and it’s not even good at being the camera / ice cream of the present. For what they are, Camera 3000 and Dippin’ Dots are both incredibly energy inefficient too. The parallels are unparalleled. ↩︎
+ This is somehow only the second-dumbest thing I’ve ever created. See my froyo map from 2016. Still ranking #1 on Google for “froyo map nyc,” despite the map being broken 🎉. ↩︎
+ I used Gemini/Canvas. I just learned about Firebase Studio last week, which would’ve made building this app 1000x easier. ↩︎
+ Don’t worry, I put some severe restrictions on the API key’s use. But still, please send your thoughts and prayers that I don’t wake up to a million-dollar GCP bill. ↩︎
+ In the spirit of over-over-overusing AI, I tried to use Gemini to write this blog post based on the app’s code, but the generated text was just awful. The number of times I prompted “make this sound less pompous” … ↩︎
+ Gemini wrote this closing sentence, though. Kinda funny, but still sounds a bit pompous. I’m sure there’s a lesson here too. ↩︎
+   ...</p>
+  </section>
+  <footer class="entry-footer">
+
+Jul 27, 2025&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Defining meaningful metrics for product teams" href="https://brianweinstein.github.io/posts/20250727-camera-3000/"></a>
+</article>
+
+    </main><footer class="footer">
+    <span>&copy; 2025 <a href="https://brianweinstein.github.io/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>

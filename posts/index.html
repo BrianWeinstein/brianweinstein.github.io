@@ -30,7 +30,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://brianweinstein.github.io/posts/" />
 <meta property="og:image" content="https://brianweinstein.github.io/47"/>
-<meta property="og:updated_time" content="2020-12-22T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta property="og:updated_time" content="2025-07-27T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://brianweinstein.github.io/47"/>
 
@@ -91,6 +91,39 @@ if (location.hostname === "brianweinstein.co")
 
 
 
+<article class="post-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Defining meaningful metrics for product teams
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p>An AI-powered camera app that captures everything in the scene except the important details.</p>
+  </section>
+  <section class="entry-content">
+    <p>I’m excited to share my new web app: Camera 3000: The Camera of the Future1.
+It’s an AI-powered camera app that captures everything in the scene except the important details, so the photo you get is eerily similar to reality, but not quite right.2 It just barely “takes a photo.”
+I was loosely inspired by the “What is a photo?” debate and the rampant overuse of AI. I’m sure there’s something deep to say about both of these, but I have nothing new to add to that discourse. In reality, I just thought it’d be fun to take those ideas to the extreme.
+How it works: Given a photo, the app first uses the Gemini API to generate a detailed description of the image. Next, the Imagen API uses that description as a prompt to create a new, entirely-AI image of something that only sort of resembles the original scene.
+How it’s made: In the spirit of overusing AI, I used Gemini/Canvas3 to write most of the app’s code and followed its instructions to get the app live. In the spirit of over-overusing AI, I did almost everything it told me to do, too, including things I knew to be terrible, like publicly exposing my API key4. I’m sure there’s a lesson here somewhere.5
+The app could use some polish: The error states are wonky, the UI is barebones, and I’ve given up on allowing a range of aspect ratios for the photo, but alas, it’s just a silly little novelty app. It’s functional, so just have fun with it.
+Please be kind in your use of this app: I recognize that image generation can be used for malicious purposes, so the app will error out if a user attempts to generate harmful images. All of the AI generated images adhere to the SynthID digital watermarking standard too.
+Please go try it out! The AI-everywhere future is already here, and it’s partially running on a publicly exposed API key.6
+   It’s the “camera of the future” in the same way that Dippin&#39; Dots is the “ice cream of the future”: it’s not, and it’s not even good at being the camera / ice cream of the present. For what they are, Camera 3000 and Dippin’ Dots are both incredibly energy inefficient too. The parallels are unparalleled. ↩︎
+ This is somehow only the second-dumbest thing I’ve ever created. See my froyo map from 2016. Still ranking #1 on Google for “froyo map nyc,” despite the map being broken 🎉. ↩︎
+ I used Gemini/Canvas. I just learned about Firebase Studio last week, which would’ve made building this app 1000x easier. ↩︎
+ Don’t worry, I put some severe restrictions on the API key’s use. But still, please send your thoughts and prayers that I don’t wake up to a million-dollar GCP bill. ↩︎
+ In the spirit of over-over-overusing AI, I tried to use Gemini to write this blog post based on the app’s code, but the generated text was just awful. The number of times I prompted “make this sound less pompous” … ↩︎
+ Gemini wrote this closing sentence, though. Kinda funny, but still sounds a bit pompous. I’m sure there’s a lesson here too. ↩︎
+   ...</p>
+  </section>
+  <footer class="entry-footer">
+
+Jul 27, 2025&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Defining meaningful metrics for product teams" href="https://brianweinstein.github.io/posts/20250727-camera-3000/"></a>
+</article>
 <article class="post-entry">
   
   <header class="entry-header">
@@ -250,31 +283,6 @@ Non-answer phrases The words each candidate used when directly answering the que
 Oct 3, 2016&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Speaking like a president" href="https://brianweinstein.github.io/posts/20161003-debate-nlp/"></a>
-</article>
-<article class="post-entry">
-  
-  <header class="entry-header">
-    <h2>
-      Mapping the frozen yogurt shop closest to each Manhattan apartment
-    </h2>
-  </header>
-  <section class="entry-subtitle">
-    <p></p>
-  </section>
-  <section class="entry-content">
-    <p>I love frozen yogurt. When I first moved to New York three years ago, I lived only 1/8th of a mile from the closest froyo shop. The convenience of this 4-minute walk is something I neither appreciated nor utilized enough at the time.
-After moving to Harlem last year, it’s been harder than ever to satisfy my near-constant craving for this cold candy soup — I’m now a 24-minute walk to the nearest frozen yogurt.
-As someone who loves data and has too much time to spare, I decided to find the locations in Manhattan with highest and lowest froyo densitiy. Inspired by Ben Wellington’s work on I Quant NY, I calculated the distance from every lot in Manhattan to the nearest froyo shop and mapped it out.
-https://brianweinstein.cartodb.com/viz/27dd05e0-2486-11e6-98ba-0e98b61680bf/embed_map
-The highest density of froyo is right around West 33rd St. and 8th Ave., with three shops within a 1-block radius. The lowest density is right in Harlem. The red circle on the map shows the location farthest from frozen yogurt. The record belongs to 700 Esplanade Gardens Plaza, a co-op right by the 145th St. stop on the 3-train, with a 51-minute trek across Manhattan to the Pinkberry by Columbia.
-The map shows all of the froyo shops in Manhattan, and you can click on any lot to find the distance to the closest shop.
-  R code posted here. All distances in the map are measured using great-circle distance (i.e., ”as the crow flies”), according to the law of cosines. Frozen yogurt locations were found via the Google Places Nearby Search API. The API returned some non-froyo-exclusive shops like Ben and Jerry’s, which I kept in the dataset since they technically serve some frozen yogurt (although we all know these shops don’t really count). I only included froyo shops that were in Manhattan, so some lots may have a closer shop than the one listed if we include those in other boroughs. Manhattan lot locations are from PLUTO. The map was created using CartoDB. Tons of inspiration for this came from Ben Wellington’s work on I Quant NY.  ...</p>
-  </section>
-  <footer class="entry-footer">
-
-May 31, 2016&nbsp;·&nbsp;Brian Weinstein
-</footer>
-  <a class="entry-link" aria-label="post link to Mapping the frozen yogurt shop closest to each Manhattan apartment" href="https://brianweinstein.github.io/posts/20160531-froyo-nyc/"></a>
 </article>
 
 <footer class="page-footer">

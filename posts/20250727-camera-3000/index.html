@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Defining meaningful metrics for product teams | Brian Weinstein</title>
+
+<meta name="keywords" content="ai, photography, technology, apps" />
+<meta name="description" content="An AI-powered camera app that captures everything in the scene except the important details.">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://brianweinstein.github.io/posts/20250727-camera-3000/" />
+<link href="/assets/css/stylesheet.min.de32830eb8ae1cd98ed4969a69dfba5574d5dc0f3eedc0ce674e2dab15321e23.css" integrity="sha256-3jKDDriuHNmO1Jaaad&#43;6VXTV3A8&#43;7cDOZ04tqxUyHiM=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://brianweinstein.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://brianweinstein.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://brianweinstein.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://brianweinstein.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://brianweinstein.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+<meta property="og:title" content="Defining meaningful metrics for product teams" />
+<meta property="og:description" content="An AI-powered camera app that captures everything in the scene except the important details." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brianweinstein.github.io/posts/20250727-camera-3000/" />
+<meta property="og:image" content="https://brianweinstein.github.io/47"/>
+<meta property="article:published_time" content="2025-07-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-07-27T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://brianweinstein.github.io/47"/>
+
+<meta name="twitter:title" content="Defining meaningful metrics for product teams"/>
+<meta name="twitter:description" content="An AI-powered camera app that captures everything in the scene except the important details."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Defining meaningful metrics for product teams",
+  "name": "Defining meaningful metrics for product teams",
+  "description": "An AI-powered camera app that captures everything in the scene except the important details.",
+  "keywords": [
+    "ai", "photography", "technology", "apps"
+  ],
+  "articleBody": "I’m excited to share my new web app: Camera 3000: The Camera of the Future1.\nIt’s an AI-powered camera app that captures everything in the scene except the important details, so the photo you get is eerily similar to reality, but not quite right.2 It just barely “takes a photo.”\nI was loosely inspired by the “What is a photo?” debate and the rampant overuse of AI. I’m sure there’s something deep to say about both of these, but I have nothing new to add to that discourse. In reality, I just thought it’d be fun to take those ideas to the extreme.\nHow it works: Given a photo, the app first uses the Gemini API to generate a detailed description of the image. Next, the Imagen API uses that description as a prompt to create a new, entirely-AI image of something that only sort of resembles the original scene.\nHow it’s made: In the spirit of overusing AI, I used Gemini/Canvas3 to write most of the app’s code and followed its instructions to get the app live. In the spirit of over-overusing AI, I did almost everything it told me to do, too, including things I knew to be terrible, like publicly exposing my API key4. I’m sure there’s a lesson here somewhere.5\nThe app could use some polish: The error states are wonky, the UI is barebones, and I’ve given up on allowing a range of aspect ratios for the photo, but alas, it’s just a silly little novelty app. It’s functional, so just have fun with it.\nPlease be kind in your use of this app: I recognize that image generation can be used for malicious purposes, so the app will error out if a user attempts to generate harmful images. All of the AI generated images adhere to the SynthID digital watermarking standard too.\nPlease go try it out! The AI-everywhere future is already here, and it’s partially running on a publicly exposed API key.6\n   It’s the “camera of the future” in the same way that Dippin' Dots is the “ice cream of the future”: it’s not, and it’s not even good at being the camera / ice cream of the present. For what they are, Camera 3000 and Dippin’ Dots are both incredibly energy inefficient too. The parallels are unparalleled. ↩︎\n This is somehow only the second-dumbest thing I’ve ever created. See my froyo map from 2016. Still ranking #1 on Google for “froyo map nyc,” despite the map being broken 🎉. ↩︎\n I used Gemini/Canvas. I just learned about Firebase Studio last week, which would’ve made building this app 1000x easier. ↩︎\n Don’t worry, I put some severe restrictions on the API key’s use. But still, please send your thoughts and prayers that I don’t wake up to a million-dollar GCP bill. ↩︎\n In the spirit of over-over-overusing AI, I tried to use Gemini to write this blog post based on the app’s code, but the generated text was just awful. The number of times I prompted “make this sound less pompous” … ↩︎\n Gemini wrote this closing sentence, though. Kinda funny, but still sounds a bit pompous. I’m sure there’s a lesson here too. ↩︎\n   ",
+  "wordCount" : "532",
+  "inLanguage": "en",
+  "datePublished": "2025-07-27T00:00:00Z",
+  "dateModified": "2025-07-27T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Brian Weinstein"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://brianweinstein.github.io/posts/20250727-camera-3000/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brian Weinstein",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://brianweinstein.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPC9GR2VCM"></script>
+<script>
+if (location.hostname === "brianweinstein.co")
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CPC9GR2VCM');
+</script>
+
+</head>
+
+<body class="" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://brianweinstein.github.io/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://brianweinstein.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brianweinstein.github.io/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Defining meaningful metrics for product teams
+    </h1>
+    <div class="post-description">
+      An AI-powered camera app that captures everything in the scene except the important details.
+    </div>
+    <div class="post-meta">
+
+Jul 27, 2025&nbsp;·&nbsp;Brian Weinstein
+
+    </div>
+  </header> 
+
+  <div class="post-content">
+<p>I&rsquo;m excited to share my new web app: <a href="https://brianweinstein.github.io/camera-3000/"><strong>Camera 3000: The Camera of the Future</strong></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>It&rsquo;s an AI-powered camera app that captures everything in the scene <em>except</em> the important details, so the photo you get is eerily similar to reality, but not quite right.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> It just barely “takes a photo.”</p>
+<p><img src="/images/camera-3000-carrot.png" alt=""></p>
+<p>I was loosely inspired by the <a href="https://www.theverge.com/2024/9/23/24252231/lets-compare-apple-google-and-samsungs-definitions-of-a-photo">“What is a photo?”</a> debate and the rampant <a href="https://www.fastcompany.com/91154806/ai-in-everything-era-pointless">overuse of AI</a>. I&rsquo;m sure there&rsquo;s something deep to say about both of these, but I have nothing new to add to that discourse. In reality, I just thought it’d be fun to take those ideas to the extreme.</p>
+<p><img src="/images/camera-3000-bookshelf.png" alt=""></p>
+<p><strong>How it works:</strong> Given a photo, the app first uses the Gemini API to generate a detailed description of the image. Next, the Imagen API uses that description as a prompt to create a new, entirely-AI image of something that only sort of resembles the original scene.</p>
+<p><strong>How it&rsquo;s made:</strong> In the spirit of overusing AI, I used Gemini/Canvas<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> to write most of the app’s <a href="https://github.com/BrianWeinstein/real-photo-camera-app/tree/main">code</a> and followed its instructions to get the app live. In the spirit of over-overusing AI, I did almost everything it told me to do, too, including things I knew to be terrible, like publicly exposing my API key<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. I&rsquo;m sure there&rsquo;s a lesson here somewhere.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p><img src="/images/camera-3000-monument.png" alt=""></p>
+<p><strong>The app could use some polish:</strong> The error states are wonky, the UI is barebones, and I&rsquo;ve given up on allowing a range of aspect ratios for the photo, but alas, it&rsquo;s just a silly little novelty app. It&rsquo;s functional, so just have fun with it.</p>
+<p><strong>Please be kind in your use of this app:</strong> I recognize that image generation can be used for malicious purposes, so the app will <a href="https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters#configurable-filters">error out</a> if a user attempts to generate harmful images. All of the AI generated images adhere to the <a href="https://deepmind.google/science/synthid/">SynthID</a> digital watermarking standard too.</p>
+<p><a href="https://brianweinstein.github.io/camera-3000/">Please go try it out!</a> The AI-everywhere future is already here, and it’s partially running on a publicly exposed API key.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<hr>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>It’s the “camera of the future” in the same way that Dippin' Dots is the “ice cream of the future”: it&rsquo;s not, and it&rsquo;s not even good at being the camera / ice cream of the present. For what they are, Camera 3000 and Dippin’ Dots are both incredibly energy inefficient too. The parallels are unparalleled. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>This is somehow only the second-dumbest thing I’ve ever created. See my <a href="https://bweinstein.medium.com/mapping-the-frozen-yogurt-shop-closest-to-each-manhattan-apartment-3785ccd34f4c">froyo map</a> from 2016. Still ranking #1 on Google for “froyo map nyc,” despite the map being broken 🎉. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>I used Gemini/Canvas. I just learned about <a href="https://firebase.google.com/">Firebase Studio</a> last week, which would’ve made building this app 1000x easier. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Don’t worry, I put some severe restrictions on the API key’s use. But still, please send your thoughts and prayers that I don’t wake up to a million-dollar GCP bill. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>In the spirit of over-over-overusing AI, I tried to use Gemini to write this blog post based on the app’s code, but the generated text was just awful. The number of times I prompted “make this sound less pompous” … <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p>Gemini wrote this closing sentence, though. Kinda funny, but still sounds a bit pompous. I’m sure there’s a lesson here too. <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+</div>
+
+  <div class="post-published-elsewhere">
+      Originally published on <a href="https://bweinstein.medium.com/e0a63e5ceaf2?source=friends_link&amp;sk=9929ba6732a5301c01eaaa8ad3771d79">Medium</a>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://brianweinstein.github.io/tags/ai/">ai</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/photography/">photography</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/technology/">technology</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/apps/">apps</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2025 <a href="https://brianweinstein.github.io/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>

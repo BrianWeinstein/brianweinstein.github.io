@@ -30,7 +30,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://brianweinstein.github.io/posts/" />
 <meta property="og:image" content="https://brianweinstein.github.io/47"/>
-<meta property="og:updated_time" content="2020-12-22T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta property="og:updated_time" content="2025-07-27T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://brianweinstein.github.io/47"/>
 
@@ -91,6 +91,29 @@ if (location.hostname === "brianweinstein.co")
 
 
 
+<article class="post-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Taylor Series Approximations
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>A Taylor series is a way to represent a function in terms of polynomials. Since polynomials are usually much easier to work with than complicated functions, Taylor series have numerous applications in both math and physics.
+There are many equations in physics — like the one describing the motion of a pendulum — that are impossible to solve in terms of elementary functions. “Approximations using the first few terms of a Taylor series can make [these] otherwise unsolvable problems” solvable for a restricted area of interest [1].
+The GIF above shows the five-term Taylor series approximation of a sine wave about x=0.
+ Mathematica code:
+f[x_] := Sin[x] ts[x_, a_, nmax_] := Sum[(Derivative[n][f][a]/n!)*(x - a)^n, {n, 0, nmax}] Manipulate[Plot[{f[x], ts[x, 0, nmax]}, {x, -2*Pi, 2*Pi}, PlotRange -&amp;gt; {-1.45, 1.45}, PlotStyle -&amp;gt; {{Thick, Cyan}, {Thick, Dotted, Yellow}}, AxesStyle -&amp;gt; LightGray, Background -&amp;gt; Darker[Gray, 0.8]], {nmax, 1, 30, 1}] ...</p>
+  </section>
+  <footer class="entry-footer">
+
+Jul 30, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Taylor Series Approximations" href="https://brianweinstein.github.io/posts/20140730-taylor-series-approximations/"></a>
+</article>
 <article class="post-entry">
   
   <header class="entry-header">
@@ -194,31 +217,6 @@ Additional source not linked above.
 May 28, 2014&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Sonic Booms and the Doppler Effect" href="https://brianweinstein.github.io/posts/20140528-sonic-boom-doppler-effect/"></a>
-</article>
-<article class="post-entry">
-  
-  <header class="entry-header">
-    <h2>
-      Chaos and the Double Pendulum
-    </h2>
-  </header>
-  <section class="entry-subtitle">
-    <p></p>
-  </section>
-  <section class="entry-content">
-    <p>A chaotic system is one in which infinitesimal differences in the starting conditions lead to drastically different results as the system evolves.
-Summarized by mathematician Edward Lorenz, “Chaos [is] when the present determines the future, but the approximate present does not approximately determine the future.”
-There’s an important distinction to make between a chaotic system and a random system. Given the starting conditions, a chaotic system is entirely deterministic. A random system, on the other hand, is entirely non-deterministic, even when the starting conditions are known. That is, with enough information, the evolution of a chaotic system is entirely predictable, but in a random system there’s no amount of information that would be enough to predict the system’s evolution.
-The simulations above show two slightly different initial conditions for a double pendulum — an example of a chaotic system. In the left animation both pendulums begin horizontally, and in the right animation the red pendulum begins horizontally and the blue is rotated by 0.1 radians (≈ 5.73°) above the positive x-axis. In both simulations, all of the pendulums begin from rest.
-For more information on how to solve for the motion of a double pendulum, check out my video here.
- Mathematica code posted here.
-...</p>
-  </section>
-  <footer class="entry-footer">
-
-May 19, 2014&nbsp;·&nbsp;Brian Weinstein
-</footer>
-  <a class="entry-link" aria-label="post link to Chaos and the Double Pendulum" href="https://brianweinstein.github.io/posts/20140519-chaos-and-the-double-pendulum/"></a>
 </article>
 
 <footer class="page-footer">
