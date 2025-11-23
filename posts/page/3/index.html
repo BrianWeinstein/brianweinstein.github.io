@@ -30,7 +30,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://brianweinstein.github.io/posts/" />
 <meta property="og:image" content="https://brianweinstein.github.io/47"/>
-<meta property="og:updated_time" content="2025-07-27T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta property="og:updated_time" content="2025-11-22T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://brianweinstein.github.io/47"/>
 
@@ -91,6 +91,34 @@ if (location.hostname === "brianweinstein.co")
 
 
 
+<article class="post-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Modeling Comet 67P
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>                      Two weeks ago, the ESA made history by landing a spacecraft on a comet. The spacecraft, named Philae, was carried to Comet 67P by a larger space probe named Rosetta.
+Determining where Philae would land was a big step in this mission. Many attributes about the comet, including its topography, were taken into account. To help in this process, the ESA derived a 3D model of the comet’s surface, and the data (made up of over 30,000 measurements) was recently released.
+The images above use ESA data to model the surface of 67P. By adjusting lighting and orientation, actual photos taken by Rosetta (images 3 and 5) can be reproduced.
+You can play around with the model yourself!
+Either use the code below in Mathematica or on the Wolfram Programming Cloud (with a free account), or play with the model online by clicking here*.
+ *This link will expire on Dec 23, 2014, after which you’ll have to upload the .obj file directly to the online viewer.
+Mathematica code:
+objLink = &#34;http://sci.esa.int/science-e/www/object/doc.cfm?fobjectid=54726&#34;; comet = Import[objLink, &#34;OBJ&#34;]; pts = Import[objLink, {&#34;OBJ&#34;, &#34;VertexData&#34;}]; ListSurfacePlot3D[pts, MaxPlotPoints -&gt; 20, Mesh -&gt; All, MeshStyle -&gt; Opacity[0.4]] Show[comet, Background -&gt; Black, Lighting -&gt; {{&#34;Directional&#34;, LightGray, {-7, -10, 10}}}] Additional sources: [1] [2] [3]
+Images 3 &amp; 5: ESA/Rosetta/NAVCAM, CC BY-SA IGO 3.0
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+Nov 24, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Modeling Comet 67P" href="https://brianweinstein.github.io/posts/20141124-comet-67p/"></a>
+</article>
 <article class="post-entry">
   
   <header class="entry-header">
@@ -188,30 +216,6 @@ Additional sources not linked above: [1] [2]
 Sep 2, 2014&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Cops and Robbers (and Zombies and Humans)" href="https://brianweinstein.github.io/posts/20140902-cops-and-robbers/"></a>
-</article>
-<article class="post-entry">
-  
-  <header class="entry-header">
-    <h2>
-      Signal Collection and Parabolic Reflectors
-    </h2>
-  </header>
-  <section class="entry-subtitle">
-    <p></p>
-  </section>
-  <section class="entry-content">
-    <p>              A reflector is a type of antenna that receives and focuses various types of signals. Reflectors have numerous applications, from satellite dishes and telescopes, to long-distance microphones and car headlights. One common feature of these examples is their parabolic shape, giving them the name parabolic reflectors.
-It turns out that paraboloids are the perfect shape for focusing signals from distant sources. When pointed directly at the the incoming signal, a parabolic reflector (GIF 1) collects the signal to a single focal point, where a receiver, called a feed horn, is placed to collect the focused transmission.
-In many applications, parabolic reflectors are too costly to produce, so spherical reflectors (GIF 2) are used instead. The disadvantage of spherical reflectors is that they have multiple focal points, and therefore produce blurry results.
- Mathematica code posted here.
-This code is incredibly messy and I guarantee there’s a better way to calculate this. Please contact me if you have suggestions!
-...</p>
-  </section>
-  <footer class="entry-footer">
-
-Aug 11, 2014&nbsp;·&nbsp;Brian Weinstein
-</footer>
-  <a class="entry-link" aria-label="post link to Signal Collection and Parabolic Reflectors" href="https://brianweinstein.github.io/posts/20140811-signal-collection-parabolic-reflectors/"></a>
 </article>
 
 <footer class="page-footer">

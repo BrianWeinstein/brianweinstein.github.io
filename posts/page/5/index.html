@@ -30,7 +30,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://brianweinstein.github.io/posts/" />
 <meta property="og:image" content="https://brianweinstein.github.io/47"/>
-<meta property="og:updated_time" content="2025-07-27T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta property="og:updated_time" content="2025-11-22T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://brianweinstein.github.io/47"/>
 
@@ -91,6 +91,32 @@ if (location.hostname === "brianweinstein.co")
 
 
 
+<article class="post-entry">
+  
+  <header class="entry-header">
+    <h2>
+      Sonic Booms and the Doppler Effect
+    </h2>
+  </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
+  <section class="entry-content">
+    <p>                  The Doppler effect is the shift in the frequency of a wave observed when the source of the wave (or the medium through which the wave travels) is moving relative to the observer.
+We’re most familiar with the Doppler effect as it appears in sound waves traveling through air (i.e., pressure waves) – think of how the pitch of a siren drops as an emergency vehicle passes you. The first GIF shows a stationary source and the second shows a source moving to the right at 40% the speed of sound. Notice in the second GIF how the wavefronts are closer together in front of the source (producing a higher frequency) and further apart behind it (producing a lower frequency).
+The Doppler effect is interesting in its own right, but things get much more exciting when the source travels at speeds greater than or equal to the speed of sound.
+When the source travels at the speed of sound (GIF 3) the source will always be at the leading edge of the waves it produces, and when traveling faster than the speed of sound (GIF 4), the source will always be in front of the waves it produces. In both of these cases, notice how the waves overlap with each other. The high pressure areas of each wave constructively interfere and produce a region of extremely high pressure (much higher than in the surrounding areas). This rapid rise in air pressure is a shock wave, and the sound associated with it is a sonic boom.
+In each of the GIFs above we see the radiating wavefronts on the left, and the pressure distribution and interference of the waves on the right.
+ Mathematica code posted here.
+Additional source not linked above.
+...</p>
+  </section>
+  <footer class="entry-footer">
+
+May 28, 2014&nbsp;·&nbsp;Brian Weinstein
+</footer>
+  <a class="entry-link" aria-label="post link to Sonic Booms and the Doppler Effect" href="https://brianweinstein.github.io/posts/20140528-sonic-boom-doppler-effect/"></a>
+</article>
 <article class="post-entry">
   
   <header class="entry-header">
@@ -187,33 +213,12 @@ Apr 25, 2014&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Three-Body Problem on a Plane" href="https://brianweinstein.github.io/posts/20140425-three-body-problem/"></a>
 </article>
-<article class="post-entry">
-  
-  <header class="entry-header">
-    <h2>
-      Fourier Series
-    </h2>
-  </header>
-  <section class="entry-subtitle">
-    <p></p>
-  </section>
-  <section class="entry-content">
-    <p>A Fourier series is a way to expand a periodic function in terms of sines and cosines. The Fourier series is named after Joseph Fourier, who introduced the series as he solved for a mathematical way to describe how heat transfers in a metal plate.
-The GIFs above show the 8-term Fourier series approximations of the square wave and the sawtooth wave.
- Mathematica code:
-f[t_] := SawtoothWave[t] T = 1; nmax = 18; a0 = (2/T)*Integrate[f[t], {t, -(T/2), T/2}] anlist = Table[(2/T)*Integrate[f[t]*Cos[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] bnlist = Table[(2/T)*Integrate[f[t]*Sin[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] fs[t_, nmax_] := a0/2 &#43; Sum[anlist[[n]]*Cos[(2*Pi*n*t)/T] &#43; bnlist[[n]]*Sin[(2*Pi*n*t)/T], {n, 1, nmax}] Manipulate[Column[{Plot[{f[t], fs[t, nmax0]}, {t, -1, 1}, PlotRange -&gt; All, AxesLabel -&gt; {&#34;t&#34;, &#34;f(t)&#34;}, PlotStyle -&gt; {{Thick, Black}, {Thick, Red}}, ImageSize -&gt; 700, AspectRatio -&gt; 1/2.8], Row[{&#34;f(t)=&#34;, fs[t, nmax0]}]}], {nmax0, 1, nmax, 1}] ...</p>
-  </section>
-  <footer class="entry-footer">
-
-Apr 23, 2014&nbsp;·&nbsp;Brian Weinstein
-</footer>
-  <a class="entry-link" aria-label="post link to Fourier Series" href="https://brianweinstein.github.io/posts/20140423-fourier-series/"></a>
-</article>
 
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://brianweinstein.github.io/posts/page/4/">« Prev Page</a>
-    <a class="view-all-posts-no-next" href="/archives">View All</a>
+    <a class="view-all-posts-yes-both" href="/archives">View All</a>
+    <a class="next" href="https://brianweinstein.github.io/posts/page/6/">Next Page »</a>
 
   </nav>
 </footer>
