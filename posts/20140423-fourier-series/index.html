@@ -14,7 +14,7 @@ The GIFs above show the 8-term Fourier series approximations of the square wave 
 f[t_] := SawtoothWave[t] T = 1; nmax = 18; a0 = (2/T)*Integrate[f[t], {t, -(T/2), T/2}] anlist = Table[(2/T)*Integrate[f[t]*Cos[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] bnlist = Table[(2/T)*Integrate[f[t]*Sin[(2*Pi*n*t)/T], {t, -(T/2), T/2}], {n, 1, nmax}] fs[t_, nmax_] := a0/2 &#43; Sum[anlist[[n]]*Cos[(2*Pi*n*t)/T] &#43; bnlist[[n]]*Sin[(2*Pi*n*t)/T], {n, 1, nmax}] Manipulate[Column[{Plot[{f[t], fs[t, nmax0]}, {t, -1, 1}, PlotRange -&gt; All, AxesLabel -&gt; {&quot;t&quot;, &quot;f(t)&quot;}, PlotStyle -&gt; {{Thick, Black}, {Thick, Red}}, ImageSize -&gt; 700, AspectRatio -&gt; 1/2.">
 <meta name="author" content="Brian Weinstein">
 <link rel="canonical" href="https://brianweinstein.github.io/posts/20140423-fourier-series/" />
-<link href="/assets/css/stylesheet.min.de32830eb8ae1cd98ed4969a69dfba5574d5dc0f3eedc0ce674e2dab15321e23.css" integrity="sha256-3jKDDriuHNmO1Jaaad&#43;6VXTV3A8&#43;7cDOZ04tqxUyHiM=" rel="preload stylesheet"
+<link href="/assets/css/stylesheet.min.dd8880218de039fe9acb23d48360e312cf853dd63cb9f6c2e8260d1ccfc3d683.css" integrity="sha256-3YiAIY3gOf6ayyPUg2DjEs&#43;FPdY8ufbC6CYNHM/D1oM=" rel="preload stylesheet"
     as="style">
 
 <link rel="icon" href="https://brianweinstein.github.io/favicon.ico">
@@ -82,17 +82,6 @@ f[t_] := SawtoothWave[t] T = 1; nmax = 18; a0 = (2/T)*Integrate[f[t], {t, -(T/2)
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPC9GR2VCM"></script>
-<script>
-if (location.hostname === "brianweinstein.co")
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-CPC9GR2VCM');
-</script>
-
 </head>
 
 <body class="" id="top">
@@ -139,7 +128,7 @@ if (location.hostname === "brianweinstein.co")
     </div>
     <div class="post-meta">
 
-Apr 23, 2014&nbsp;·&nbsp;Brian Weinstein
+April 23, 2014&nbsp;·&nbsp;Brian Weinstein
 
     </div>
   </header> 
@@ -168,11 +157,6 @@ Manipulate[Column[{Plot[{f[t], fs[t, nmax0]}, {t, -1, 1},
      Row[{&quot;f(t)=&quot;, fs[t, nmax0]}]}], {nmax0, 1, nmax, 1}]
 </code></pre>
 </div>
-
-  <div class="post-published-elsewhere">
-      Originally published on <a href="https://fouriestseries.tumblr.com/post/83670623611/a-fourier-series-is-a-way-to-expand-a-periodic">Fouriest Series</a>
-  </div>
-
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://brianweinstein.github.io/tags/physics/">physics</a></li>
@@ -182,7 +166,7 @@ Manipulate[Column[{Plot[{f[t], fs[t, nmax0]}, {t, -1, 1},
   </footer>
 </article>
     </main><footer class="footer">
-    <span>&copy; 2025 <a href="https://brianweinstein.github.io/">Brian Weinstein</a></span>
+    <span>&copy; 2026 <a href="https://brianweinstein.github.io/">Brian Weinstein</a></span>
     <span>&middot;</span>
     <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
     <span>&middot;</span>
