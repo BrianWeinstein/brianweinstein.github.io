@@ -48,11 +48,6 @@
   <div class="post-content">
     {{- partial "anchored_headings.html" .Content -}}
   </div>
-
-  <div class="post-published-elsewhere">
-      {{ .Params.publishedElsewhere | markdownify}}
-  </div>
-
   <footer class="post-footer">
     {{- if .Params.tags }}
     <ul class="post-tags">

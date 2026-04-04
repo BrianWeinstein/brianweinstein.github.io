@@ -31,8 +31,8 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 <article class="{{ $class }}">
-  <!-- {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList)}}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }} -->
+  {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList)}}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
     <h2>
       {{ .Title }}
@@ -40,11 +40,8 @@
     </h2>
   </header>
   {{- if (ne .Site.Params.hideSummary true)}}
-  <section class="entry-subtitle">
-    <p>{{ .Description | plainify | htmlUnescape }}</p>
-  </section>
   <section class="entry-content">
-    <p>{{ .Content | plainify | htmlUnescape }}...</p>
+    <p>{{ .Summary | plainify | htmlUnescape }}...</p>
   </section>
   {{- end }}
   <footer class="entry-footer">
@@ -55,29 +52,14 @@
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
-
 <footer class="page-footer">
   <nav class="pagination">
-
     {{- if $paginator.HasPrev }}
     <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
     {{- end }}
-
-    {{- if not $paginator.HasPrev }}
-    <a class="view-all-posts-no-prev" href="/archives">View All</a>
-    {{- end }}
-    {{- if and $paginator.HasPrev $paginator.HasNext}}
-    <a class="view-all-posts-yes-both" href="/archives">View All</a>
-    {{- end }}
-    {{- if not $paginator.HasNext }}
-    <a class="view-all-posts-no-next" href="/archives">View All</a>
-    {{- end }}
-
-
     {{- if $paginator.HasNext }}
     <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
     {{- end }}
-
   </nav>
 </footer>
 {{- end }}
