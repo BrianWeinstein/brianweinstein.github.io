@@ -11,7 +11,7 @@
 <meta name="description" content="hello! 👋">
 <meta name="author" content="Brian Weinstein">
 <link rel="canonical" href="https://brianweinstein.github.io/posts/" />
-<link href="/assets/css/stylesheet.min.dd8880218de039fe9acb23d48360e312cf853dd63cb9f6c2e8260d1ccfc3d683.css" integrity="sha256-3YiAIY3gOf6ayyPUg2DjEs&#43;FPdY8ufbC6CYNHM/D1oM=" rel="preload stylesheet"
+<link href="/assets/css/stylesheet.min.f08599689a9e588280f9f375b82d1b3c71a544e625c5ac8381dacacea850b468.css" integrity="sha256-8IWZaJqeWIKA&#43;fN1uC0bPHGlROYlxayDgdrKzqhQtGg=" rel="preload stylesheet"
     as="style">
 
 <link rel="icon" href="https://brianweinstein.github.io/favicon.ico">
@@ -24,7 +24,16 @@
 <meta name="generator" content="Hugo 0.80.0" />
 <link rel="alternate" type="application/rss&#43;xml" href="https://brianweinstein.github.io/posts/index.xml">
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPC9GR2VCM"></script>
+<script>
+if (location.hostname === "brianweinstein.co") {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-CPC9GR2VCM');
+}
+</script>
 <meta property="og:title" content="Posts" />
 <meta property="og:description" content="hello! 👋" />
 <meta property="og:type" content="website" />
@@ -80,101 +89,138 @@
 
 
 
-<article class="post-entry"> 
-
+<article class="post-entry">
+  
   <header class="entry-header">
     <h2>
       Signal Collection and Parabolic Reflectors
     </h2>
   </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
   <section class="entry-content">
-    <p>A reflector is a type of antenna that receives and focuses various types of signals. Reflectors have numerous applications, from satellite dishes and telescopes, to long-distance microphones and car headlights. One common feature of these examples is their parabolic shape, giving them the name parabolic reflectors.
-It turns out that paraboloids are the perfect shape for focusing signals from distant sources....</p>
+    <p>              A reflector is a type of antenna that receives and focuses various types of signals. Reflectors have numerous applications, from satellite dishes and telescopes, to long-distance microphones and car headlights. One common feature of these examples is their parabolic shape, giving them the name parabolic reflectors.
+It turns out that paraboloids are the perfect shape for focusing signals from distant sources. When pointed directly at the the incoming signal, a parabolic reflector (GIF 1) collects the signal to a single focal point, where a receiver, called a feed horn, is placed to collect the focused transmission.
+In many applications, parabolic reflectors are too costly to produce, so spherical reflectors (GIF 2) are used instead. The disadvantage of spherical reflectors is that they have multiple focal points, and therefore produce blurry results.
+ Mathematica code posted here.
+This code is incredibly messy and I guarantee there’s a better way to calculate this. Please contact me if you have suggestions!
+...</p>
   </section>
   <footer class="entry-footer">
 
-August 11, 2014&nbsp;·&nbsp;Brian Weinstein
+Aug 11, 2014&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Signal Collection and Parabolic Reflectors" href="https://brianweinstein.github.io/posts/20140811-signal-collection-parabolic-reflectors/"></a>
 </article>
-<article class="post-entry"> 
-<figure class="entry-cover"><img src="https://brianweinstein.github.io/images/taylor-series.gif" alt="">
-</figure>
-
+<article class="post-entry">
+  
   <header class="entry-header">
     <h2>
       Taylor Series Approximations
     </h2>
   </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
   <section class="entry-content">
     <p>A Taylor series is a way to represent a function in terms of polynomials. Since polynomials are usually much easier to work with than complicated functions, Taylor series have numerous applications in both math and physics.
-There are many equations in physics — like the one describing the motion of a pendulum — that are impossible to solve in terms of elementary functions. “Approximations using the first few terms of a Taylor series can make [these] otherwise unsolvable problems” solvable for a restricted area of interest [1]....</p>
+There are many equations in physics — like the one describing the motion of a pendulum — that are impossible to solve in terms of elementary functions. “Approximations using the first few terms of a Taylor series can make [these] otherwise unsolvable problems” solvable for a restricted area of interest [1].
+The GIF above shows the five-term Taylor series approximation of a sine wave about x=0.
+ Mathematica code:
+f[x_] := Sin[x] ts[x_, a_, nmax_] := Sum[(Derivative[n][f][a]/n!)*(x - a)^n, {n, 0, nmax}] Manipulate[Plot[{f[x], ts[x, 0, nmax]}, {x, -2*Pi, 2*Pi}, PlotRange -&amp;gt; {-1.45, 1.45}, PlotStyle -&amp;gt; {{Thick, Cyan}, {Thick, Dotted, Yellow}}, AxesStyle -&amp;gt; LightGray, Background -&amp;gt; Darker[Gray, 0.8]], {nmax, 1, 30, 1}] ...</p>
   </section>
   <footer class="entry-footer">
 
-July 30, 2014&nbsp;·&nbsp;Brian Weinstein
+Jul 30, 2014&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Taylor Series Approximations" href="https://brianweinstein.github.io/posts/20140730-taylor-series-approximations/"></a>
 </article>
-<article class="post-entry"> 
-<figure class="entry-cover"><img src="https://brianweinstein.github.io/images/rotational-stability-intermediate.gif" alt="">
-</figure>
-
+<article class="post-entry">
+  
   <header class="entry-header">
     <h2>
       Rotational Stability
     </h2>
   </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
   <section class="entry-content">
-    <p>Time for an experiment! Find a book and secure it shut using tape or a rubber band. Now experiment with spinning the book while tossing it into the air. You’ll notice that when the book is spun about its longest or shortest axis it rotates stably, but when spun about its intermediate-length axis it quickly wobbles out of control....</p>
+    <p>              Time for an experiment! Find a book and secure it shut using tape or a rubber band. Now experiment with spinning the book while tossing it into the air. You’ll notice that when the book is spun about its longest or shortest axis it rotates stably, but when spun about its intermediate-length axis it quickly wobbles out of control.
+Every rigid body has three special, or principal axes about which it can rotate. For a rectangular prism — like the book in our experiment — the principal axes run parallel to the shortest, intermediate-length, and longest edges, each going through the prism’s center of mass. These axes have the highest, intermediate, and lowest moments of inertia, respectively.
+When the book is tossed into the air and spun, either about its shortest or longest principal axis, it continues to rotate about that axis forever (or until it hits the floor). For these axes, this indefinite, stable rotation occurs even when the axis of rotation is slightly perturbed.
+When spun about its intermediate principal axis, though, the book also continues to rotate about that axis indefinitely, but only if the axis of rotation is exactly in the same direction as the intermediate principal axis. In this case, even the slightest perturbation causes the book to wobble out of control.
+The first simulation above shows a rotation about the unstable intermediate axis, where a slight perturbation causes the book to wobble out of control. The second and third simulations show rotations about the two stable axes.
+Unfortunately, as far as my understanding goes, there’s no intuitive, non-mathematical explanation as to why rotations about the intermediate principal axis are unstable. If you’re interested, you can find the stability analysis here.
+ Mathematica code posted here.
+Additional sources not linked above: [1] [2] [3] [4]
+...</p>
   </section>
   <footer class="entry-footer">
 
-July 13, 2014&nbsp;·&nbsp;Brian Weinstein
+Jul 13, 2014&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Rotational Stability" href="https://brianweinstein.github.io/posts/20140713-rotational-stability/"></a>
 </article>
-<article class="post-entry"> 
-<figure class="entry-cover"><img src="https://brianweinstein.github.io/images/painters-paradox.gif" alt="">
-</figure>
-
+<article class="post-entry">
+  
   <header class="entry-header">
     <h2>
       Gabriel’s Horn and the Painter’s Paradox
     </h2>
   </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
   <section class="entry-content">
     <p>Gabriel’s Horn is a three-dimensional horn shape with the counterintuitive property of having a finite volume but an infinite surface area.
 This fact results in the Painter’s Paradox — A painter could fill the horn with a finite quantity of paint, “and yet that paint would not be sufficient to coat [the horn’s] inner surface” [1].
-If the horn’s bell had, for example, a 6-inch radius, we’d only need about a half gallon of paint to fill the horn all the way up....</p>
+If the horn’s bell had, for example, a 6-inch radius, we’d only need about a half gallon of paint to fill the horn all the way up. Even though this half gallon is enough to entirely fill the horn, it’s not enough to even coat a fraction of the inner wall!
+The mathematical explanation is a bit confusing if you haven’t taken a first course in calculus, but if you’re interested, you can check it out here.
+ Mathematica code:
+x[u_, v_] := u y[u_, v_] := Cos[v]/u z[u_, v_] := Sin[v]/u Manipulate[ParametricPlot3D[{{x[u, v], y[u, v], z[u, v]}}, {u, 1, umax}, {v, 0, 2*Pi}, PlotRange -&amp;gt; {{0, 20}, {-1, 1}, {-1, 1}}, Mesh -&amp;gt; {Floor[umax], 20}, Axes -&amp;gt; False, Boxed -&amp;gt; False], {{umax, 20}, 1.1, 20}] Additional source not linked above.
+...</p>
   </section>
   <footer class="entry-footer">
 
-June 29, 2014&nbsp;·&nbsp;Brian Weinstein
+Jun 29, 2014&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Gabriel’s Horn and the Painter’s Paradox" href="https://brianweinstein.github.io/posts/20140629-painters-paradox/"></a>
 </article>
-<article class="post-entry"> 
-
+<article class="post-entry">
+  
   <header class="entry-header">
     <h2>
       Lagrangian Points
     </h2>
   </header>
+  <section class="entry-subtitle">
+    <p></p>
+  </section>
   <section class="entry-content">
     <p>The Lagrangian points are the five locations in an orbital system where the combined gravitational force of two large masses is exactly canceled out by the centrifugal force arising from the rotating reference frame.
-At these five points, the net force on a third body (of negligible mass) is 0, allowing the third object to be completely stationary relative to the two other masses. That is, when placed at any of these points, the third body stays perfectly still in the rotating frame....</p>
+At these five points, the net force on a third body (of negligible mass) is 0, allowing the third object to be completely stationary relative to the two other masses. That is, when placed at any of these points, the third body stays perfectly still in the rotating frame.
+The first image shows the fields due to the first mass, the second mass, and the rotating reference frame. When added together, these fields generate the effective field shown in the second image. The five Lagrangian points are indicated with gray spheres.
+The first three Lagrangian points (labeled L1, L2, and L3) lie in line with the two larger bodies and are considered metastable equilibria. L4 and L5 lie 60° ahead of and behind the second body in its orbit and are considered stable equilibria.
+Lagrangian points offer unique advantages for space research, and the Lagrangian points of the Sun-Earth system are currently home to four different satellites.
+ Mathematica code posted here.
+Additional sources not linked above: [1] [2] [3] [4] [5]
+...</p>
   </section>
   <footer class="entry-footer">
 
-June 9, 2014&nbsp;·&nbsp;Brian Weinstein
+Jun 9, 2014&nbsp;·&nbsp;Brian Weinstein
 </footer>
   <a class="entry-link" aria-label="post link to Lagrangian Points" href="https://brianweinstein.github.io/posts/20140609-lagrangian-points/"></a>
 </article>
+
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://brianweinstein.github.io/posts/page/3/">« Prev Page</a>
+    <a class="view-all-posts-yes-both" href="/archives">View All</a>
     <a class="next" href="https://brianweinstein.github.io/posts/page/5/">Next Page »</a>
+
   </nav>
 </footer>
 
