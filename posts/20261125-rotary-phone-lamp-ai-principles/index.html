@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>I spent four months converting an old rotary phone into a lamp and all I got was this lousy set of AI usage principles | Brian Weinstein</title>
+
+<meta name="keywords" content="ai, research, ux" />
+<meta name="description" content="and a neat lamp, and a lot of knowledge &amp; enjoyment. But yes, this is a post about AI and lamps. I am sorry.">
+<meta name="author" content="Brian Weinstein">
+<link rel="canonical" href="https://brianweinstein.github.io/posts/20261125-rotary-phone-lamp-ai-principles/" />
+<link href="/assets/css/stylesheet.min.f08599689a9e588280f9f375b82d1b3c71a544e625c5ac8381dacacea850b468.css" integrity="sha256-8IWZaJqeWIKA&#43;fN1uC0bPHGlROYlxayDgdrKzqhQtGg=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://brianweinstein.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://brianweinstein.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://brianweinstein.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://brianweinstein.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://brianweinstein.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.80.0" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPC9GR2VCM"></script>
+<script>
+if (location.hostname === "brianweinstein.co") {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CPC9GR2VCM');
+}
+</script>
+<meta property="og:title" content="I spent four months converting an old rotary phone into a lamp and all I got was this lousy set of AI usage principles" />
+<meta property="og:description" content="and a neat lamp, and a lot of knowledge &amp; enjoyment. But yes, this is a post about AI and lamps. I am sorry." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brianweinstein.github.io/posts/20261125-rotary-phone-lamp-ai-principles/" />
+<meta property="og:image" content="https://brianweinstein.github.io/47"/>
+<meta property="article:published_time" content="2026-11-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-11-22T00:00:00+00:00" /><meta property="og:site_name" content="Brian Weinstein" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://brianweinstein.github.io/47"/>
+
+<meta name="twitter:title" content="I spent four months converting an old rotary phone into a lamp and all I got was this lousy set of AI usage principles"/>
+<meta name="twitter:description" content="and a neat lamp, and a lot of knowledge &amp; enjoyment. But yes, this is a post about AI and lamps. I am sorry."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "I spent four months converting an old rotary phone into a lamp and all I got was this lousy set of AI usage principles",
+  "name": "I spent four months converting an old rotary phone into a lamp and all I got was this lousy set of AI usage principles",
+  "description": "and a neat lamp, and a lot of knowledge \u0026amp;amp; enjoyment. But yes, this is a post about AI and lamps. I am sorry.",
+  "keywords": [
+    "ai", "research", "ux"
+  ],
+  "articleBody": "Back in June, I was at my parents’ house the day after they’d cleaned out an old storage closet, and among the books and doodads scattered about their kitchen was an old rotary phone destined for the donate pile. I’d been searching for a rotary phone for a few months at that point. I had randomly thought that it’d be fun to make a retro-looking lamp out of one, and so, slowly but surely over the next four months, I did just that.\nI spent 50-ish hours of my occasional downtime just building this phone/lamp1: I figured out how to wire a Raspberry Pi to the rotary phone’s dial; learned to make a coiled wire using a lightning cable, paracord, and a hair dryer; and overthought2 all the little details.\nOn the surface, I spent an absurd amount of effort just to end up with a mediocre desk lamp. After all, if my goal were to brighten up my desk, I could have just purchased a retro lamp online for $30 and a few clicks. But the point wasn’t to just have a lamp — I didn’t even need a lamp! The point was to make a lamp and really understand how it worked. The process was the point.\nThis process — the slow, methodical digging to really understand something — has been one of the things I’ve loved most about my roles as a Researcher / Data Scientist over the past many years. With the industry’s broad adoption of AI tooling, though, it’s also become what I’m most worried about losing. The judgement and creativity we get to employ when designing studies, interpreting data, and crafting compelling narratives have been at the heart of “research” for as long as it’s existed; and I can’t help but feel a persistent anxiety3 that AI tools are quickly eroding their place in the work.\nIn Research, and in so many other fields, the finished analysis/article/deck/lamp matters, of course, but the real value comes from the hundreds of small decisions that produce it, because that’s where true understanding is created. Really understanding something can’t happen by “taking a shortcut to the center” — it happens “in the detours.”4\nNone of this means AI has no place in the work — these tools are genuinely good at plenty of things. The challenge is to leverage what they do best without sacrificing the whole point of the work. After much trial \u0026 error and countless conversations with friends, I’ve settled on a set of guiding principles that outline when and how I try to use AI in my workflow — making sure these tools serve the process, rather than optimizing it away. I’m sharing the principles here both to hold myself accountable and in hopes that articulating them is helpful to others navigating the shift in their work.\nMy guiding principles for using AI in Research:  Only delegate tasks to AI that I’m (mostly) capable of doing myself. If I can’t do a task manually, I usually won’t know enough to judge the quality of an AI’s output. When I do explore something new, I treat it as a learning project and review the results with colleagues who are fluent in that area. Prescribe exactly what to do and how to do it. Rather than handing over the goal and letting the tool run wild, I try to direct it to use specific approaches, steps, and methods, so that I can still find the understanding that “happens in the detours.” Start with a “blank page” and use AI additively, building things up piece by piece. I almost never use AI to generate a full draft to then manually chisel down. Be transparent about methods and take responsibility for the output. I always disclose when and how AI tools were used in the research process5. I only share AI-contributed work after a thorough audit and if I’d be comfortable claiming it as my own.  I treat these as guiding principles, rather than rigid rules, and I adhere to principles 1–3 most, but not all, of the time. They don’t fit every situation, and it’s worth deliberately and cautiously deviating from them to experiment as AI tools evolve.\nIn practice, these guiding principles mean I’m comfortable using AI to do things like catch bugs in code I’ve written, convert a one-off code block into a loop, and poke holes in a methodology I’ve already drafted. But I usually avoid using these tools for things like formulating core research questions, writing code or study plans from scratch, and synthesizing data into a final narrative.\nWhile the efficiency of AI tooling is tempting, these principles aim to preserve the friction and detours that give research its purpose. Keeping them in the back of my mind ensures these tools serve the craft, protecting the very parts of the process that make the work worth doing.\nOf course, choosing friction over efficiency comes with its own trade-offs: The phone lamp sits on our bookshelf now, unplugged, because I’m afraid my shoddy soldering will make it explode. And when I do plug it in, it takes three minutes to boot up before the clashing-color LEDs turn on. Any cheap lamp I could buy online would be better, but I’d have no idea how it works.\n A few reading/watching recommendations on this topic:  In Defense of the Detour: On craft, A.I. and what gets lost when we skip the slow part, by Giorgia Lupi in the New York Times. “The greatest contributions to humanity — art, inventions, even products — show evidence of people who got lost in a problem and came out the other side with an idea they would not have found otherwise. That does not happen by taking a shortcut to the center. It happens in the detours.” The Score, by C. Thi Nguyen. Explores how play, craft, and art derive value from “autotelic” struggle, rather than external metrics. Chapters 2, 21, 26, and 27 are most relevant. The Craft of Writing Effectively, lecture by Larry McEnerney at the University of Chicago. A lecture on using writing as a means of thinking, rather than just being a way to convey your ideas. The Biggest Tell That Something Was Written by AI, by Eve Fairbanks in The Atlantic. “When we use AI to flesh out ideas, we lose the most important part of the writing process: thinking… But the effort and the hang-ups are, as they say, a feature of the human thought process, not a bug.” Refusing to accept an AI-poisoned future of journalism, by Marisa Kabas / The Handbasket. “I don’t write because it’s fun (though sometimes it is.) I write because it feeds my spirit. It helps me unspool my thoughts and feelings in the hopes of helping others do the same. The process is the purpose. You don’t have to always like or enjoy the process, but if you don’t respect it enough to do it yourself, there is no purpose.” Will it Lamp? by Clay Mohrman and Rory Shamlian. A bunch of neat lamps.    A “phlamp,” if you will. Or maybe a “glowtery phone,” if you won’t. ↩︎\n My favorite pastime. ↩︎\n Also my favorite pastime. ↩︎\n This framing comes from Giorgia Lupi in their recent New York Times piece, which I highly recommend. I cried a little bit the first time I read it. ↩︎\n I wrote this blog post using my human brain, and then used artificial intelligence to critique it. I also had natural intelligence (my human wife, Kelsey, a talented writer) critique it further. ↩︎\n   ",
+  "wordCount" : "1263",
+  "inLanguage": "en",
+  "datePublished": "2026-11-22T00:00:00Z",
+  "dateModified": "2026-11-22T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Brian Weinstein"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://brianweinstein.github.io/posts/20261125-rotary-phone-lamp-ai-principles/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brian Weinstein",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://brianweinstein.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+</head>
+
+<body class="" id="top">
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://brianweinstein.github.io/" accesskey="h" title="Brian Weinstein (Alt + H)">Brian Weinstein</a>
+            <span class="logo-switches">
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://brianweinstein.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brianweinstein.github.io/posts/" title="Writing">
+                    <span>Writing</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      I spent four months converting an old rotary phone into a lamp and all I got was this lousy set of AI usage principles
+    </h1>
+    <div class="post-description">
+      and a neat lamp, and a lot of knowledge &amp; enjoyment. But yes, this is a post about AI and lamps. I am sorry.
+    </div>
+    <div class="post-meta">
+
+Nov 22, 2026&nbsp;·&nbsp;Brian Weinstein
+
+    </div>
+  </header> 
+
+  <div class="post-content">
+<p><img src="/images/rotary-phone-lamp-final.jpeg" alt="The final phone/lamp."></p>
+<p>Back in June, I was at my parents’ house the day after they’d cleaned out an old storage closet, and among the books and doodads scattered about their kitchen was an old rotary phone destined for the donate pile. I’d been searching for a rotary phone for a few months at that point. I had randomly thought that it’d be fun to make a retro-looking lamp out of one, and so, slowly but surely over the next four months, I did just that.</p>
+<p>I spent 50-ish hours of my occasional downtime just building this phone/lamp<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>: I figured out how to wire a Raspberry Pi to the rotary phone’s dial; learned to make a coiled wire using a lightning cable, paracord, and a hair dryer; and overthought<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> all the little details.</p>
+<p><img src="/images/rotary-phone-lamp-steps.jpeg" alt="Four steps of the lamp build. (1) The original phone, (2) wiring the Raspberry Pi to the phone’s dial, (3) putting the LEDs in the phone’s handset, and (4) the final phone/lamp."></p>
+<p>On the surface, I spent an absurd amount of effort just to end up with a mediocre desk lamp. After all, if my goal were to brighten up my desk, I could have just purchased a retro lamp online for $30 and a few clicks. But the point wasn’t to just <em>have</em> a lamp — I didn’t even need a lamp! The point was to <em>make</em> a lamp and really understand how it worked. The <em>process</em> was the point.</p>
+<p>This process — the slow, methodical digging to really understand something — has been one of the things I’ve loved most about my roles as a Researcher / Data Scientist over the past many years. With the industry’s broad adoption of AI tooling, though, it’s also become what I’m most worried about losing. The judgement and creativity we get to employ when designing studies, interpreting data, and crafting compelling narratives have been at the heart of “research” for as long as it’s existed; and I can’t help but feel a persistent anxiety<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> that AI tools are quickly eroding their place in the work.</p>
+<p>In Research, and in so many other fields, the finished analysis/article/deck/lamp matters, of course, but the real value comes from the hundreds of small decisions that produce it, because that’s where true understanding is created. <em>Really</em> understanding something can’t happen by “taking a shortcut to the center” — it happens “in the detours.”<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>None of this means AI has no place in the work — these tools are genuinely good at plenty of things. The challenge is to leverage what they do best <em>without sacrificing the whole point of the work</em>. After much trial &amp; error and countless conversations with friends, I’ve settled on a set of guiding principles that outline when and how I try to use AI in my workflow — making sure these tools serve the process, rather than optimizing it away. I’m sharing the principles here both to hold myself accountable and in hopes that articulating them is helpful to others navigating the shift in their work.</p>
+<h3 id="my-guiding-principles-for-using-ai-in-research">My guiding principles for using AI in Research:<a hidden class="anchor" aria-hidden="true" href="#my-guiding-principles-for-using-ai-in-research">#</a></h3>
+<ol>
+<li><strong>Only delegate tasks to AI that I’m (mostly) capable of doing myself.</strong> If I can’t do a task manually, I usually won’t know enough to judge the quality of an AI’s output. When I <em>do</em> explore something new, I treat it as a learning project and review the results with colleagues who are fluent in that area.</li>
+<li><strong>Prescribe exactly what to do and how to do it.</strong> Rather than handing over the goal and letting the tool run wild, I try to direct it to use specific approaches, steps, and methods, so that I can still find the understanding that “happens in the detours.”</li>
+<li><strong>Start with a “blank page” and use AI additively</strong>, building things up piece by piece. I almost never use AI to generate a full draft to then manually chisel down.</li>
+<li><strong>Be transparent about methods and take responsibility for the output.</strong> I always disclose when and how AI tools were used in the research process<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>. I only share AI-contributed work after a thorough audit and if I’d be comfortable claiming it as my own.</li>
+</ol>
+<p>I treat these as guiding principles, rather than rigid rules, and I <strong>adhere to principles 1–3 most, but not all, of the time.</strong> They don’t fit every situation, and it’s worth deliberately and cautiously deviating from them to experiment as AI tools evolve.</p>
+<p>In practice, these guiding principles mean I’m comfortable using AI to do things like catch bugs in code I’ve written, convert a one-off code block into a loop, and poke holes in a methodology I’ve already drafted. But I usually avoid using these tools for things like formulating core research questions, writing code or study plans from scratch, and synthesizing data into a final narrative.</p>
+<p>While the efficiency of AI tooling is tempting, these principles aim to preserve the friction and detours that give research its purpose. Keeping them in the back of my mind ensures these tools serve the craft, protecting the very parts of the process that make the work worth doing.</p>
+<p>Of course, choosing friction over efficiency comes with its own trade-offs: The phone lamp sits on our bookshelf now, unplugged, because I’m afraid my shoddy soldering will make it explode. And when I <em>do</em> plug it in, it takes three minutes to boot up before the clashing-color LEDs turn on. Any cheap lamp I could buy online would be better, but I’d have no idea how it works.</p>
+<hr>
+<h3 id="a-few-readingwatching-recommendations-on-this-topic">A few reading/watching recommendations on this topic:<a hidden class="anchor" aria-hidden="true" href="#a-few-readingwatching-recommendations-on-this-topic">#</a></h3>
+<ul>
+<li><a href="https://www.nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html?unlocked_article_code=1.NlE.UJoE.YMNysqdR2cTt">In Defense of the Detour: On craft, A.I. and what gets lost when we skip the slow part</a>, by Giorgia Lupi in the New York Times. “The greatest contributions to humanity — art, inventions, even products — show evidence of people who got lost in a problem and came out the other side with an idea they would not have found otherwise. That does not happen by taking a shortcut to the center. It happens in the detours.”</li>
+<li><a href="https://www.penguinrandomhouse.com/books/735252/the-score-by-c-thi-nguyen/">The Score</a>, by C. Thi Nguyen. Explores how play, craft, and art derive value from “autotelic” struggle, rather than external metrics. Chapters 2, 21, 26, and 27 are most relevant.</li>
+<li><a href="https://www.youtube.com/watch?v=vtIzMaLkCaM">The Craft of Writing Effectively</a>, lecture by Larry McEnerney at the University of Chicago. A lecture on using writing as a means of thinking, rather than just being a way to convey your ideas.</li>
+<li><a href="https://www.theatlantic.com/technology/2026/05/how-to-tell-ai-writing/687345/">The Biggest Tell That Something Was Written by AI</a>, by Eve Fairbanks in The Atlantic. “When we use AI to flesh out ideas, we lose the most important part of the writing process: thinking… But the effort and the hang-ups are, as they say, a feature of the human thought process, not a bug.”</li>
+<li><a href="https://www.thehandbasket.co/p/refusing-to-accept-big-tech-s-ai-poisoned-future-of-journalism">Refusing to accept an AI-poisoned future of journalism</a>, by Marisa Kabas / The Handbasket. “I don’t write because it’s fun (though sometimes it is.) I write because it feeds my spirit. It helps me unspool my thoughts and feelings in the hopes of helping others do the same. The process is the purpose. You don’t have to always like or enjoy the process, but if you don’t respect it enough to do it yourself, there is no purpose.”</li>
+<li><a href="https://www.willitlamp.com/">Will it Lamp?</a> by Clay Mohrman and Rory Shamlian. A bunch of neat lamps.</li>
+</ul>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>A “phlamp,” if you will. Or maybe a “glowtery phone,” if you won’t. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>My favorite pastime. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>Also my favorite pastime. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>This framing comes from Giorgia Lupi in their recent New York Times piece, which I highly recommend. I cried a little bit the first time I read it. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>I wrote this blog post using my human brain, and then used artificial intelligence to critique it. I also had natural intelligence (my human wife, Kelsey, a talented writer) critique it further. <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+</div>
+
+  <div class="post-published-elsewhere">
+      Originally published on <a href="https://bweinstein.medium.com/i-spent-months-building-a-rotary-phone-lamp-and-all-i-got-was-this-lousy-set-of-ai-usage-principles-37dfb7fc52a9?source=friends_link&amp;sk=3989475d96c13d71ce243ccae1281392">Medium</a>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://brianweinstein.github.io/tags/ai/">ai</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/research/">research</a></li>
+      <li><a href="https://brianweinstein.github.io/tags/ux/">ux</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2026 <a href="https://brianweinstein.github.io/">Brian Weinstein</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.replaceState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+
+</body>
+
+</html>

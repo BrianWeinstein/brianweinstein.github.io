@@ -5,13 +5,31 @@
     <link>https://brianweinstein.github.io/tags/</link>
     <description>Recent content in Tags on Brian Weinstein</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://brianweinstein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ai</title>
       <link>https://brianweinstein.github.io/tags/ai/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
       
       <guid>https://brianweinstein.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>https://brianweinstein.github.io/tags/research/</link>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ux</title>
+      <link>https://brianweinstein.github.io/tags/ux/</link>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianweinstein.github.io/tags/ux/</guid>
       <description></description>
     </item>
     
@@ -115,15 +133,6 @@
     </item>
     
     <item>
-      <title>research</title>
-      <link>https://brianweinstein.github.io/tags/research/</link>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://brianweinstein.github.io/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>design</title>
       <link>https://brianweinstein.github.io/tags/design/</link>
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
@@ -138,15 +147,6 @@
       <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://brianweinstein.github.io/tags/surveys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ux</title>
-      <link>https://brianweinstein.github.io/tags/ux/</link>
-      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brianweinstein.github.io/tags/ux/</guid>
       <description></description>
     </item>
     
